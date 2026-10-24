@@ -1,0 +1,50 @@
+/* Global design tokens: change colours, fonts and spacing here. */
+:root {
+  --color-text: #1f1d24;
+  --color-muted: #6b6375;
+  --color-bg: #ffffff;
+  --color-surface: #f6f5f8;
+  --color-border: #e5e4e7;
+  --color-accent: #5b3cc4;
+
+  --font-body: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 4rem;
+
+  --max-width: 1120px;
+  --radius: 8px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font: 1rem/1.6 var(--font-body);
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--color-accent);
+}
