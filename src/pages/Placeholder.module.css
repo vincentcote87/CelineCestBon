@@ -1,0 +1,13 @@
+.section {
+  display: grid;
+  justify-items: start;
+  gap: var(--space-md);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--gutter);
+}
+
+.section p {
+  color: var(--color-muted);
+  font-size: 1.1rem;
+}

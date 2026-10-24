@@ -1,0 +1,90 @@
+.band {
+  color: #fff;
+  background-color: var(--color-green);
+  /* Dotted texture. */
+  background-image: radial-gradient(rgb(255 255 255 / 14%) 1px, transparent 1.2px);
+  background-size: 22px 22px;
+}
+
+.inner {
+  position: relative;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--gutter);
+}
+
+.tomato {
+  position: absolute;
+  top: 3.5rem;
+  right: var(--gutter);
+  width: 3.25rem;
+  transform: rotate(-12deg);
+}
+
+.leaf {
+  position: absolute;
+  top: 9rem;
+  right: calc(var(--gutter) + 5rem);
+  width: 2.5rem;
+  color: #a7d672;
+  transform: rotate(-20deg);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+  padding-right: 4rem;
+}
+
+.title {
+  max-width: 34rem;
+  font-size: clamp(2rem, 4.2vw, 2.9rem);
+}
+
+.text {
+  max-width: 22rem;
+  font-size: 1.05rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  gap: var(--space-lg) var(--space-md);
+  margin: 0;
+}
+
+/* Label comes first in the markup (dt before dd) but shows under the number. */
+.stat {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  gap: 0.35rem;
+  padding-top: var(--space-md);
+  border-top: 1px solid rgb(255 255 255 / 45%);
+}
+
+.value {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(2.4rem, 4.5vw, 3.1rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+}
+
+.plus {
+  color: #f6c945;
+}
+
+.label {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.footnote {
+  margin-top: var(--space-lg);
+  max-width: 44rem;
+}

@@ -1,0 +1,62 @@
+.band {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  background: linear-gradient(120deg, var(--color-red-dark), var(--color-red-bright));
+}
+
+/* Soft circles in the corners, as in the mockup. */
+.band::before,
+.band::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 7%);
+}
+
+.band::before {
+  width: 26rem;
+  height: 26rem;
+  top: -12rem;
+  right: -6rem;
+}
+
+.band::after {
+  width: 18rem;
+  height: 18rem;
+  bottom: -11rem;
+  left: -5rem;
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--gutter);
+}
+
+.copy {
+  max-width: 36rem;
+}
+
+.title {
+  margin-bottom: var(--space-sm);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+}
+
+.text {
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}

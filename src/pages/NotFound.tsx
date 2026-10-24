@@ -1,17 +1,19 @@
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router'
+import PageMeta from '../components/PageMeta.tsx'
+import Button from '../components/ui/Button.tsx'
 import { useLanguage } from '../i18n/useLanguage.ts'
+import styles from './Placeholder.module.css'
 
 export default function NotFound() {
   const { t } = useTranslation()
-  const { localize } = useLanguage()
+  const { url } = useLanguage()
 
   return (
-    <section>
+    <section className={styles.section}>
+      <PageMeta title={t('notFound.title')} />
       <h1>{t('notFound.title')}</h1>
-      <p>
-        <Link to={localize('/')}>{t('notFound.back')}</Link>
-      </p>
+      <p>{t('notFound.text')}</p>
+      <Button to={url('home')}>{t('notFound.back')}</Button>
     </section>
   )
 }
