@@ -1,0 +1,232 @@
+/* Email / phone cards */
+
+.methods {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+}
+
+.method {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  gap: var(--space-xs);
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  color: var(--color-text);
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition:
+    transform 0.15s,
+    box-shadow 0.15s;
+}
+
+.method:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgb(60 40 20 / 10%);
+}
+
+.method::before {
+  content: '';
+  position: absolute;
+  top: -5rem;
+  right: -4rem;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+
+.method > * {
+  position: relative;
+}
+
+.blush::before {
+  background: var(--color-blush);
+}
+
+.sage::before {
+  background: var(--color-sage-strong);
+  opacity: 0.8;
+}
+
+.methodLabel {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.methodValue {
+  font-family: var(--font-heading);
+  font-size: clamp(1.35rem, 3vw, 2rem);
+  font-weight: 600;
+  color: var(--color-red-dark);
+  overflow-wrap: anywhere;
+}
+
+.methodAction {
+  margin-top: var(--space-xs);
+  font-weight: 700;
+}
+
+/* What to include + service area */
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  align-items: start;
+  gap: var(--space-xl);
+}
+
+.prepareText {
+  margin: var(--space-sm) 0 var(--space-lg);
+}
+
+.steps {
+  display: grid;
+  gap: var(--space-sm);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.step {
+  display: flex;
+  gap: var(--space-md);
+  align-items: flex-start;
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+
+.stepNumber {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: var(--color-red-dark);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.stepTitle {
+  margin-bottom: 0.2rem;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.step p {
+  color: var(--color-muted);
+}
+
+.areaCard {
+  position: sticky;
+  top: calc(var(--header-height) + var(--space-lg));
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+}
+
+.areaTitle {
+  margin: var(--space-md) 0 var(--space-xs);
+}
+
+.areaCard p {
+  color: var(--color-muted);
+}
+
+/* Stylized map */
+
+.map {
+  position: relative;
+  height: 11rem;
+  border-radius: var(--radius);
+  background-color: var(--color-sage);
+  background-image: radial-gradient(rgb(42 100 53 / 18%) 1.2px, transparent 1.5px);
+  background-size: 18px 18px;
+}
+
+.mapLeaf {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  width: 2rem;
+  color: var(--color-green-dark);
+}
+
+.mapDot {
+  position: absolute;
+  top: 1.8rem;
+  left: 12%;
+  width: 0.6rem;
+  height: 0.85rem;
+  border-radius: 50%;
+  background: #e9ad1f;
+}
+
+.mapRegion {
+  position: absolute;
+  left: 26%;
+  right: 12%;
+  top: 48%;
+  bottom: 8%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border: 2px dashed var(--color-text);
+  border-radius: 50%;
+  opacity: 0.85;
+}
+
+.mapRegion .mapLabel {
+  transform: translateY(40%);
+}
+
+.mapPin {
+  position: absolute;
+  top: 26%;
+  left: 40%;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.pinIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.4rem solid var(--color-red-dark);
+  border-radius: 50% 50% 50% 0;
+  background: #fff;
+  transform: rotate(-45deg);
+}
+
+.mapLabel {
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-pill);
+  background: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+@media (max-width: 860px) {
+  .methods,
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .areaCard {
+    position: static;
+  }
+}

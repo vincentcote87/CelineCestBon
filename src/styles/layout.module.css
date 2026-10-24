@@ -1,0 +1,46 @@
+/* Layout helpers shared by all pages. */
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.section {
+  padding: var(--space-2xl) 0;
+}
+
+.sand {
+  background: var(--color-sand);
+}
+
+.lead {
+  max-width: 30rem;
+  color: var(--color-muted);
+  font-size: 1.05rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.splitHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-md) var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.splitHeader h2 {
+  max-width: 34rem;
+}
+
+@media (max-width: 520px) {
+  .section {
+    padding: var(--space-xl) 0;
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Diététiste-nutritionniste en santé publique, Calgary",
+  "hero": {
+    "eyebrow": "Diététiste-nutritionniste en santé publique",
+    "title": "Qui mange bien, <accent>vit bien.</accent>",
+    "meta": "Céline Bossé, Dt.P./RD · Calgary, Alberta",
+    "text": "Mon rôle en santé publique est de promouvoir de saines habitudes de vie par la vulgarisation de la science en nutrition. Diplômée en nutrition depuis plus de 25 ans, j’anime des ateliers et des conférences en français, à Calgary et dans le sud de l’Alberta.",
+    "badge": "Dt.P. / RD",
+    "photoAlt": "Céline Bossé, diététiste, souriante, portant un foulard et une épinglette RD"
+  },
+  "profile": {
+    "eyebrow": "Profil",
+    "title": "Accompagner chacun, tout au long de sa vie",
+    "p1": "Je propose des programmes et des ateliers afin d’accompagner le public, tout au long de sa vie, vers une meilleure alimentation, en préservant les exigences culturelles et sociales de chacun.",
+    "p2": "Mes activités sont destinées aux organismes communautaires, aux établissements scolaires et de la petite enfance. Mon approche répond aux besoins d’un public de tout âge, tout en respectant les besoins culturels de chacun."
+  },
+  "whoAmI": {
+    "eyebrow": "Qui suis-je ?",
+    "title": "La langue française et l’art de cuisiner, depuis toujours",
+    "p1": "Francophone en milieu minoritaire, je porte dans mon cœur la langue française et l’art de cuisiner depuis toujours.",
+    "p2": "Mère de deux enfants et jeune grand-mère, mon plus grand bonheur est d’accueillir ma famille et mes amis autour d’un bon repas. Ces moments de convivialité reflètent ma passion pour la cuisine, mon goût du partage et ma curiosité pour la palette infinie d’ingrédients frais et non transformés que l’on peut marier pour le plaisir des papilles.",
+    "p3": "Cette passion, je l’ai vite transmise au quotidien de tout un chacun, en proposant des conseils nutritionnels fiables et fondés sur des données probantes, auprès des personnes et des communautés. Car aujourd’hui on le sait :",
+    "signature": "qui mange bien, vit bien !"
+  },
+  "stats": {
+    "title": "Dix ans d’Ateliers cinq épices en Alberta",
+    "text": "Depuis 2015, des petits cuistots qui manipulent, mesurent, coupent et goûtent. Les résultats parlent d’eux-mêmes.",
+    "items": [
+      {
+        "value": "1 740+",
+        "label": "jeunes de 3 à 12 ans"
+      },
+      {
+        "value": "347",
+        "label": "ateliers animés"
+      },
+      {
+        "value": "25",
+        "label": "écoles francophones et d’immersion française"
+      },
+      {
+        "value": "2015",
+        "label": "lancement en Alberta avec l’ACFA régionale de Calgary"
+      }
+    ]
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Quatre façons de mettre la santé au menu",
+    "text": "Des programmes communautaires et éducatifs pour donner le goût de manger sainement et transmettre le plaisir de cuisiner.",
+    "items": [
+      {
+        "tag": "Enfants de 3 à 12 ans",
+        "title": "Ateliers Cinq Épices",
+        "text": "Tous les élèves manipulent, mesurent et coupent les aliments. En cuisinant et en goûtant, nos petits cuistots découvrent de nouveaux aliments et développent leur autonomie alimentaire.",
+        "link": "Découvrir les ateliers"
+      },
+      {
+        "tag": "Tous les âges",
+        "title": "Cuisines collectives du partage et du savoir",
+        "text": "Des ateliers en petits groupes pour rétablir le savoir-faire culinaire : choix des ingrédients, préparation, entreposage. Des recettes saines, économiques et prêtes en moins de 30 minutes.",
+        "link": "Voir le programme"
+      },
+      {
+        "tag": "Adultes et familles",
+        "title": "Promotion de la santé",
+        "text": "Par des quiz et des jeux questionnaires, nous revoyons vos habitudes alimentaires et trouvons des solutions adaptées à votre mode de vie, à chaque passage de la vie.",
+        "link": "En savoir plus"
+      },
+      {
+        "tag": "Écoles et milieux de travail",
+        "title": "La santé à l’école et au travail",
+        "text": "Sessions interactives d’une heure, Lunch & Learn, visites éducatives à l’épicerie et conférences pour démystifier les allégations et bien préparer la boîte à lunch.",
+        "link": "Voir les formules"
+      }
+    ]
+  },
+  "audience": {
+    "eyebrow": "Avec qui je travaille",
+    "title": "Un public de tout âge",
+    "text": "Des tout-petits aux aînés, en respectant les besoins culturels de chacun. Je travaille principalement en français.",
+    "items": [
+      "Écoles francophones et d’immersion",
+      "Services de garde et prématernelles",
+      "Organismes communautaires",
+      "Organismes à but non lucratif",
+      "Aînés",
+      "Groupes d’employés au travail"
+    ]
+  },
+  "credentials": {
+    "eyebrow": "Formation et appartenances",
+    "cda": {
+      "title": "College of Dietitians of Alberta",
+      "text": "Diététiste réglementée, Dt.P./RD"
+    },
+    "dietitiansCanada": {
+      "title": "Les diététistes du Canada",
+      "text": "Membre"
+    },
+    "udem": {
+      "title": "Université de Montréal",
+      "text": "Diplômée en sciences de la nutrition depuis plus de 25 ans"
+    },
+    "publicHealth": {
+      "title": "Santé publique",
+      "text": "Cursus validé en 2007 sur la promotion de saines habitudes de vie"
+    }
+  },
+  "cta": {
+    "kicker": "Un projet pour votre groupe ?",
+    "title": "Parlons de votre projet.",
+    "text": "Atelier, conférence ou Lunch & Learn : écrivez-moi et je vous réponds en français ou en anglais."
+  }
+}

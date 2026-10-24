@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "siteName": "Céline C’est Bon",
+    "description": "Céline Bossé, Dt.P., diététiste-nutritionniste en santé publique à Calgary et dans le sud de l’Alberta. Ateliers, conférences et programmes en français pour tous les âges."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact",
+    "main": "Navigation principale",
+    "menu": "Menu",
+    "language": "Choisir la langue",
+    "skip": "Aller au contenu"
+  },
+  "common": {
+    "emailMe": "Écrivez-moi",
+    "callMe": "Appelez-moi",
+    "seeServices": "Voir les services",
+    "backToTop": "Haut de page"
+  },
+  "footer": {
+    "blurb": "Céline Bossé, Dt.P./RD, diététiste-nutritionniste en santé publique.",
+    "tagline": "Qui mange bien, vit bien !",
+    "contact": "Contact",
+    "member": "Membre",
+    "pages": "Pages",
+    "area": "Calgary et le sud de l’Alberta",
+    "cda": "College of Dietitians of Alberta",
+    "dietitiansCanada": "Les diététistes du Canada"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page que vous cherchez n’existe pas ou a été déplacée.",
+    "back": "Retour à l’accueil"
+  }
+}

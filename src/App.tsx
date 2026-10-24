@@ -9,9 +9,11 @@ import {
   pagePaths,
   pageUrl,
 } from './i18n/routing.ts'
+import About from './pages/About.tsx'
+import Contact from './pages/Contact.tsx'
 import Home from './pages/Home.tsx'
 import NotFound from './pages/NotFound.tsx'
-import Placeholder from './pages/Placeholder.tsx'
+import Services from './pages/Services.tsx'
 
 // Route path for a page, relative to its language prefix (e.g. "a-propos").
 const path = (page: keyof typeof pagePaths, lng: Language) => pagePaths[page][lng].slice(1)
@@ -27,9 +29,9 @@ export default function App() {
         >
           <Route element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path={path('about', lng)} element={<Placeholder page="about" />} />
-            <Route path={path('services', lng)} element={<Placeholder page="services" />} />
-            <Route path={path('contact', lng)} element={<Placeholder page="contact" />} />
+            <Route path={path('about', lng)} element={<About />} />
+            <Route path={path('services', lng)} element={<Services />} />
+            <Route path={path('contact', lng)} element={<Contact />} />
             {Object.entries(legacyRedirects).map(([from, page]) => (
               <Route
                 key={from}

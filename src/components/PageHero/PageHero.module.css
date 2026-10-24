@@ -1,0 +1,91 @@
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: var(--space-xl) 0;
+}
+
+.decor {
+  position: absolute;
+  top: -9rem;
+  right: -7rem;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 50%;
+  background: var(--color-blush);
+  opacity: 0.85;
+}
+
+.tomato {
+  position: absolute;
+  left: 30%;
+  bottom: 22%;
+  width: 3.75rem;
+}
+
+.leaf {
+  position: absolute;
+  left: 6%;
+  bottom: 6%;
+  width: 2.75rem;
+  color: var(--color-green-dark);
+  transform: rotate(-12deg);
+}
+
+.grid {
+  position: relative;
+  display: grid;
+  align-items: center;
+  gap: var(--space-xl);
+}
+
+.withAside .grid {
+  grid-template-columns: 1.1fr 0.9fr;
+}
+
+.copy {
+  max-width: 40rem;
+  padding: var(--space-lg) 0 var(--space-md);
+}
+
+.title {
+  margin-bottom: var(--space-md);
+}
+
+.meta {
+  margin-bottom: var(--space-sm);
+  color: var(--color-muted);
+}
+
+.text {
+  margin-bottom: var(--space-lg);
+  font-size: 1.1rem;
+}
+
+.text:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 860px) {
+  .withAside .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .copy {
+    padding-top: 0;
+  }
+
+  .decor {
+    width: 16rem;
+    height: 16rem;
+    top: -8rem;
+    right: -6rem;
+  }
+
+  .tomato {
+    width: 2.5rem;
+  }
+
+  .leaf {
+    display: none;
+  }
+}

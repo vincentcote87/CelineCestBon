@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import PageMeta from '../components/PageMeta.tsx'
 import Button from '../components/ui/Button.tsx'
 import { useLanguage } from '../i18n/useLanguage.ts'
-import styles from './Placeholder.module.css'
+import styles from './NotFound.module.css'
 
 export default function NotFound() {
   const { t } = useTranslation()

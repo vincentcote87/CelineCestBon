@@ -1,0 +1,83 @@
+{
+  "title": "À propos de Céline Bossé, Dt.P.",
+  "hero": {
+    "eyebrow": "À propos",
+    "title": "Céline Bossé, <accent>Dt.P.</accent>",
+    "meta": "Diététiste-nutritionniste en santé publique · Calgary, Alberta",
+    "text": "Mon objectif premier est de donner aux gens le goût de bien manger, de transmettre le plaisir de cuisiner et, ainsi, d’avoir un impact positif sur leurs habitudes de vie.",
+    "vision": "Ma vision"
+  },
+  "background": {
+    "eyebrow": "Parcours et expertises",
+    "title": "Une science en constante évolution",
+    "p1": "Diplômée en sciences de la nutrition de l’Université de Montréal depuis plus de 25 ans, j’estime que la nutrition est une science en constante évolution. Je crois profondément à la collaboration interdisciplinaire et à la complémentarité des expertises professionnelles pour répondre aux besoins des communautés multiculturelles francophones d’aujourd’hui.",
+    "p2": "J’ai donc suivi des formations tout au long de ma carrière afin de mieux répondre aux besoins de chacun. Dès 2007, j’ai validé un cursus en santé publique portant sur la promotion de saines habitudes de vie. Dans une optique de prévention, je suis spécialiste de la nutrition, avec pour rôle principal de promouvoir la santé par l’alimentation.",
+    "quote": "Depuis une quinzaine d’années, je conçois, j’organise et je mets en œuvre des programmes communautaires et éducatifs qui répondent à vos besoins.",
+    "p3": "Jusqu’en mars 2026, j’ai occupé le poste d’agente de santé pour la région sud de l’Alberta au sein du Réseau santé Alberta. Ces huit années au service de la santé et du bien-être en français m’ont permis de mieux cerner les problématiques du public, notamment chez les jeunes. J’ai pu aussi rencontrer, collaborer et travailler avec les principaux acteurs et partenaires d’influence de la province.",
+    "p4": "La nutrition est un domaine qui me tient à cœur alors que les statistiques démontrent une augmentation des maladies non transmissibles au Canada et ailleurs dans le monde. Aujourd’hui, par le biais de l’éducation et de la prévention, je mets mes compétences à votre service, afin de prévenir aussi l’insécurité et le gaspillage alimentaire.",
+    "careerTitle": "Au fil de ma carrière",
+    "career": [
+      "Gestionnaire d’une cafétéria scolaire auprès des enfants",
+      "Chroniqueuse santé et nutrition pour les médias francophones",
+      "Conseillère en alimentation auprès des services de la petite enfance",
+      "Consultante et conférencière en nutrition auprès des aînés",
+      "Animatrice et coordonnatrice d’ateliers de cuisine dans les écoles",
+      "Personne-ressource en santé pour les organismes à but non lucratif"
+    ],
+    "roles": [
+      { "org": "Les Ateliers cinq épices", "role": "Animatrice d’ateliers culinaires" },
+      { "org": "Éducation Nutrition", "role": "Conférencière, pour outiller les enseignants du primaire" },
+      { "org": "Réseau santé Alberta", "role": "Agente de santé, région sud, 8 ans" }
+    ]
+  },
+  "vision": {
+    "eyebrow": "Concepts et engagement communautaire",
+    "quote": "Plantez les graines de vos futures actions… Entretenez-les, et plus tard vous en récolterez les fruits. Vous goûterez alors la plénitude de l’accomplissement.",
+    "author": "Céline Bossé, Dt.P.",
+    "pillars": [
+      {
+        "title": "La santé comme pilier d’enracinement",
+        "intro": "L’accès aux soins de santé dans sa propre langue n’est pas seulement une question de confort, c’est une question de sécurité et de dignité.",
+        "points": [
+          { "title": "Le soutien adéquat", "text": "En français, le diagnostic est plus précis et le patient se sent écouté, ce qui réduit l’anxiété liée à la barrière linguistique." },
+          { "title": "L’inclusion culturelle", "text": "Reconnaître la diversité de la francophonie albertaine permet d’offrir des soins adaptés aux réalités de chacun." }
+        ]
+      },
+      {
+        "title": "Le cycle intergénérationnel",
+        "intro": "Ma vision embrasse toutes les étapes de la vie, créant ainsi un filet de sécurité complet.",
+        "points": [
+          { "title": "Jeunes familles", "text": "En facilitant leur arrivée, on assure la pérennité de la langue et de la culture." },
+          { "title": "Aînés", "text": "Offrir une tranquillité bien méritée aux parents plus âgés témoigne d’une communauté qui respecte ses racines tout en fleurissant." }
+        ]
+      },
+      {
+        "title": "La mise en commun des talents",
+        "intro": "La réussite économique découle de l’épanouissement individuel.",
+        "points": [
+          { "title": "La synergie des savoirs", "text": "La force d’une communauté ne réside pas seulement dans ses institutions, mais dans la synergie entre les savoirs de ses membres." }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "eyebrow": "Vers l’action",
+    "title": "Quelques pistes pour cultiver ces graines",
+    "text": "Pour concrétiser cette vision de services de santé en français dans le sud de l’Alberta, plusieurs leviers peuvent être activés.",
+    "items": [
+      { "title": "Plaidoyer politique.", "text": "Collaborer avec les autorités de santé provinciales, comme Alberta Health Services, pour souligner la demande croissante." },
+      { "title": "Réseautage professionnel.", "text": "Répertorier les professionnels de la santé francophones déjà présents dans la région pour créer un premier maillage." },
+      { "title": "Partenariats communautaires.", "text": "Utiliser les écoles et les centres d’accueil existants comme points d’entrée pour diffuser l’information de santé." }
+    ]
+  },
+  "foodSecurity": {
+    "lead": "La sécurité alimentaire et nutritionnelle signifie",
+    "text": "que chacun dispose, à tout moment, d’un accès physique, social et économique à une alimentation suffisante, sûre et nutritive, répondant à ses besoins nutritionnels et à ses préférences alimentaires (culturellement acceptable) pour mener une vie active et saine.",
+    "source": "Organisation des Nations Unies pour l’alimentation et l’agriculture (FAO)"
+  },
+  "cta": {
+    "kicker": "Envie de collaborer ?",
+    "title": "Cultivons ensemble.",
+    "text": "Organisme, école ou employeur : écrivez-moi pour discuter d’un atelier, d’une conférence ou d’un partenariat."
+  }
+}

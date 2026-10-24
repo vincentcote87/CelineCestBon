@@ -27,7 +27,10 @@ npm run lint     # lint with oxlint
 src/
   components/   reusable components, each with its own .module.css
   pages/        one component per route
+  i18n/         translations (locales/fr, locales/en) and language routing
+  styles/       layout helpers shared by pages
   App.tsx       route definitions
+  site.ts       contact details and links
   index.css     global styles and design tokens (colours, fonts, spacing)
 public/         static files copied as-is (favicon, images)
 ```
@@ -40,16 +43,26 @@ matching the original celinecestbon.com URLs:
 | French | English |
 |---|---|
 | `/` | `/en-ca` |
+| `/a-propos` | `/en-ca/about` |
+| `/services` | `/en-ca/services` |
 | `/contact` | `/en-ca/contact` |
 
-- All text lives in `src/i18n/locales/fr.json` and `en.json`. The build fails if a key is
-  used that isn't in `fr.json`.
-- Use `t('key')` from `react-i18next` for text, and `localize('/path')` from
+- All text lives in `src/i18n/locales/fr/` and `en/`, one JSON file per page. The build
+  fails if the English files are missing a key that exists in French.
+- Use `t('key')` from `react-i18next` for text, and `url('page')` from
   `src/i18n/useLanguage.ts` for links, so they stay in the current language.
-- Add new pages in `src/App.tsx`; they are automatically available in both languages.
+- Page paths per language are defined in `src/i18n/routing.ts` (`pagePaths`).
 
 ## Hosting
 
 `npm run build` outputs plain static files to `dist/`, which can be deployed to any
 static host (Netlify, Vercel, Cloudflare Pages, GitHub Pages). Because the site uses
-client-side routing, configure the host to serve `index.html` for unknown paths.
+client-side routing, the host must serve `index.html` for every path.
+`public/_redirects` does this for Netlify and Cloudflare Pages, and also 301-redirects
+the old `/parcours-et-expertises` URLs.
+
+## Content
+
+- `docs/content-review.md`: placeholder, drafted and missing content to review.
+- `docs/mockup-notes.md` and `docs/current-site-content.md`: source material.
+- Contact details (email, phone, links) live in `src/site.ts`.

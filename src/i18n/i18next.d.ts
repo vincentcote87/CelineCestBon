@@ -1,9 +1,9 @@
 import 'i18next'
-import type fr from './locales/fr.json'
+import type { resources } from './resources.ts'
 
-// Type-checks translation keys against the French file.
+// Type-checks translation keys against the French files.
 declare module 'i18next' {
   interface CustomTypeOptions {
-    resources: { translation: typeof fr }
+    resources: (typeof resources)['fr']
   }
 }

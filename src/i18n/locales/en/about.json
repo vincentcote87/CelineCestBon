@@ -1,0 +1,83 @@
+{
+  "title": "About Céline Bossé, RD",
+  "hero": {
+    "eyebrow": "About",
+    "title": "Céline Bossé, <accent>Dt.P.</accent>",
+    "meta": "Public health dietitian-nutritionist · Calgary, Alberta",
+    "text": "My main goal is to give people a taste for healthy eating, to pass on the joy of cooking, and in doing so to have a positive impact on their lifestyle habits.",
+    "vision": "My vision"
+  },
+  "background": {
+    "eyebrow": "Background and expertise",
+    "title": "A constantly evolving science",
+    "p1": "A nutrition sciences graduate of the Université de Montréal for over 25 years, I believe nutrition is a constantly evolving science. I firmly believe in interdisciplinary collaboration and the complementary expertise of professionals to meet the needs of today’s multicultural francophone communities.",
+    "p2": "I have pursued training throughout my career to better meet everyone’s needs. In 2007, I completed a public health program focused on promoting healthy lifestyles. With prevention in mind, I specialize in nutrition, and my main role is to promote health through food.",
+    "quote": "For about fifteen years, I have designed, organized and delivered community and educational programs that meet your needs.",
+    "p3": "Until March 2026, I was the Health Promotion Agent for Southern Alberta with the Réseau santé Alberta. These eight years working for health and well-being in French helped me better understand the public’s needs, particularly those of young people. I also met and worked with key stakeholders and influential partners across the province.",
+    "p4": "Nutrition is close to my heart, as statistics show a rise in non-communicable diseases in Canada and around the world. Today, through education and prevention, I put my skills at your service to also help prevent food insecurity and food waste.",
+    "careerTitle": "Throughout my career",
+    "career": [
+      "School cafeteria manager working with children",
+      "Health and nutrition columnist for francophone media",
+      "Nutrition advisor for early childhood services",
+      "Nutrition consultant and speaker for seniors",
+      "Facilitator and coordinator of cooking workshops in schools",
+      "Health resource person for non-profit organizations"
+    ],
+    "roles": [
+      { "org": "Les Ateliers cinq épices", "role": "Cooking workshop facilitator" },
+      { "org": "Éducation Nutrition", "role": "Speaker, equipping elementary school teachers" },
+      { "org": "Réseau santé Alberta", "role": "Health agent, southern region, 8 years" }
+    ]
+  },
+  "vision": {
+    "eyebrow": "Concepts and community engagement",
+    "quote": "Plant the seeds of your future actions… Tend to them, and later you will harvest the fruit. You will then taste the fullness of accomplishment.",
+    "author": "Céline Bossé, RD",
+    "pillars": [
+      {
+        "title": "Health as a pillar for putting down roots",
+        "intro": "Access to health care in your own language isn’t just a matter of comfort. It’s a matter of safety and dignity.",
+        "points": [
+          { "title": "The right support", "text": "In French, diagnosis is more accurate and patients feel heard, which reduces the anxiety caused by language barriers." },
+          { "title": "Cultural inclusion", "text": "Recognizing the diversity of Alberta’s francophone community makes it possible to offer care adapted to everyone’s reality." }
+        ]
+      },
+      {
+        "title": "The intergenerational cycle",
+        "intro": "My vision embraces every stage of life, creating a complete safety net.",
+        "points": [
+          { "title": "Young families", "text": "Easing their arrival helps ensure the language and culture endure." },
+          { "title": "Seniors", "text": "Offering well-deserved peace of mind to older parents reflects a community that respects its roots while it flourishes." }
+        ]
+      },
+      {
+        "title": "Pooling our talents",
+        "intro": "Economic success grows out of individual fulfilment.",
+        "points": [
+          { "title": "Shared knowledge", "text": "A community’s strength lies not only in its institutions, but in the synergy between the knowledge of its members." }
+        ]
+      }
+    ]
+  },
+  "action": {
+    "eyebrow": "Taking action",
+    "title": "A few ways to grow these seeds",
+    "text": "Several levers can help make this vision of French-language health services in Southern Alberta a reality.",
+    "items": [
+      { "title": "Policy advocacy.", "text": "Work with provincial health authorities, such as Alberta Health Services, to highlight the growing demand." },
+      { "title": "Professional networking.", "text": "Map the francophone health professionals already in the region to build a first network." },
+      { "title": "Community partnerships.", "text": "Use existing schools and welcome centres as entry points to share health information." }
+    ]
+  },
+  "foodSecurity": {
+    "lead": "Food and nutrition security means",
+    "text": "that everyone has physical, social and economic access at all times to sufficient, safe and nutritious food that meets their nutritional needs and food preferences (and is culturally acceptable) for an active, healthy life.",
+    "source": "Food and Agriculture Organization of the United Nations (FAO)"
+  },
+  "cta": {
+    "kicker": "Want to work together?",
+    "title": "Let’s grow something together.",
+    "text": "Organization, school or employer: email me to talk about a workshop, a talk or a partnership."
+  }
+}

@@ -15,6 +15,13 @@ export default function Layout() {
   const { url } = useLanguage()
   const { pathname, hash } = useLocation()
   const [menuOpen, setMenuOpen] = useState(false)
+  const [menuPath, setMenuPath] = useState(pathname)
+
+  // Close the mobile menu whenever the page changes (nav links, language switch…).
+  if (menuPath !== pathname) {
+    setMenuPath(pathname)
+    setMenuOpen(false)
+  }
 
   // Start each new page at the top, unless the link points to a section.
   useLayoutEffect(() => {
@@ -56,7 +63,6 @@ export default function Layout() {
                       to={url(page)}
                       end
                       className={navLinkClass}
-                      onClick={() => setMenuOpen(false)}
                     >
                       {t(`nav.${page}`)}
                     </NavLink>

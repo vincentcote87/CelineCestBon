@@ -1,0 +1,217 @@
+/* Background and expertise */
+
+.backgroundGrid {
+  display: grid;
+  grid-template-columns: 1.35fr 0.85fr;
+  align-items: start;
+  gap: var(--space-xl);
+}
+
+.prose {
+  display: grid;
+  gap: var(--space-sm);
+  font-size: 1.05rem;
+}
+
+.prose h2 {
+  margin-bottom: var(--space-xs);
+}
+
+.pullQuote {
+  margin: var(--space-sm) 0;
+  padding-left: var(--space-md);
+  border-left: 4px solid #8cc46d;
+  font-family: var(--font-heading);
+  font-size: clamp(1.3rem, 2.4vw, 1.6rem);
+  line-height: 1.4;
+  color: var(--color-green-dark);
+}
+
+.careerCard {
+  position: sticky;
+  top: calc(var(--header-height) + var(--space-lg));
+  display: grid;
+  gap: var(--space-md);
+  padding: var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-sand);
+  font-size: 0.95rem;
+}
+
+.careerCard h3 {
+  font-size: 1.4rem;
+}
+
+.roles {
+  display: grid;
+  gap: var(--space-sm);
+  margin: 0;
+  padding-top: var(--space-md);
+  border-top: 1px dashed var(--color-border);
+}
+
+.roles dt {
+  font-weight: 700;
+}
+
+.roles dd {
+  margin: 0;
+  color: var(--color-muted);
+}
+
+/* Vision */
+
+.vision {
+  position: relative;
+  overflow: hidden;
+}
+
+.visionBlob {
+  position: absolute;
+  top: -6rem;
+  right: -8rem;
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  background: var(--color-blush);
+  opacity: 0.8;
+}
+
+.bigQuote {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0 var(--space-md);
+  max-width: 52rem;
+  margin: var(--space-sm) 0 var(--space-xl);
+}
+
+.quoteMark {
+  grid-row: span 2;
+  font-family: var(--font-heading);
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 0.8;
+  color: var(--color-red);
+}
+
+.bigQuote blockquote {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  font-style: italic;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.bigQuote figcaption {
+  margin-top: var(--space-sm);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.pillars {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pillar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-lg) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  font-size: 0.975rem;
+}
+
+.pillarNumber {
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--color-muted);
+}
+
+.pillar > p:not(.pillarNumber) {
+  color: var(--color-muted);
+}
+
+.point h4 {
+  margin-bottom: 0.2rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.point p {
+  color: var(--color-muted);
+}
+
+/* Taking action */
+
+.actionGrid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.actionGrid h2 {
+  margin-bottom: var(--space-sm);
+}
+
+.foodSecurity {
+  position: relative;
+  margin: 0;
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  background: var(--color-sage);
+}
+
+.foodSecurity blockquote {
+  margin: 0;
+  max-width: 56rem;
+}
+
+.foodSecurity figcaption {
+  margin-top: var(--space-sm);
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.foodSecurityLeaf {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  width: 2rem;
+  color: var(--color-green-dark);
+}
+
+@media (max-width: 960px) {
+  .pillars {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .backgroundGrid,
+  .actionGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .careerCard {
+    position: static;
+  }
+
+  .quoteMark {
+    font-size: 4rem;
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "title": "Services : ateliers et conférences en nutrition",
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Des ateliers pour <accent>tous les âges.</accent>",
+    "text": "Depuis une quinzaine d’années, je conçois, j’organise et j’anime des programmes communautaires et éducatifs. Voici les quatre volets que je propose aux écoles, aux services de garde, aux organismes et aux milieux de travail.",
+    "jumpNav": "Les quatre services"
+  },
+  "labels": {
+    "forWho": "Pour qui",
+    "format": "Format",
+    "eachSession": "Chaque séance",
+    "program": "Au programme",
+    "approach": "Notre approche",
+    "mission": "Notre mission",
+    "history": "Notre histoire",
+    "themes": "Thèmes proposés",
+    "formats": "Les formules"
+  },
+  "cinqEpices": {
+    "short": "Ateliers Cinq Épices",
+    "tag": "Enfants de 3 à 12 ans",
+    "title": "Ateliers Cinq Épices Alberta",
+    "tagline": "Nous nous distinguons par le plaisir de l’expérience.",
+    "button": "Réserver un atelier",
+    "approach": "Tous les élèves manipulent, mesurent et coupent les aliments. En cuisinant et en goûtant, nos petits cuistots intègrent les notions d’une saine alimentation, découvrent de nouveaux aliments et développent une autonomie alimentaire.",
+    "mission": "Promouvoir l’éducation nutritionnelle et culinaire et favoriser le développement social par le biais de l’alimentation auprès de la clientèle du préscolaire et du scolaire, de leur famille et des adultes en général.",
+    "forWho": "Centres de la petite enfance, services de garde, prématernelles, écoles francophones et d’immersion française, camps d’été.",
+    "format": "Ateliers de cuisine pratiques, en classe ou en groupe, animés par une diététiste.",
+    "historyIntro": "Les Ateliers cinq épices ont été fondés en 2003 à Montréal. Leurs fondements :",
+    "values": ["Plaisir", "Expériences", "Découvertes"],
+    "historyText": "Le programme met en lumière la collaboration de cinq acteurs principaux : les enfants, les parents, les écoles, la communauté et les bailleurs de fonds.",
+    "timeline": [
+      { "title": "2003, Montréal", "text": "Naissance des Ateliers cinq épices au Québec." },
+      { "title": "Adapter le programme à l’Alberta", "text": "Le projet est aligné sur les normes du ministère de l’Éducation de l’Alberta et sur les principes des Écoles en santé. De petits ajustements sont apportés." },
+      { "title": "2015, Calgary", "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme dans l’Ouest canadien, sous ma supervision. L’Alberta devient la première province à proposer ces ateliers en dehors du Québec." },
+      { "title": "Des tout-petits aux écoles", "text": "Les centres de la petite enfance, les services de garde et les prématernelles marquent le lancement. Puis les écoles suivent." }
+    ],
+    "stats": {
+      "title": "Dix années plus tard",
+      "text": "Les résultats parlent d’eux-mêmes, et ils sont remarquables.",
+      "items": [
+        { "value": "1 740+", "label": "jeunes de 3 à 12 ans" },
+        { "value": "347", "label": "ateliers" },
+        { "value": "25", "label": "écoles francophones et d’immersion française" },
+        { "value": "82", "label": "enseignants" },
+        { "value": "5", "label": "services de garde" },
+        { "value": "4", "label": "prématernelles" },
+        { "value": "3", "label": "camps d’été" },
+        { "value": "7", "label": "animateurs formés et certifiés en Alberta" }
+      ],
+      "footnote": "Sans oublier <strong>18 éducateurs</strong> et <strong>63 parents bénévoles</strong>. Principales régions visitées : <strong>Calgary, Red Deer, Brooks et Fort McMurray</strong>."
+    }
+  },
+  "collectiveKitchens": {
+    "short": "Cuisines collectives",
+    "tag": "Des enfants aux aînés",
+    "title": "Cuisines collectives du partage et du savoir",
+    "tagline": "Rétablir une compétence essentielle au bien-être individuel et collectif.",
+    "button": "Organiser une série",
+    "p1": "Dans un contexte où le savoir-faire culinaire tend à s’éroder, je propose une série d’ateliers pour enseigner les principes d’une alimentation saine : le choix des ingrédients, les méthodes de préparation, l’entreposage et les durées de conservation des aliments.",
+    "p2": "Conçus pour respecter la diversité culturelle et les réalités culinaires des participants, les ateliers proposent des modules adaptés à tous les âges, des jeunes enfants aux personnes âgées, et tiennent compte des besoins nutritionnels de chaque groupe.",
+    "forWho": "Organismes communautaires, groupes de familles, groupes d’aînés, tout groupe qui souhaite cuisiner ensemble.",
+    "eachSession": ["Démonstrations pratiques", "Astuces culinaires", "Recettes saines et économiques, en moins de 30 minutes"],
+    "closing": "Organisés en petits groupes, ces ateliers favorisent l’échange de compétences et le partage des plats préparés, dans un cadre convivial et pédagogique propice à de nouvelles habitudes alimentaires durables."
+  },
+  "healthPromotion": {
+    "short": "Promotion de la santé",
+    "tag": "Adultes et familles",
+    "title": "Promotion de la santé",
+    "tagline": "Qui n’a pas besoin de conseils en alimentation ?",
+    "button": "En parler",
+    "intro": "Par l’intermédiaire de quiz et de jeux questionnaires, je vous propose de revoir vos habitudes alimentaires et je vous suggère des solutions adaptées à votre mode de vie. Les occasions de revisiter ses habitudes sont multiples et personnelles : la naissance d’un bébé, la retraite, ou l’annonce d’une condition de santé qui oblige à des changements.",
+    "themes": [
+      "Faire de bons choix à l’épicerie",
+      "Planifier des menus équilibrés",
+      "Comprendre et évaluer la valeur nutritive des aliments",
+      "Règles de salubrité et allergènes possibles dans la préparation de la boîte à lunch",
+      "Réduire le gaspillage grâce à la durée de conservation des aliments entreposés (garde-manger, armoires et frigo)",
+      "Des repas équilibrés et leurs recettes, en respectant vos goûts et vos préférences"
+    ],
+    "callout": "Pour profiter de votre plein potentiel, il est essentiel d’évaluer régulièrement vos habitudes alimentaires au fil des différents passages de la vie. Elles sont la source des bases d’un avenir meilleur et d’une énergie renouvelée."
+  },
+  "schoolWork": {
+    "short": "Santé à l’école et au travail",
+    "tag": "Écoles et employeurs",
+    "title": "La santé à l’école et au travail",
+    "tagline": "Démystifier et simplifier l’art de la table, au travail, au restaurant ou à la cafétéria de l’école.",
+    "button": "Planifier une session",
+    "p1": "Le manque de temps, les repas à la course et le manque de planification sont autant de barrières à surmonter pour prioriser la santé. Cuisiner tous les jours n’est pas une simple tâche. Je vous aide à prendre en charge votre santé pour profiter d’une alimentation adéquate.",
+    "p2": "Les marchés d’alimentation et les restaurants ne manquent pas d’imagination pour offrir des produits et des mets préparés aussi appétissants que coûteux. Je vous invite à être à l’affût des pseudo-produits santé que les emballages et les publicités font miroiter, et à consulter la liste des ingrédients : les allergies et les intolérances alimentaires sont sources de bien des inconforts, voire de grand danger pour certaines personnes.",
+    "formats": [
+      "Sessions interactives d’une heure",
+      "Lunch & Learn en entreprise",
+      "Visites dans les écoles",
+      "Ateliers de prévention",
+      "Visites éducatives à l’épicerie, en personne ou virtuelles",
+      "Conférences",
+      "Chroniques mensuelles",
+      "Entrevues radiophoniques",
+      "Clips vidéo de formation",
+      "Mini jeux questionnaires"
+    ],
+    "forWho": "Groupes associatifs, équipes d’employés, écoles et leur personnel.",
+    "program": "Selon le thème choisi, l’impact de l’alimentation sur le corps, physique et mental, et comment prévenir les maladies.",
+    "closing": "Avec les mini jeux questionnaires, nous démystifions les allégations nutritionnelles pour départager le vrai du faux. Et je termine toujours par une dégustation de produits préparés à la maison, pour faire découvrir des nouveautés économiques aux plus courageux, sans oublier des idées pour une boîte à lunch équilibrée, amusante et nourrissante."
+  },
+  "cta": {
+    "kicker": "On cuisine ensemble ?",
+    "title": "Dites-moi ce que vous imaginez.",
+    "text": "Votre organisme, votre groupe, vos dates et le thème qui vous intéresse : je vous réponds en français ou en anglais.",
+    "allContacts": "Tous les contacts"
+  }
+}

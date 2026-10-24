@@ -1,0 +1,114 @@
+{
+  "title": "Services: nutrition workshops and talks",
+  "hero": {
+    "eyebrow": "Services",
+    "title": "Workshops for <accent>all ages.</accent>",
+    "text": "For about fifteen years, I have designed, organized and led community and educational programs. Here are the four services I offer to schools, daycares, organizations and workplaces.",
+    "jumpNav": "The four services"
+  },
+  "labels": {
+    "forWho": "Who it’s for",
+    "format": "Format",
+    "eachSession": "Each session",
+    "program": "What’s covered",
+    "approach": "Our approach",
+    "mission": "Our mission",
+    "history": "Our story",
+    "themes": "Topics",
+    "formats": "Formats"
+  },
+  "cinqEpices": {
+    "short": "Ateliers Cinq Épices",
+    "tag": "Children aged 3 to 12",
+    "title": "Ateliers Cinq Épices Alberta",
+    "tagline": "What sets us apart is the joy of hands-on experience.",
+    "button": "Book a workshop",
+    "approach": "Every child handles, measures and cuts the food. By cooking and tasting, our little chefs learn the basics of healthy eating, discover new foods and build independence in the kitchen.",
+    "mission": "To promote nutrition and cooking education and support social development through food, for preschool and school-aged children, their families and adults in general.",
+    "forWho": "Early childhood centres, daycares, preschools, francophone and French immersion schools, summer camps.",
+    "format": "Hands-on cooking workshops, in class or in groups, led by a dietitian.",
+    "historyIntro": "The Ateliers cinq épices were founded in Montréal in 2003. Their foundations:",
+    "values": ["Fun", "Experiences", "Discoveries"],
+    "historyText": "The program highlights the collaboration of five key players: children, parents, schools, the community and funders.",
+    "timeline": [
+      { "title": "2003, Montréal", "text": "The Ateliers cinq épices are born in Quebec." },
+      { "title": "Adapting the program for Alberta", "text": "The project is aligned with Alberta Education standards and the principles of Healthy Schools, with a few small adjustments." },
+      { "title": "2015, Calgary", "text": "The ACFA régionale de Calgary partners with CelineCestBon to bring the program to Western Canada, under my supervision. Alberta becomes the first province outside Quebec to offer these workshops." },
+      { "title": "From toddlers to schools", "text": "Early childhood centres, daycares and preschools come first. Then schools follow." }
+    ],
+    "stats": {
+      "title": "Ten years later",
+      "text": "The results speak for themselves, and they’re remarkable.",
+      "items": [
+        { "value": "1,740+", "label": "children aged 3 to 12" },
+        { "value": "347", "label": "workshops" },
+        { "value": "25", "label": "francophone and French immersion schools" },
+        { "value": "82", "label": "teachers" },
+        { "value": "5", "label": "daycares" },
+        { "value": "4", "label": "preschools" },
+        { "value": "3", "label": "summer camps" },
+        { "value": "7", "label": "facilitators trained and certified in Alberta" }
+      ],
+      "footnote": "Not to mention <strong>18 educators</strong> and <strong>63 parent volunteers</strong>. Main regions visited: <strong>Calgary, Red Deer, Brooks and Fort McMurray</strong>."
+    }
+  },
+  "collectiveKitchens": {
+    "short": "Community kitchens",
+    "tag": "From children to seniors",
+    "title": "Community kitchens for sharing and learning",
+    "tagline": "Rebuilding a skill that is essential to individual and collective well-being.",
+    "button": "Organize a series",
+    "p1": "As cooking skills are fading, I offer a series of workshops that teach the principles of healthy eating: choosing ingredients, preparation methods, storage and how long food keeps.",
+    "p2": "Designed to respect the cultural diversity and food traditions of participants, the workshops offer modules adapted to all ages, from young children to seniors, and take each group’s nutritional needs into account.",
+    "forWho": "Community organizations, family groups, seniors’ groups, any group that wants to cook together.",
+    "eachSession": ["Hands-on demonstrations", "Cooking tips", "Healthy, affordable recipes in under 30 minutes"],
+    "closing": "Held in small groups, these workshops encourage sharing skills and the dishes prepared, in a friendly, educational setting that supports lasting new eating habits."
+  },
+  "healthPromotion": {
+    "short": "Health promotion",
+    "tag": "Adults and families",
+    "title": "Health promotion",
+    "tagline": "Who couldn’t use some nutrition advice?",
+    "button": "Let’s talk",
+    "intro": "Through quizzes and games, I invite you to review your eating habits and suggest solutions that fit your lifestyle. There are many personal reasons to revisit your habits: the birth of a baby, retirement, or a health diagnosis that calls for change.",
+    "themes": [
+      "Making good choices at the grocery store",
+      "Planning balanced menus",
+      "Understanding and evaluating the nutritional value of food",
+      "Food safety rules and possible allergens when packing lunches",
+      "Reducing waste by knowing how long stored food keeps (pantry, cupboards and fridge)",
+      "Balanced meals and recipes that respect your tastes and preferences"
+    ],
+    "callout": "To reach your full potential, it’s essential to regularly review your eating habits through life’s different stages. They lay the foundation for a better future and renewed energy."
+  },
+  "schoolWork": {
+    "short": "Health at school and work",
+    "tag": "Schools and employers",
+    "title": "Health at school and at work",
+    "tagline": "Demystifying and simplifying good eating, at work, at restaurants or in the school cafeteria.",
+    "button": "Plan a session",
+    "p1": "Lack of time, meals on the run and lack of planning are all barriers to making health a priority. Cooking every day is no small task. I help you take charge of your health so you can enjoy a healthy diet.",
+    "p2": "Grocery stores and restaurants never run out of ideas for products and prepared meals that are as tempting as they are expensive. I encourage you to watch out for so-called health products promoted by packaging and advertising, and to read the ingredient list: food allergies and intolerances cause a lot of discomfort, and can even be very dangerous for some people.",
+    "formats": [
+      "One-hour interactive sessions",
+      "Workplace Lunch & Learns",
+      "School visits",
+      "Prevention workshops",
+      "Educational grocery store tours, in person or virtual",
+      "Talks",
+      "Monthly columns",
+      "Radio interviews",
+      "Training video clips",
+      "Mini quiz games"
+    ],
+    "forWho": "Community groups, employee teams, schools and their staff.",
+    "program": "Depending on the topic, the impact of food on physical and mental health, and how to prevent disease.",
+    "closing": "With mini quiz games, we debunk nutrition claims to separate fact from fiction. I always finish with a tasting of homemade dishes, introducing affordable new foods to the more adventurous, along with ideas for a balanced, fun and nourishing lunch box."
+  },
+  "cta": {
+    "kicker": "Shall we cook together?",
+    "title": "Tell me what you have in mind.",
+    "text": "Your organization, your group, your dates and the topic you’re interested in: I’ll reply in French or English.",
+    "allContacts": "All contact details"
+  }
+}

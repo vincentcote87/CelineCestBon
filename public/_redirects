@@ -1,0 +1,7 @@
+# Netlify / Cloudflare Pages rules.
+# Old celinecestbon.com URLs whose content moved to the About page.
+/parcours-et-expertises          /a-propos       301
+/en-ca/parcours-et-expertises    /en-ca/about    301
+
+# Single-page app: serve index.html for every route.
+/*    /index.html   200

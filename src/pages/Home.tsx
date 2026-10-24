@@ -1,35 +1,27 @@
 import type { ComponentType, SVGProps } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { Link } from 'react-router'
-import headshot from '../assets/images/celine-headshot.webp'
 import logoCda from '../assets/images/logo-cda.png'
 import logoDietitiansCanada from '../assets/images/logo-dietitians-canada.png'
 import CtaBand from '../components/CtaBand/CtaBand.tsx'
-import {
-  Apple,
-  Leaf,
-  Lime,
-  Pepper,
-  Pot,
-  SpiceDots,
-  Sprout,
-  Tomato,
-} from '../components/Illustrations/Illustrations.tsx'
+import { Apple, Leaf, Pot, SpiceDots, Sprout } from '../components/Illustrations/Illustrations.tsx'
 import PageMeta from '../components/PageMeta.tsx'
+import Portrait from '../components/Portrait/Portrait.tsx'
 import StatsBand from '../components/StatsBand/StatsBand.tsx'
 import Button from '../components/ui/Button.tsx'
 import { Accent, Eyebrow, Script } from '../components/ui/Eyebrow.tsx'
 import { ChipList, Tag } from '../components/ui/Tag.tsx'
 import { useLanguage } from '../i18n/useLanguage.ts'
-import { mailto, site } from '../site.ts'
+import { mailto, serviceAnchors, site } from '../site.ts'
+import layout from '../styles/layout.module.css'
 import styles from './Home.module.css'
 
 // Illustration and Services-page anchor for each of the four service cards, in order.
 const serviceCards: { art: ComponentType<SVGProps<SVGSVGElement>>; tint: string; anchor: string }[] = [
-  { art: SpiceDots, tint: 'blush', anchor: 'cinq-epices' },
-  { art: Pot, tint: 'sage', anchor: 'cuisines-collectives' },
-  { art: Sprout, tint: 'blush', anchor: 'promotion-sante' },
-  { art: Apple, tint: 'sage', anchor: 'ecole-travail' },
+  { art: SpiceDots, tint: 'blush', anchor: serviceAnchors.cinqEpices },
+  { art: Pot, tint: 'sage', anchor: serviceAnchors.collectiveKitchens },
+  { art: Sprout, tint: 'blush', anchor: serviceAnchors.healthPromotion },
+  { art: Apple, tint: 'sage', anchor: serviceAnchors.schoolWork },
 ]
 
 export default function Home() {
@@ -47,7 +39,7 @@ export default function Home() {
       {/* Hero */}
       <section className={styles.hero}>
         <div className={styles.heroBlob} aria-hidden="true" />
-        <div className={`${styles.container} ${styles.heroGrid}`}>
+        <div className={`${layout.container} ${styles.heroGrid}`}>
           <div className={styles.heroCopy}>
             <Eyebrow>{t('home.hero.eyebrow')}</Eyebrow>
             <h1 className={styles.heroTitle}>
@@ -55,7 +47,7 @@ export default function Home() {
             </h1>
             <p className={styles.heroMeta}>{t('home.hero.meta')}</p>
             <p className={styles.heroText}>{t('home.hero.text')}</p>
-            <div className={styles.actions}>
+            <div className={layout.actions}>
               <Button href={mailto} dot>
                 {t('common.emailMe')}
               </Button>
@@ -65,40 +57,13 @@ export default function Home() {
             </div>
           </div>
 
-          <div className={styles.portrait}>
-            <div className={styles.portraitRing} aria-hidden="true" />
-            <div className={styles.portraitFrame}>
-              <img
-                src={headshot}
-                alt={t('home.hero.photoAlt')}
-                width={564}
-                height={752}
-                className={styles.portraitImg}
-              />
-            </div>
-            <p className={styles.badge}>{t('home.hero.badge')}</p>
-            <svg className={styles.dashes} viewBox="0 0 120 40" aria-hidden="true">
-              <path
-                d="M4 36C30 8 80 2 116 10"
-                fill="none"
-                stroke="#58a845"
-                strokeWidth="2.5"
-                strokeDasharray="7 7"
-                strokeLinecap="round"
-              />
-            </svg>
-            <Leaf className={`${styles.food} ${styles.leafA}`} />
-            <Leaf className={`${styles.food} ${styles.leafB}`} />
-            <Tomato className={`${styles.food} ${styles.tomato}`} />
-            <Pepper className={`${styles.food} ${styles.pepper}`} />
-            <Lime className={`${styles.food} ${styles.lime}`} />
-          </div>
+          <Portrait alt={t('home.hero.photoAlt')} badge={t('home.hero.badge')} />
         </div>
       </section>
 
       {/* Profile and bio */}
-      <section className={styles.section}>
-        <div className={`${styles.container} ${styles.introGrid}`}>
+      <section className={layout.section}>
+        <div className={`${layout.container} ${styles.introGrid}`}>
           <article className={styles.profileCard}>
             <Eyebrow>{t('home.profile.eyebrow')}</Eyebrow>
             <h2 className={styles.cardTitle}>{t('home.profile.title')}</h2>
@@ -122,14 +87,14 @@ export default function Home() {
       <StatsBand title={t('home.stats.title')} text={t('home.stats.text')} stats={stats} />
 
       {/* Services overview */}
-      <section className={styles.section}>
-        <div className={styles.container}>
-          <div className={styles.splitHeader}>
+      <section className={layout.section}>
+        <div className={layout.container}>
+          <div className={layout.splitHeader}>
             <div>
               <Eyebrow>{t('home.services.eyebrow')}</Eyebrow>
               <h2>{t('home.services.title')}</h2>
             </div>
-            <p className={styles.lead}>{t('home.services.text')}</p>
+            <p className={layout.lead}>{t('home.services.text')}</p>
           </div>
 
           <ul className={styles.serviceGrid}>
@@ -160,20 +125,20 @@ export default function Home() {
       </section>
 
       {/* Audience */}
-      <section className={`${styles.section} ${styles.sand}`}>
-        <div className={`${styles.container} ${styles.audienceGrid}`}>
+      <section className={`${layout.section} ${layout.sand}`}>
+        <div className={`${layout.container} ${styles.audienceGrid}`}>
           <div>
             <Eyebrow>{t('home.audience.eyebrow')}</Eyebrow>
             <h2>{t('home.audience.title')}</h2>
-            <p className={styles.lead}>{t('home.audience.text')}</p>
+            <p className={layout.lead}>{t('home.audience.text')}</p>
           </div>
           <ChipList items={audience} />
         </div>
       </section>
 
       {/* Credentials */}
-      <section className={styles.section}>
-        <div className={styles.container}>
+      <section className={layout.section}>
+        <div className={layout.container}>
           <Eyebrow>{t('home.credentials.eyebrow')}</Eyebrow>
           <ul className={styles.credentialGrid}>
             <li className={styles.credential}>

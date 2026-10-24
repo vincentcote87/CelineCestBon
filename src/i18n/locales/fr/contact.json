@@ -1,0 +1,33 @@
+{
+  "title": "Contact",
+  "hero": {
+    "eyebrow": "Contact",
+    "title": "Pour me <accent>rejoindre.</accent>",
+    "text": "Céline Bossé, Dt.P., diététiste en santé publique pour la région de Calgary. Un courriel ou un appel suffit pour commencer."
+  },
+  "email": { "label": "Courriel" },
+  "phone": { "label": "Téléphone" },
+  "prepare": {
+    "eyebrow": "Pour bien préparer votre demande",
+    "title": "Quoi inclure dans votre courriel",
+    "text": "Quelques détails m’aident à vous proposer le bon atelier, adapté à votre groupe.",
+    "steps": [
+      { "title": "Votre organisme", "text": "École, service de garde, organisme communautaire, groupe d’aînés ou employeur." },
+      { "title": "Votre groupe", "text": "Le nombre de participants et leur âge." },
+      { "title": "Vos dates", "text": "Les dates ou la période souhaitées, et le lieu." },
+      { "title": "Le thème", "text": "Atelier Cinq Épices, cuisine collective, promotion de la santé, Lunch & Learn ou autre sujet." }
+    ]
+  },
+  "area": {
+    "eyebrow": "Territoire desservi",
+    "title": "Calgary et le sud de l’Alberta",
+    "text": "En personne dans votre milieu, ou en visite virtuelle à l’épicerie.",
+    "mapCity": "Calgary",
+    "mapRegion": "Sud de l’Alberta"
+  },
+  "cta": {
+    "kicker": "Qui mange bien, vit bien !",
+    "title": "Au plaisir de vous lire.",
+    "text": "Pas encore certain du format ? Parcourez les services pour trouver l’idée qui vous ressemble."
+  }
+}

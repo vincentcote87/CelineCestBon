@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "siteName": "Céline C’est Bon",
+    "description": "Céline Bossé, RD, public health dietitian-nutritionist in Calgary and Southern Alberta. Workshops, talks and programs in French for all ages."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "main": "Main navigation",
+    "menu": "Menu",
+    "language": "Choose language",
+    "skip": "Skip to content"
+  },
+  "common": {
+    "emailMe": "Email me",
+    "callMe": "Call me",
+    "seeServices": "See services",
+    "backToTop": "Back to top"
+  },
+  "footer": {
+    "blurb": "Céline Bossé, Dt.P./RD, public health dietitian-nutritionist.",
+    "tagline": "Eat well, live well!",
+    "contact": "Contact",
+    "member": "Member",
+    "pages": "Pages",
+    "area": "Calgary and Southern Alberta",
+    "cda": "College of Dietitians of Alberta",
+    "dietitiansCanada": "Dietitians of Canada"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you’re looking for doesn’t exist or has moved.",
+    "back": "Back to home"
+  }
+}

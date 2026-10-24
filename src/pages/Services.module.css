@@ -1,0 +1,119 @@
+/* Jump links under the hero */
+
+.jumpNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: var(--space-md) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.jumpLink {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.jumpLink:hover {
+  border-color: var(--color-red);
+}
+
+.jumpNumber {
+  color: var(--color-red);
+  font-family: var(--font-heading);
+}
+
+/* Service sections */
+
+.service {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  align-items: start;
+  gap: var(--space-xl);
+}
+
+.summary {
+  position: sticky;
+  top: calc(var(--header-height) + var(--space-lg));
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-sm);
+}
+
+.number {
+  font-family: var(--font-heading);
+  font-size: clamp(4.5rem, 9vw, 7rem);
+  font-weight: 600;
+  line-height: 0.9;
+  color: var(--color-numeral);
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 2.75rem);
+}
+
+.tagline {
+  max-width: 24rem;
+  margin-bottom: var(--space-sm);
+  color: var(--color-muted);
+}
+
+.details {
+  display: grid;
+  gap: var(--space-lg);
+  font-size: 1.025rem;
+}
+
+.stack {
+  display: grid;
+  gap: var(--space-sm);
+}
+
+.subTitle {
+  margin-bottom: var(--space-xs);
+  font-size: 1.35rem;
+}
+
+.mission {
+  padding: var(--space-lg);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(140deg, var(--color-blush-soft), var(--color-blush));
+}
+
+.missionLabel {
+  margin-bottom: var(--space-xs);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-red-dark);
+}
+
+.missionText {
+  font-family: var(--font-heading);
+  font-size: clamp(1.2rem, 2vw, 1.4rem);
+  font-style: italic;
+  line-height: 1.45;
+}
+
+@media (max-width: 860px) {
+  .service {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .summary {
+    position: static;
+  }
+}

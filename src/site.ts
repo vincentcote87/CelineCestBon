@@ -11,3 +11,11 @@ export const site = {
 }
 
 export const mailto = `mailto:${site.email}`
+
+// Section ids on the Services page, also linked from the Home page cards.
+export const serviceAnchors = {
+  cinqEpices: 'cinq-epices',
+  collectiveKitchens: 'cuisines-collectives',
+  healthPromotion: 'promotion-sante',
+  schoolWork: 'ecole-travail',
+} as const

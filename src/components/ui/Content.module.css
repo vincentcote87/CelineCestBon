@@ -1,0 +1,115 @@
+.infoGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  gap: var(--space-md);
+}
+
+.infoCard {
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  font-size: 0.975rem;
+}
+
+.infoLabel {
+  margin-bottom: var(--space-xs);
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-green-dark);
+}
+
+.bullets {
+  display: grid;
+  gap: 0.65rem;
+  list-style: none;
+}
+
+.bullets li {
+  position: relative;
+  padding-left: 1.6rem;
+}
+
+.bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.68em;
+  width: 0.95rem;
+  height: 0.32rem;
+  border-radius: 50%;
+  background: var(--color-green-dark);
+}
+
+.timeline {
+  display: grid;
+  gap: var(--space-md);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.timelineItem {
+  position: relative;
+  padding-left: 2.25rem;
+}
+
+/* Red dot. */
+.timelineItem::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.2rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  background: var(--color-red);
+}
+
+/* Dashed line down to the next item. */
+.timelineItem:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: calc(0.55rem - 1px);
+  top: 1.6rem;
+  bottom: calc(-1 * var(--space-md) + 0.2rem);
+  border-left: 2px dashed #8cc46d;
+}
+
+.timelineTitle {
+  margin-bottom: 0.2rem;
+  font-size: 1.25rem;
+}
+
+.timelineItem p {
+  color: var(--color-muted);
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+.pills li {
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-pill);
+  background: var(--color-green-dark);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.callout {
+  padding: var(--space-md) var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-red);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
