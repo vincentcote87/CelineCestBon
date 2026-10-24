@@ -34,9 +34,6 @@ Calgary, Éducation Nutrition) are left in French.
 ## Still missing
 
 - **Privacy policy page.** The current site has one at `/privacy` and `/en-ca/privacy`.
-- **Favicon.** Still the default Vite icon; needs a small version of the logo.
-- **Logo.** The header uses a tomato mark plus "celinecestbon" typed in Bricolage Grotesque. Swap
-  in the real logo file if there is one.
 - **Social sharing image** (the preview shown when the link is shared on Facebook or LinkedIn).
 
 ## Illustrations

@@ -1,6 +1,7 @@
 import { useLayoutEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, NavLink, Outlet, useLocation } from 'react-router'
+import logo from '../../assets/images/logo.webp'
 import type { Page } from '../../i18n/routing.ts'
 import { useLanguage } from '../../i18n/useLanguage.ts'
 import { mailto, site } from '../../site.ts'
@@ -10,17 +11,9 @@ import styles from './Layout.module.css'
 const navPages: Page[] = ['home', 'about', 'services', 'contact']
 const year = new Date().getFullYear()
 
-// Tomato mark + lowercase wordmark.
+// The "CelineCestBon" hand-lettered wordmark. Its alt text names the link it sits in.
 function Logo() {
-  return (
-    <>
-      <svg className={styles.logoMark} viewBox="0 0 34 34" aria-hidden="true">
-        <circle cx="17" cy="19" r="13" fill="var(--color-accent)" />
-        <path d="M17 7c2-4 6-5 9-4-1 4-5 6-9 5z" fill="var(--color-green)" />
-      </svg>
-      {site.name.toLowerCase()}
-    </>
-  )
+  return <img src={logo} alt="Céline C’est Bon" width={660} height={120} className={styles.logo} />
 }
 
 export default function Layout() {
