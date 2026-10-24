@@ -88,10 +88,10 @@ export default function Contact() {
         text={t('contact.cta.text')}
         actions={
           <>
-            <Button href={mailto} variant="light" dot>
+            <Button href={mailto} dot>
               {t('common.emailMe')}
             </Button>
-            <Button to={url('services')} variant="outlineLight">
+            <Button to={url('services')} variant="light">
               {t('common.seeServices')}
             </Button>
           </>

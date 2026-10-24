@@ -4,24 +4,25 @@ import { Link } from 'react-router'
 import logoCda from '../assets/images/logo-cda.png'
 import logoDietitiansCanada from '../assets/images/logo-dietitians-canada.png'
 import CtaBand from '../components/CtaBand/CtaBand.tsx'
-import { Apple, Leaf, Pot, SpiceDots, Sprout } from '../components/Illustrations/Illustrations.tsx'
+import { Apple, Pot, SpiceDots, Sprout } from '../components/Illustrations/Illustrations.tsx'
+import PageHero from '../components/PageHero/PageHero.tsx'
 import PageMeta from '../components/PageMeta.tsx'
 import Portrait from '../components/Portrait/Portrait.tsx'
 import StatsBand from '../components/StatsBand/StatsBand.tsx'
 import Button from '../components/ui/Button.tsx'
 import { Accent, Eyebrow, Script } from '../components/ui/Eyebrow.tsx'
-import { ChipList, Tag } from '../components/ui/Tag.tsx'
+import { ChipList } from '../components/ui/Tag.tsx'
 import { useLanguage } from '../i18n/useLanguage.ts'
 import { mailto, serviceAnchors, site } from '../site.ts'
 import layout from '../styles/layout.module.css'
 import styles from './Home.module.css'
 
-// Illustration and Services-page anchor for each of the four service cards, in order.
-const serviceCards: { art: ComponentType<SVGProps<SVGSVGElement>>; tint: string; anchor: string }[] = [
-  { art: SpiceDots, tint: 'blush', anchor: serviceAnchors.cinqEpices },
-  { art: Pot, tint: 'sage', anchor: serviceAnchors.collectiveKitchens },
-  { art: Sprout, tint: 'blush', anchor: serviceAnchors.healthPromotion },
-  { art: Apple, tint: 'sage', anchor: serviceAnchors.schoolWork },
+// Illustration, tile colour and Services-page anchor for each service tile, in order.
+const serviceTiles: { art: ComponentType<SVGProps<SVGSVGElement>>; tone: string; anchor: string }[] = [
+  { art: SpiceDots, tone: 'tomato', anchor: serviceAnchors.cinqEpices },
+  { art: Pot, tone: 'sun', anchor: serviceAnchors.collectiveKitchens },
+  { art: Sprout, tone: 'leaf', anchor: serviceAnchors.healthPromotion },
+  { art: Apple, tone: 'forest', anchor: serviceAnchors.schoolWork },
 ]
 
 export default function Home() {
@@ -36,30 +37,33 @@ export default function Home() {
     <>
       <PageMeta title={t('home.title')} />
 
-      {/* Hero */}
-      <section className={styles.hero}>
-        <div className={styles.heroBlob} aria-hidden="true" />
-        <div className={`${layout.container} ${styles.heroGrid}`}>
-          <div className={styles.heroCopy}>
-            <Eyebrow>{t('home.hero.eyebrow')}</Eyebrow>
-            <h1 className={styles.heroTitle}>
-              <Trans i18nKey="home.hero.title" components={{ accent: <Accent /> }} />
-            </h1>
-            <p className={styles.heroMeta}>{t('home.hero.meta')}</p>
-            <p className={styles.heroText}>{t('home.hero.text')}</p>
-            <div className={layout.actions}>
-              <Button href={mailto} dot>
-                {t('common.emailMe')}
-              </Button>
-              <Button to={url('services')} variant="outline">
-                {t('common.seeServices')}
-              </Button>
-            </div>
-          </div>
-
-          <Portrait alt={t('home.hero.photoAlt')} badge={t('home.hero.badge')} />
+      <PageHero
+        eyebrow={t('home.hero.eyebrow')}
+        title={<Trans i18nKey="home.hero.title" components={{ accent: <Accent /> }} />}
+        meta={t('home.hero.meta')}
+        text={t('home.hero.text')}
+        actions={
+          <>
+            <Button href={mailto} dot>
+              {t('common.emailMe')}
+            </Button>
+            <Button to={url('services')} variant="outline">
+              {t('common.seeServices')}
+            </Button>
+          </>
+        }
+        aside={
+          <Portrait
+            alt={t('home.hero.photoAlt')}
+            stickers={[t('home.hero.badge'), t('home.hero.badge2')]}
+          />
+        }
+      >
+        <div className={styles.audience}>
+          <p className={styles.audienceLabel}>{t('home.audience.title')}</p>
+          <ChipList items={audience} />
         </div>
-      </section>
+      </PageHero>
 
       {/* Profile and bio */}
       <section className={layout.section}>
@@ -77,14 +81,12 @@ export default function Home() {
             <p>{t('home.whoAmI.p1')}</p>
             <p>{t('home.whoAmI.p2')}</p>
             <p>{t('home.whoAmI.p3')}</p>
-            <Script>
-              <span className={styles.signature}>{t('home.whoAmI.signature')}</span>
-            </Script>
+            <div className={styles.signature}>
+              <Script>{t('home.whoAmI.signature')}</Script>
+            </div>
           </div>
         </div>
       </section>
-
-      <StatsBand title={t('home.stats.title')} text={t('home.stats.text')} stats={stats} />
 
       {/* Services overview */}
       <section className={layout.section}>
@@ -97,26 +99,22 @@ export default function Home() {
             <p className={layout.lead}>{t('home.services.text')}</p>
           </div>
 
-          <ul className={styles.serviceGrid}>
+          <ul className={styles.tiles}>
             {services.map((service, i) => {
-              const { art: Art, tint, anchor } = serviceCards[i]
+              const { art: Art, tone, anchor } = serviceTiles[i]
               return (
-                <li key={service.title} className={styles.serviceCard}>
-                  <div className={`${styles.serviceArt} ${styles[tint]}`}>
-                    <Art className={styles.serviceIcon} />
-                    <span className={styles.serviceNumber} aria-hidden="true">
-                      {String(i + 1).padStart(2, '0')}
+                <li key={service.title}>
+                  <Link to={`${url('services')}#${anchor}`} className={`${styles.tile} ${styles[tone]}`}>
+                    <span className={styles.tileIcon} aria-hidden="true">
+                      <Art />
                     </span>
-                  </div>
-                  <div className={styles.serviceBody}>
-                    <Tag>{service.tag}</Tag>
-                    <h3>{service.title}</h3>
-                    <p>{service.text}</p>
-                    <Link to={`${url('services')}#${anchor}`} className={styles.arrowLink}>
-                      {service.link}
-                      <span aria-hidden="true"> →</span>
-                    </Link>
-                  </div>
+                    <span className={styles.tileTag}>{service.tag}</span>
+                    <span className={styles.tileTitle}>{service.title}</span>
+                    <span className={styles.tileText}>{service.text}</span>
+                    <span className={styles.tileLink}>
+                      {service.link} <span aria-hidden="true">→</span>
+                    </span>
+                  </Link>
                 </li>
               )
             })}
@@ -124,17 +122,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Audience */}
-      <section className={`${layout.section} ${layout.sand}`}>
-        <div className={`${layout.container} ${styles.audienceGrid}`}>
-          <div>
-            <Eyebrow>{t('home.audience.eyebrow')}</Eyebrow>
-            <h2>{t('home.audience.title')}</h2>
-            <p className={layout.lead}>{t('home.audience.text')}</p>
-          </div>
-          <ChipList items={audience} />
-        </div>
-      </section>
+      <div className={layout.section}>
+        <StatsBand
+          kicker={t('home.stats.kicker')}
+          title={t('home.stats.title')}
+          text={t('home.stats.text')}
+          stats={stats}
+        />
+      </div>
 
       {/* Credentials */}
       <section className={layout.section}>
@@ -166,12 +161,10 @@ export default function Home() {
               <p>{t('home.credentials.dietitiansCanada.text')}</p>
             </li>
             <li className={styles.credential}>
-              <Leaf className={styles.credentialLeaf} />
               <h3>{t('home.credentials.udem.title')}</h3>
               <p>{t('home.credentials.udem.text')}</p>
             </li>
             <li className={styles.credential}>
-              <Leaf className={styles.credentialLeaf} />
               <h3>{t('home.credentials.publicHealth.title')}</h3>
               <p>{t('home.credentials.publicHealth.text')}</p>
             </li>
@@ -185,10 +178,10 @@ export default function Home() {
         text={t('home.cta.text')}
         actions={
           <>
-            <Button href={mailto} variant="light" dot>
+            <Button href={mailto} dot>
               {t('common.emailMe')}
             </Button>
-            <Button href={site.phoneHref} variant="outlineLight">
+            <Button href={site.phoneHref} variant="light">
               {site.phone}
             </Button>
           </>

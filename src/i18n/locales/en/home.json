@@ -1,11 +1,12 @@
 {
   "title": "Public health dietitian-nutritionist, Calgary",
   "hero": {
-    "eyebrow": "Public health dietitian-nutritionist",
+    "eyebrow": "Hi, I’m Céline!",
     "title": "Eat well, <accent>live well.</accent>",
-    "meta": "Céline Bossé, Dt.P./RD · Calgary, Alberta",
+    "meta": "Public health dietitian-nutritionist · Calgary, Alberta",
     "text": "My role in public health is to promote healthy lifestyles by making nutrition science accessible. A nutrition graduate for over 25 years, I lead workshops and talks in French in Calgary and Southern Alberta.",
     "badge": "Dt.P. / RD",
+    "badge2": "25 years of experience",
     "photoAlt": "Céline Bossé, dietitian, smiling, wearing a scarf and an RD pin"
   },
   "profile": {
@@ -23,6 +24,7 @@
     "signature": "eat well, live well!"
   },
   "stats": {
+    "kicker": "By the numbers",
     "title": "Ten years of Ateliers cinq épices in Alberta",
     "text": "Since 2015, little chefs have been handling, measuring, cutting and tasting. The results speak for themselves.",
     "items": [

@@ -109,12 +109,14 @@ export default function Services() {
         <Timeline items={t('services.cinqEpices.timeline', { returnObjects: true })} />
       </Service>
 
-      <StatsBand
-        title={t('services.cinqEpices.stats.title')}
-        text={t('services.cinqEpices.stats.text')}
-        stats={t('services.cinqEpices.stats.items', { returnObjects: true })}
-        footnote={<Trans i18nKey="services.cinqEpices.stats.footnote" components={{ strong: <strong /> }} />}
-      />
+      <div className={layout.section}>
+        <StatsBand
+          title={t('services.cinqEpices.stats.title')}
+          text={t('services.cinqEpices.stats.text')}
+          stats={t('services.cinqEpices.stats.items', { returnObjects: true })}
+          footnote={<Trans i18nKey="services.cinqEpices.stats.footnote" components={{ strong: <strong /> }} />}
+        />
+      </div>
 
       {/* 02 Cuisines collectives */}
       <Service id="collectiveKitchens" number={2}>
@@ -166,10 +168,10 @@ export default function Services() {
         text={t('services.cta.text')}
         actions={
           <>
-            <Button href={mailto} variant="light" dot>
+            <Button href={mailto} dot>
               {t('common.emailMe')}
             </Button>
-            <Button to={url('contact')} variant="outlineLight">
+            <Button to={url('contact')} variant="light">
               {t('services.cta.allContacts')}
             </Button>
           </>

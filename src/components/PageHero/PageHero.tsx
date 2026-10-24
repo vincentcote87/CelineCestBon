@@ -10,23 +10,23 @@ type Props = {
   meta?: string
   text: string
   actions?: ReactNode
-  // Optional visual on the right (e.g. the portrait). Without one, a soft
-  // blush circle with a tomato and leaf decorates the corner.
+  // Optional visual on the right (e.g. the portrait), sitting on the panel's bottom edge.
   aside?: ReactNode
+  // Extra content below the panel (jump links, contact cards…).
   children?: ReactNode
 }
 
-// Top section of the inner pages (About, Services, Contact).
+// Big rounded sage panel at the top of every page.
 export default function PageHero({ eyebrow, title, meta, text, actions, aside, children }: Props) {
   return (
-    <section className={`${styles.hero} ${aside ? styles.withAside : ''}`}>
-      {!aside && (
-        <div className={styles.decor} aria-hidden="true">
-          <Tomato className={styles.tomato} />
-          <Leaf className={styles.leaf} />
-        </div>
-      )}
-      <div className={`${layout.container} ${styles.grid}`}>
+    <section className={`${layout.container} ${styles.hero}`}>
+      <div className={`${styles.panel} ${aside ? styles.withAside : ''}`}>
+        {!aside && (
+          <div className={styles.decor} aria-hidden="true">
+            <Tomato className={styles.tomato} />
+            <Leaf className={styles.leaf} />
+          </div>
+        )}
         <div className={styles.copy}>
           <Eyebrow>{eyebrow}</Eyebrow>
           <h1 className={styles.title}>{title}</h1>
@@ -36,7 +36,7 @@ export default function PageHero({ eyebrow, title, meta, text, actions, aside, c
         </div>
         {aside}
       </div>
-      {children && <div className={layout.container}>{children}</div>}
+      {children}
     </section>
   )
 }

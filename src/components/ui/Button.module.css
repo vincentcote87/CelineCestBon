@@ -2,10 +2,11 @@
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
-  padding: 0.8rem 1.5rem;
+  min-height: 3.25rem;
+  padding: 0 1.75rem;
   border: 2px solid transparent;
   border-radius: var(--radius-pill);
-  font: 600 0.975rem/1.2 var(--font-body);
+  font: 700 1rem/1.2 var(--font-body);
   text-decoration: none;
   transition:
     background-color 0.15s,
@@ -15,59 +16,63 @@
 }
 
 .button:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
 .dot {
-  width: 0.45rem;
-  height: 0.65rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 50%;
   background: currentColor;
 }
 
+/* Tomato red: the main action. */
 .primary {
-  background: var(--color-red);
+  background: var(--color-accent);
   color: #fff;
-  box-shadow: 0 6px 16px rgb(200 40 30 / 25%);
 }
 
 .primary:hover {
-  background: var(--color-red-dark);
+  background: var(--color-accent-dark);
 }
 
+/* Dark green. */
 .secondary {
-  background: var(--color-green-dark);
+  background: var(--color-ink);
   color: #fff;
 }
 
 .secondary:hover {
-  background: #1f4d29;
+  background: #0d1f13;
 }
 
+/* White pill on light backgrounds. */
 .outline {
-  border-color: var(--color-text);
-  color: var(--color-text);
+  background: var(--color-surface);
+  color: var(--color-ink);
+  box-shadow: var(--shadow-sm);
 }
 
 .outline:hover {
-  background: var(--color-text);
-  color: #fff;
+  box-shadow: var(--shadow-md);
 }
 
+/* White pill on dark backgrounds. */
 .light {
   background: #fff;
-  color: var(--color-red);
+  color: var(--color-ink);
 }
 
 .light:hover {
-  background: var(--color-blush-soft);
+  background: var(--pastel-yellow);
 }
 
+/* Outlined pill on dark backgrounds. */
 .outlineLight {
-  border-color: rgb(255 255 255 / 85%);
+  border-color: rgb(255 255 255 / 70%);
   color: #fff;
 }
 
 .outlineLight:hover {
-  background: rgb(255 255 255 / 12%);
+  background: rgb(255 255 255 / 10%);
 }

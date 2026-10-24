@@ -1,50 +1,59 @@
 .hero {
+  padding-top: var(--space-sm);
+}
+
+.panel {
   position: relative;
   overflow: hidden;
-  padding: var(--space-xl) 0;
+  display: grid;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.5rem, 5vw, 3.5rem);
+  border-radius: var(--radius-lg);
+  background: var(--color-sage);
+}
+
+/* With a portrait, the photo sits flush on the panel's bottom edge. */
+.withAside {
+  grid-template-columns: 1.05fr 0.95fr;
+  align-items: end;
+  padding-bottom: 0;
+}
+
+.withAside .copy {
+  padding-bottom: clamp(2.5rem, 6vw, 4.5rem);
 }
 
 .decor {
   position: absolute;
-  top: -9rem;
-  right: -7rem;
-  width: 26rem;
-  height: 26rem;
+  top: -5rem;
+  right: -4rem;
+  width: 20rem;
+  height: 20rem;
   border-radius: 50%;
-  background: var(--color-blush);
-  opacity: 0.85;
+  background: var(--color-yellow);
 }
 
 .tomato {
   position: absolute;
-  left: 30%;
+  left: 22%;
   bottom: 22%;
-  width: 3.75rem;
+  width: 4rem;
+  transform: rotate(-10deg);
 }
 
 .leaf {
   position: absolute;
-  left: 6%;
-  bottom: 6%;
-  width: 2.75rem;
-  color: var(--color-green-dark);
-  transform: rotate(-12deg);
-}
-
-.grid {
-  position: relative;
-  display: grid;
-  align-items: center;
-  gap: var(--space-xl);
-}
-
-.withAside .grid {
-  grid-template-columns: 1.1fr 0.9fr;
+  left: 2%;
+  bottom: 8%;
+  width: 3rem;
+  color: var(--color-green);
+  transform: rotate(-20deg);
 }
 
 .copy {
-  max-width: 40rem;
-  padding: var(--space-lg) 0 var(--space-md);
+  position: relative;
+  max-width: 42rem;
 }
 
 .title {
@@ -53,12 +62,13 @@
 
 .meta {
   margin-bottom: var(--space-sm);
-  color: var(--color-muted);
+  font-weight: 700;
 }
 
 .text {
+  max-width: 34rem;
   margin-bottom: var(--space-lg);
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .text:last-child {
@@ -66,23 +76,25 @@
 }
 
 @media (max-width: 860px) {
-  .withAside .grid {
+  .withAside {
     grid-template-columns: 1fr;
   }
 
-  .copy {
-    padding-top: 0;
+  .withAside .copy {
+    padding-bottom: 0;
   }
 
   .decor {
-    width: 16rem;
-    height: 16rem;
-    top: -8rem;
-    right: -6rem;
+    width: 11rem;
+    height: 11rem;
+    top: -4.5rem;
+    right: -4rem;
   }
 
   .tomato {
     width: 2.5rem;
+    left: 18%;
+    bottom: 18%;
   }
 
   .leaf {

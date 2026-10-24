@@ -1,59 +1,40 @@
-.band {
-  color: #fff;
-  background-color: var(--color-green);
-  /* Dotted texture. */
-  background-image: radial-gradient(rgb(255 255 255 / 14%) 1px, transparent 1.2px);
-  background-size: 22px 22px;
+.panel {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  border-radius: var(--radius-lg);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
 }
 
-.inner {
-  position: relative;
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: var(--space-2xl) var(--gutter);
-}
-
-.tomato {
-  position: absolute;
-  top: 3.5rem;
-  right: var(--gutter);
-  width: 3.25rem;
-  transform: rotate(-12deg);
-}
-
-.leaf {
-  position: absolute;
-  top: 9rem;
-  right: calc(var(--gutter) + 5rem);
-  width: 2.5rem;
-  color: #a7d672;
-  transform: rotate(-20deg);
+.wide {
+  grid-template-columns: 1fr;
 }
 
 .header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: var(--space-md);
-  margin-bottom: var(--space-lg);
-  padding-right: 4rem;
+  max-width: 34rem;
 }
 
 .title {
-  max-width: 34rem;
-  font-size: clamp(2rem, 4.2vw, 2.9rem);
+  margin-bottom: var(--space-sm);
+  font-size: clamp(2rem, 4vw, 2.6rem);
 }
 
 .text {
-  max-width: 22rem;
-  font-size: 1.05rem;
+  color: var(--color-muted);
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-lg) var(--space-md);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.875rem;
   margin: 0;
+}
+
+.wide .grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 /* Label comes first in the markup (dt before dd) but shows under the number. */
@@ -61,36 +42,53 @@
   display: flex;
   flex-direction: column-reverse;
   justify-content: flex-end;
-  gap: 0.35rem;
-  padding-top: var(--space-md);
-  border-top: 1px solid rgb(255 255 255 / 45%);
+  gap: 0.4rem;
+  padding: 1.4rem;
+  border-radius: var(--radius);
+  background: var(--pastel-pink);
+}
+
+.stat:nth-child(4n + 2) {
+  background: var(--pastel-yellow);
+}
+
+.stat:nth-child(4n + 3) {
+  background: var(--pastel-green);
+}
+
+.stat:nth-child(4n + 4) {
+  background: var(--pastel-blue);
 }
 
 .value {
   margin: 0;
   font-family: var(--font-heading);
-  font-size: clamp(2.4rem, 4.5vw, 3.1rem);
-  font-weight: 700;
+  font-size: clamp(2.2rem, 4vw, 2.8rem);
+  font-weight: 800;
   line-height: 1;
-  letter-spacing: -0.02em;
-}
-
-.plus {
-  color: #f6c945;
+  letter-spacing: -0.03em;
 }
 
 .label {
-  font-size: 0.95rem;
-  line-height: 1.4;
+  font-size: 0.925rem;
+  line-height: 1.35;
 }
 
 .footnote {
-  margin-top: var(--space-lg);
-  max-width: 44rem;
+  max-width: 48rem;
+  color: var(--color-muted);
 }
 
-@media (max-width: 860px) {
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
+.footnote strong {
+  color: var(--color-ink);
+}
+
+@media (max-width: 960px) {
+  .panel {
+    grid-template-columns: 1fr;
+  }
+
+  .wide .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }

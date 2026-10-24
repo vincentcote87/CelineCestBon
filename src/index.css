@@ -1,29 +1,30 @@
-/* Global design tokens: change colours, fonts and spacing here. */
+/* Global design tokens ("Jardin" direction): change colours, fonts and spacing here. */
 :root {
   /* Base */
-  --color-bg: #fbf7f1;
+  --color-bg: #fbfaf3;
   --color-surface: #ffffff;
-  --color-sand: #f4ece1;
-  --color-text: #1f1b17;
-  --color-muted: #5f5750;
-  --color-border: #e9dfd2;
+  --color-ink: #17301f;
+  --color-muted: #4b5e4f;
+  --color-border: #e3e8dc;
 
   /* Brand */
-  --color-red: #c8281e;
-  --color-red-dark: #a51f17;
-  --color-red-bright: #d9301f;
-  --color-green: #2f8a3b;
-  --color-green-dark: #2a6435;
-  --color-sage: #e2edd9;
-  --color-sage-strong: #c9dfba;
-  --color-blush: #f5d6cc;
-  --color-blush-soft: #faece6;
-  --color-numeral: #ecc4b8;
+  --color-accent: #d33b21;
+  --color-accent-dark: #b02f18;
+  --color-green: #2f7a3d;
+  --color-yellow: #f4c64a;
+  --color-sage: #dcebc9;
+
+  /* Pastels for chips, tiles and bubbles */
+  --pastel-pink: #fde3dc;
+  --pastel-yellow: #fff2c9;
+  --pastel-green: #e4f0d6;
+  --pastel-blue: #e2ecf5;
+  --pastel-lilac: #f1e6f3;
 
   /* Type */
-  --font-body: 'Work Sans Variable', system-ui, 'Segoe UI', sans-serif;
-  --font-heading: 'Fraunces Variable', Georgia, 'Times New Roman', serif;
-  --font-script: 'Dancing Script Variable', 'Brush Script MT', cursive;
+  --font-body: 'DM Sans Variable', system-ui, 'Segoe UI', sans-serif;
+  --font-heading: 'Bricolage Grotesque Variable', 'DM Sans Variable', system-ui, sans-serif;
+  --font-script: 'Caveat Variable', 'Segoe Print', cursive;
 
   /* Spacing */
   --space-2xs: 0.25rem;
@@ -32,17 +33,18 @@
   --space-md: 1.5rem;
   --space-lg: 2.5rem;
   --space-xl: 4rem;
-  --space-2xl: 6rem;
+  --space-2xl: 5.5rem;
 
   /* Layout */
-  --max-width: 1180px;
-  --gutter: clamp(1rem, 4vw, 2.5rem);
-  --radius-sm: 10px;
-  --radius: 18px;
-  --radius-lg: 28px;
+  --max-width: 1200px;
+  --gutter: clamp(1rem, 3.5vw, 2rem);
+  --radius-sm: 14px;
+  --radius: 24px;
+  --radius-lg: 40px;
   --radius-pill: 999px;
-  --shadow-sm: 0 1px 2px rgb(60 40 20 / 6%), 0 2px 8px rgb(60 40 20 / 5%);
-  --header-height: 4.75rem;
+  --shadow-sm: 0 2px 12px rgb(23 48 31 / 7%);
+  --shadow-md: 0 8px 24px rgb(23 48 31 / 12%);
+  --header-height: 5rem;
 }
 
 *,
@@ -64,8 +66,8 @@ html {
 
 body {
   margin: 0;
-  font: 400 1.0625rem/1.65 var(--font-body);
-  color: var(--color-text);
+  font: 400 1.0625rem/1.6 var(--font-body);
+  color: var(--color-ink);
   background: var(--color-bg);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -77,24 +79,27 @@ h3,
 h4 {
   margin: 0;
   font-family: var(--font-heading);
-  font-weight: 600;
-  font-variation-settings: 'opsz' 72;
-  line-height: 1.08;
-  letter-spacing: -0.02em;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.035em;
   text-wrap: balance;
 }
 
 h1 {
-  font-size: clamp(2.5rem, 6vw, 4.25rem);
+  font-size: clamp(2.75rem, 7vw, 5.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.04em;
 }
 
 h2 {
-  font-size: clamp(2rem, 4.2vw, 3rem);
+  font-size: clamp(2.1rem, 4.4vw, 3rem);
 }
 
 h3 {
-  font-size: clamp(1.3rem, 2vw, 1.55rem);
-  font-variation-settings: 'opsz' 36;
+  font-size: clamp(1.4rem, 2.2vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
 }
 
 p {
@@ -109,7 +114,7 @@ svg {
 }
 
 a {
-  color: var(--color-red);
+  color: var(--color-ink);
 }
 
 ul {
@@ -118,7 +123,7 @@ ul {
 }
 
 :focus-visible {
-  outline: 3px solid var(--color-green);
+  outline: 3px solid var(--color-accent);
   outline-offset: 3px;
 }
 

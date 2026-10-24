@@ -1,98 +1,78 @@
 .portrait {
   position: relative;
   justify-self: center;
+  align-self: end;
   width: min(100%, 26rem);
-  aspect-ratio: 1;
 }
 
-.portraitRing {
+.arch {
   position: absolute;
-  inset: -6%;
-  border-radius: 50%;
-  border: 1.75rem solid var(--color-blush);
-  opacity: 0.75;
+  inset: 12% 4% 0;
+  border-radius: 48% 52% 0 0 / 56% 56% 0 0;
+  background: var(--color-yellow);
 }
 
-.portraitFrame {
-  position: absolute;
-  inset: 4%;
-  overflow: hidden;
-  border-radius: 50%;
-  background: linear-gradient(160deg, #fff 30%, var(--color-blush-soft));
-}
-
-.portraitImg {
-  position: absolute;
-  left: 50%;
-  bottom: 0;
-  width: 92%;
+.photo {
+  position: relative;
+  width: 100%;
   height: auto;
-  transform: translateX(-46%);
-}
-
-.badge {
-  position: absolute;
-  top: 9%;
-  left: -10%;
-  padding: 0.5rem 1rem;
-  border-radius: var(--radius-sm);
-  background: var(--color-surface);
-  box-shadow: var(--shadow-sm);
-  font-family: var(--font-script);
-  font-size: 1.35rem;
-  font-weight: 600;
-  transform: rotate(-6deg);
-}
-
-.dashes {
-  position: absolute;
-  top: -6%;
-  left: 2%;
-  width: 34%;
-}
-
-.food {
-  position: absolute;
-}
-
-.leafA {
-  top: 0;
-  right: -2%;
-  width: 16%;
-  color: #58a845;
-  transform: rotate(-40deg);
-}
-
-.leafB {
-  top: 14%;
-  right: -14%;
-  width: 20%;
-  color: var(--color-green-dark);
-  transform: rotate(-12deg);
 }
 
 .tomato {
-  bottom: 4%;
-  left: -6%;
-  width: 22%;
+  position: absolute;
+  top: 4%;
+  right: 2%;
+  width: 16%;
+  transform: rotate(14deg);
 }
 
-.pepper {
-  bottom: -6%;
-  left: 13%;
-  width: 15%;
-  transform: rotate(10deg);
+.leaf {
+  position: absolute;
+  top: 18%;
+  right: -6%;
+  width: 14%;
+  color: var(--color-green);
+  transform: rotate(-25deg);
 }
 
-.lime {
-  bottom: 2%;
+.sticker {
+  position: absolute;
+  z-index: 1;
+  padding: 0.75rem 1.1rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  font-size: 0.95rem;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.stickerLight {
+  top: 20%;
+  left: -8%;
+  background: var(--color-surface);
+  box-shadow: var(--shadow-md);
+  transform: rotate(-6deg);
+}
+
+.stickerDark {
+  bottom: 18%;
   right: -4%;
-  width: 22%;
+  background: var(--color-ink);
+  color: #fff;
+  transform: rotate(5deg);
 }
 
 @media (max-width: 860px) {
   .portrait {
-    width: min(78%, 22rem);
+    width: min(82%, 22rem);
     margin-top: var(--space-md);
+  }
+
+  .stickerLight {
+    left: -4%;
+  }
+
+  .stickerDark {
+    right: -2%;
   }
 }

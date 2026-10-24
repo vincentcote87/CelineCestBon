@@ -8,7 +8,10 @@ a draft or still missing. All text lives in `src/i18n/locales/fr/` and `en/`.
 
 | Where | Key | Notes |
 |---|---|---|
-| About: closing red band | `about.cta.*` | Not photographed. I wrote "Envie de collaborer ? / Cultivons ensemble." |
+| Home: hero greeting | `home.hero.eyebrow` | From the "Jardin" design mockup: "Bonjour, moi c’est Céline !" |
+| Home: photo stickers | `home.hero.badge`, `badge2` | "Dt.P. / RD" and "25 ans d’expérience". |
+| Home: stats label | `home.stats.kicker` | "En chiffres". |
+| About: closing band | `about.cta.*` | Not photographed. I wrote "Envie de collaborer ? / Cultivons ensemble." |
 | About: hero paragraph (FR) | `about.hero.text` | Only the English version was photographed, so the French is my translation. |
 | Home: hero buttons | `common.emailMe`, `common.seeServices` | Cut off in the photo. Assumed "Écrivez-moi" + "Voir les services". |
 | Contact: email checklist | `contact.prepare.steps` | Four steps were visible; the photo may have cut off a fifth. |
@@ -32,7 +35,7 @@ Calgary, Éducation Nutrition) are left in French.
 
 - **Privacy policy page.** The current site has one at `/privacy` and `/en-ca/privacy`.
 - **Favicon.** Still the default Vite icon; needs a small version of the logo.
-- **Logo.** The header uses the "CelineCestBon" wordmark typed in Dancing Script. Swap
+- **Logo.** The header uses a tomato mark plus "celinecestbon" typed in Bricolage Grotesque. Swap
   in the real logo file if there is one.
 - **Social sharing image** (the preview shown when the link is shared on Facebook or LinkedIn).
 

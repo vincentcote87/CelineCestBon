@@ -10,6 +10,19 @@ import styles from './Layout.module.css'
 const navPages: Page[] = ['home', 'about', 'services', 'contact']
 const year = new Date().getFullYear()
 
+// Tomato mark + lowercase wordmark.
+function Logo() {
+  return (
+    <>
+      <svg className={styles.logoMark} viewBox="0 0 34 34" aria-hidden="true">
+        <circle cx="17" cy="19" r="13" fill="var(--color-accent)" />
+        <path d="M17 7c2-4 6-5 9-4-1 4-5 6-9 5z" fill="var(--color-green)" />
+      </svg>
+      {site.name.toLowerCase()}
+    </>
+  )
+}
+
 export default function Layout() {
   const { t } = useTranslation()
   const { url } = useLanguage()
@@ -23,9 +36,11 @@ export default function Layout() {
     setMenuOpen(false)
   }
 
-  // Start each new page at the top, unless the link points to a section.
+  // Start each new page at the top, or at the section a "#id" link points to.
   useLayoutEffect(() => {
-    if (!hash) window.scrollTo(0, 0)
+    const target = hash && document.getElementById(decodeURIComponent(hash.slice(1)))
+    if (target) target.scrollIntoView()
+    else window.scrollTo(0, 0)
   }, [pathname, hash])
 
   const navLinkClass = ({ isActive }: { isActive: boolean }) =>
@@ -40,7 +55,7 @@ export default function Layout() {
       <header className={styles.header}>
         <div className={styles.headerInner}>
           <Link to={url('home')} className={styles.brand}>
-            {site.name}
+            <Logo />
           </Link>
 
           <button
@@ -82,7 +97,9 @@ export default function Layout() {
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
           <div className={styles.footerBrand}>
-            <p className={styles.brand}>{site.name}</p>
+            <p className={styles.brand}>
+              <Logo />
+            </p>
             <p>
               {t('footer.blurb')}
               <br />

@@ -1,12 +1,12 @@
 .tag {
   display: inline-block;
-  padding: 0.3rem 0.8rem;
+  padding: 0.35rem 0.85rem;
   border-radius: var(--radius-pill);
-  background: var(--color-sage);
-  color: var(--color-green-dark);
-  font-size: 0.72rem;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  font-size: 0.75rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
@@ -17,24 +17,27 @@
   list-style: none;
 }
 
+/* Each chip takes the next pastel in turn. */
 .chip {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.65rem;
-  padding: 0.7rem 1.25rem 0.7rem 0.9rem;
-  border: 1px solid var(--color-border);
+  padding: 0.7rem 1.25rem;
   border-radius: var(--radius-pill);
-  background: var(--color-surface);
-  box-shadow: var(--shadow-sm);
-  font-size: 0.95rem;
-  font-weight: 600;
+  background: var(--pastel-pink);
+  font-size: 0.975rem;
+  font-weight: 500;
 }
 
-.chip::before {
-  content: '';
-  flex: none;
-  width: 1.05rem;
-  height: 1.05rem;
-  border-radius: 50%;
-  background: var(--color-green-dark);
+.chip:nth-child(5n + 2) {
+  background: var(--pastel-yellow);
+}
+
+.chip:nth-child(5n + 3) {
+  background: var(--pastel-green);
+}
+
+.chip:nth-child(5n + 4) {
+  background: var(--pastel-blue);
+}
+
+.chip:nth-child(5n + 5) {
+  background: var(--pastel-lilac);
 }

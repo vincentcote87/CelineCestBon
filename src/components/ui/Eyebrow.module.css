@@ -1,52 +1,33 @@
-.eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  margin-bottom: var(--space-sm);
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.16em;
-  text-transform: uppercase;
-  color: var(--color-green-dark);
+.eyebrow,
+.script {
+  font-family: var(--font-script);
+  font-weight: 600;
+  line-height: 1.1;
+  transform: rotate(-2.5deg);
+  transform-origin: left;
 }
 
-.leaf {
-  width: 1.1rem;
-  color: #58a845;
+.eyebrow {
+  margin-bottom: var(--space-xs);
+  font-size: 1.85rem;
+  color: var(--color-accent);
 }
 
 .light {
-  color: #fff;
-}
-
-.light .leaf {
-  color: var(--color-sage-strong);
-}
-
-.accent {
-  position: relative;
-  display: inline-block;
-  color: var(--color-red);
-  font-style: italic;
-  font-weight: 500;
-  padding-bottom: 0.08em;
-}
-
-/* Hand-drawn underline swoosh. */
-.accent::after {
-  content: '';
-  position: absolute;
-  left: 2%;
-  right: 4%;
-  bottom: -0.08em;
-  height: 0.16em;
-  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'%3E%3Cpath d='M2 7C50 2 130 1 198 5' stroke='%2358a845' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E")
-    no-repeat center / 100% 100%;
+  color: var(--color-yellow);
 }
 
 .script {
   margin-bottom: var(--space-2xs);
-  font-family: var(--font-script);
-  font-size: 1.35rem;
-  line-height: 1.2;
+  font-size: 1.9rem;
+  color: var(--color-yellow);
+}
+
+/* Yellow highlighter behind the lower part of the word. */
+.accent {
+  font-style: normal;
+  background: linear-gradient(transparent 58%, var(--color-yellow) 58%, var(--color-yellow) 92%, transparent 92%);
+  padding: 0 0.06em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }

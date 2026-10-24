@@ -1,11 +1,12 @@
 {
   "title": "Diététiste-nutritionniste en santé publique, Calgary",
   "hero": {
-    "eyebrow": "Diététiste-nutritionniste en santé publique",
+    "eyebrow": "Bonjour, moi c’est Céline !",
     "title": "Qui mange bien, <accent>vit bien.</accent>",
-    "meta": "Céline Bossé, Dt.P./RD · Calgary, Alberta",
+    "meta": "Diététiste-nutritionniste en santé publique · Calgary, Alberta",
     "text": "Mon rôle en santé publique est de promouvoir de saines habitudes de vie par la vulgarisation de la science en nutrition. Diplômée en nutrition depuis plus de 25 ans, j’anime des ateliers et des conférences en français, à Calgary et dans le sud de l’Alberta.",
     "badge": "Dt.P. / RD",
+    "badge2": "25 ans d’expérience",
     "photoAlt": "Céline Bossé, diététiste, souriante, portant un foulard et une épinglette RD"
   },
   "profile": {
@@ -23,6 +24,7 @@
     "signature": "qui mange bien, vit bien !"
   },
   "stats": {
+    "kicker": "En chiffres",
     "title": "Dix ans d’Ateliers cinq épices en Alberta",
     "text": "Depuis 2015, des petits cuistots qui manipulent, mesurent, coupent et goûtent. Les résultats parlent d’eux-mêmes.",
     "items": [

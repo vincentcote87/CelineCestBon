@@ -7,23 +7,26 @@
 }
 
 .section {
-  padding: var(--space-2xl) 0;
+  padding: var(--space-2xl) 0 0;
 }
 
+/* Soft green backdrop for an alternating section. */
 .sand {
-  background: var(--color-sand);
+  margin-top: var(--space-2xl);
+  padding-bottom: var(--space-2xl);
+  background: #f1f5e9;
 }
 
 .lead {
   max-width: 30rem;
   color: var(--color-muted);
-  font-size: 1.05rem;
+  font-size: 1.075rem;
 }
 
 .actions {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-sm);
+  gap: 0.75rem;
 }
 
 .splitHeader {
@@ -31,16 +34,21 @@
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
-  gap: var(--space-md) var(--space-xl);
-  margin-bottom: var(--space-xl);
+  gap: var(--space-sm) var(--space-xl);
+  margin-bottom: var(--space-lg);
 }
 
 .splitHeader h2 {
-  max-width: 34rem;
+  max-width: 38rem;
 }
 
 @media (max-width: 520px) {
   .section {
-    padding: var(--space-xl) 0;
+    padding-top: var(--space-xl);
+  }
+
+  .sand {
+    margin-top: var(--space-xl);
+    padding-bottom: var(--space-xl);
   }
 }
