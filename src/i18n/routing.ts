@@ -25,6 +25,16 @@ export const legacyRedirects: Record<string, Page> = {
   '/parcours-et-expertises': 'about',
 }
 
+// Folder the site is served from: "" at a domain's root, "/CelineCestBon" on GitHub
+// Pages (set at build time with `--base`). React Router paths never include it.
+export const basePath = import.meta.env.BASE_URL.replace(/\/$/, '')
+
+// Removes the base folder from a browser path, e.g. "/CelineCestBon/en-ca" -> "/en-ca".
+export function stripBase(pathname: string): string {
+  if (!basePath || !pathname.startsWith(basePath)) return pathname
+  return pathname.slice(basePath.length) || '/'
+}
+
 // Works out the language from a URL path, e.g. "/en-ca/contact" -> "en".
 export function languageFromPath(pathname: string): Language {
   const prefix = languagePrefix.en

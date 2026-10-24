@@ -61,6 +61,15 @@ client-side routing, the host must serve `index.html` for every path.
 `public/_redirects` does this for Netlify and Cloudflare Pages, and also 301-redirects
 the old `/parcours-et-expertises` URLs.
 
+### Preview on GitHub Pages
+
+Every push to `main` builds and publishes a preview to
+https://vincentcote87.github.io/CelineCestBon/ (`.github/workflows/deploy-pages.yml`).
+The workflow builds with `--base=/CelineCestBon/` because Pages serves the site from a
+sub-folder, copies `index.html` to `404.html` so direct links and refreshes work, and
+marks the pages `noindex` so search engines skip the preview.
+One-time setup: repository Settings → Pages → Source → **GitHub Actions**.
+
 ## Content
 
 - `docs/content-review.md`: placeholder, drafted and missing content to review.

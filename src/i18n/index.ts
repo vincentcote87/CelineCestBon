@@ -1,12 +1,12 @@
 import i18n from 'i18next'
 import { initReactI18next } from 'react-i18next'
 import { resources } from './resources.ts'
-import { defaultLanguage, languageFromPath, languages } from './routing.ts'
+import { defaultLanguage, languageFromPath, languages, stripBase } from './routing.ts'
 
 // The URL decides the language; LanguageRoute keeps i18n in sync as it changes.
 i18n.use(initReactI18next).init({
   resources,
-  lng: languageFromPath(window.location.pathname),
+  lng: languageFromPath(stripBase(window.location.pathname)),
   supportedLngs: languages,
   fallbackLng: defaultLanguage,
   interpolation: { escapeValue: false },
