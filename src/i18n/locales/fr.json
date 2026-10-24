@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "À propos",
+    "language": "Langue",
+    "switchTo": "English"
+  },
+  "footer": {
+    "rights": "Tous droits réservés"
+  },
+  "home": {
+    "title": "Bienvenue",
+    "intro": "Contenu temporaire. Le nouveau design arrive bientôt."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "back": "Retour à l’accueil"
+  }
+}

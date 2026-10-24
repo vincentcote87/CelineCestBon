@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "About",
+    "language": "Language",
+    "switchTo": "Français"
+  },
+  "footer": {
+    "rights": "All rights reserved"
+  },
+  "home": {
+    "title": "Welcome",
+    "intro": "Placeholder content. The new design is coming soon."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "back": "Back to home"
+  }
+}
