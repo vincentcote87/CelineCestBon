@@ -41,7 +41,7 @@ export default function Home() {
         text={t('home.hero.text')}
         actions={
           <>
-            <Button href={mailto} dot>
+            <Button href={mailto}>
               {t('common.emailMe')}
             </Button>
             <Button to={url('services')} variant="outline">
@@ -130,7 +130,7 @@ export default function Home() {
       <CtaBand
         title={t('home.cta.title')}
         actions={
-          <Button href={mailto} dot>
+          <Button href={mailto}>
             {t('common.emailMe')}
           </Button>
         }

@@ -32,7 +32,7 @@ export default function About() {
         text={t('about.hero.text')}
         actions={
           <>
-            <Button href={mailto} dot>
+            <Button href={mailto}>
               {t('common.emailMe')}
             </Button>
             <Button to={url('services')} variant="outline">
@@ -110,7 +110,7 @@ export default function About() {
         text={t('about.cta.text')}
         actions={
           <>
-            <Button href={mailto} dot>
+            <Button href={mailto}>
               {t('common.emailMe')}
             </Button>
             <Button to={url('services')} variant="light">
