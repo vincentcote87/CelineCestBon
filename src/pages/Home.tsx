@@ -8,10 +8,8 @@ import { Apple, Pot, SpiceDots, Sprout } from '../components/Illustrations/Illus
 import PageHero from '../components/PageHero/PageHero.tsx'
 import PageMeta from '../components/PageMeta.tsx'
 import Portrait from '../components/Portrait/Portrait.tsx'
-import StatsBand from '../components/StatsBand/StatsBand.tsx'
 import Button from '../components/ui/Button.tsx'
 import { Accent, Eyebrow, Script } from '../components/ui/Eyebrow.tsx'
-import { ChipList } from '../components/ui/Tag.tsx'
 import { useLanguage } from '../i18n/useLanguage.ts'
 import { mailto, serviceAnchors, site } from '../site.ts'
 import layout from '../styles/layout.module.css'
@@ -29,15 +27,14 @@ export default function Home() {
   const { t } = useTranslation()
   const { url } = useLanguage()
 
-  const stats = t('home.stats.items', { returnObjects: true })
   const services = t('home.services.items', { returnObjects: true })
-  const audience = t('home.audience.items', { returnObjects: true })
 
   return (
     <>
       <PageMeta title={t('home.title')} />
 
       <PageHero
+        overline={t('home.hero.overline')}
         eyebrow={t('home.hero.eyebrow')}
         title={<Trans i18nKey="home.hero.title" components={{ accent: <Accent /> }} />}
         meta={t('home.hero.meta')}
@@ -58,12 +55,7 @@ export default function Home() {
             stickers={[t('home.hero.badge'), t('home.hero.badge2')]}
           />
         }
-      >
-        <div className={styles.audience}>
-          <p className={styles.audienceLabel}>{t('home.audience.title')}</p>
-          <ChipList items={audience} />
-        </div>
-      </PageHero>
+      />
 
       {/* Profile and bio */}
       <section className={layout.section}>
@@ -121,15 +113,6 @@ export default function Home() {
           </ul>
         </div>
       </section>
-
-      <div className={layout.section}>
-        <StatsBand
-          kicker={t('home.stats.kicker')}
-          title={t('home.stats.title')}
-          text={t('home.stats.text')}
-          stats={stats}
-        />
-      </div>
 
       {/* Credentials */}
       <section className={layout.section}>

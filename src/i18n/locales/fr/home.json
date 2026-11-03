@@ -1,10 +1,11 @@
 {
   "title": "Diététiste-nutritionniste en santé publique, Calgary",
   "hero": {
+    "overline": "Diététiste en santé publique",
     "eyebrow": "Bonjour, moi c’est Céline !",
-    "title": "Qui mange bien, <accent>vit bien.</accent>",
-    "meta": "Diététiste-nutritionniste en santé publique · Calgary, Alberta",
-    "text": "Mon rôle en santé publique est de promouvoir de saines habitudes de vie par la vulgarisation de la science en nutrition. Diplômée en nutrition depuis plus de 25 ans, j’anime des ateliers et des conférences en français, à Calgary et dans le sud de l’Alberta.",
+    "title": "Qui mange bien,\n<accent>vit bien !</accent>",
+    "meta": "Céline Bossé, Dt.P – Calgary, Alberta",
+    "text": "Mon rôle en santé publique est de promouvoir de saines habitudes de vie par la vulgarisation de la science en nutrition.\nDiplômée de l’Université de Montréal depuis plus de 25 ans, j’anime des ateliers et des conférences de sensibilisation aux bonnes pratiques alimentaires en Alberta.",
     "badge": "Dt.P. / RD",
     "badge2": "25 ans d’expérience",
     "photoAlt": "Céline Bossé, diététiste, souriante, portant un foulard et une épinglette RD"
@@ -22,29 +23,6 @@
     "p2": "Mère de deux enfants et jeune grand-mère, mon plus grand bonheur est d’accueillir ma famille et mes amis autour d’un bon repas. Ces moments de convivialité reflètent ma passion pour la cuisine, mon goût du partage et ma curiosité pour la palette infinie d’ingrédients frais et non transformés que l’on peut marier pour le plaisir des papilles.",
     "p3": "Cette passion, je l’ai vite transmise au quotidien de tout un chacun, en proposant des conseils nutritionnels fiables et fondés sur des données probantes, auprès des personnes et des communautés. Car aujourd’hui on le sait :",
     "signature": "qui mange bien, vit bien !"
-  },
-  "stats": {
-    "kicker": "En chiffres",
-    "title": "Dix ans d’Ateliers cinq épices en Alberta",
-    "text": "Depuis 2015, des petits cuistots qui manipulent, mesurent, coupent et goûtent. Les résultats parlent d’eux-mêmes.",
-    "items": [
-      {
-        "value": "1 740+",
-        "label": "jeunes de 3 à 12 ans"
-      },
-      {
-        "value": "347",
-        "label": "ateliers animés"
-      },
-      {
-        "value": "25",
-        "label": "écoles francophones et d’immersion française"
-      },
-      {
-        "value": "2015",
-        "label": "lancement en Alberta avec l’ACFA régionale de Calgary"
-      }
-    ]
   },
   "services": {
     "eyebrow": "Services",
@@ -75,19 +53,6 @@
         "text": "Sessions interactives d’une heure, Lunch & Learn, visites éducatives à l’épicerie et conférences pour démystifier les allégations et bien préparer la boîte à lunch.",
         "link": "Voir les formules"
       }
-    ]
-  },
-  "audience": {
-    "eyebrow": "Avec qui je travaille",
-    "title": "Un public de tout âge",
-    "text": "Des tout-petits aux aînés, en respectant les besoins culturels de chacun. Je travaille principalement en français.",
-    "items": [
-      "Écoles francophones et d’immersion",
-      "Services de garde et prématernelles",
-      "Organismes communautaires",
-      "Organismes à but non lucratif",
-      "Aînés",
-      "Groupes d’employés au travail"
     ]
   },
   "credentials": {

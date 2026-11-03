@@ -1,6 +1,7 @@
 {
   "title": "Public health dietitian-nutritionist, Calgary",
   "hero": {
+    "overline": "Public health dietitian",
     "eyebrow": "Hi, I’m Céline!",
     "title": "Eat well, <accent>live well.</accent>",
     "meta": "Public health dietitian-nutritionist · Calgary, Alberta",
@@ -22,29 +23,6 @@
     "p2": "As a mother of two and a young grandmother, my greatest joy is welcoming family and friends around a good meal. These moments of togetherness reflect my passion for cooking, my love of sharing, and my curiosity about the endless variety of fresh, unprocessed ingredients that can be combined to delight the taste buds.",
     "p3": "I quickly brought this passion into everyday life, offering reliable, evidence-based nutrition advice to individuals and communities. Because today, we know:",
     "signature": "eat well, live well!"
-  },
-  "stats": {
-    "kicker": "By the numbers",
-    "title": "Ten years of Ateliers cinq épices in Alberta",
-    "text": "Since 2015, little chefs have been handling, measuring, cutting and tasting. The results speak for themselves.",
-    "items": [
-      {
-        "value": "1,740+",
-        "label": "children aged 3 to 12"
-      },
-      {
-        "value": "347",
-        "label": "workshops delivered"
-      },
-      {
-        "value": "25",
-        "label": "francophone and French immersion schools"
-      },
-      {
-        "value": "2015",
-        "label": "launched in Alberta with the ACFA régionale de Calgary"
-      }
-    ]
   },
   "services": {
     "eyebrow": "Services",
@@ -75,19 +53,6 @@
         "text": "One-hour interactive sessions, Lunch & Learns, educational grocery store tours and talks to debunk nutrition claims and pack a better lunch box.",
         "link": "See the formats"
       }
-    ]
-  },
-  "audience": {
-    "eyebrow": "Who I work with",
-    "title": "People of all ages",
-    "text": "From toddlers to seniors, respecting everyone’s cultural needs. I work mainly in French.",
-    "items": [
-      "Francophone and immersion schools",
-      "Daycares and preschools",
-      "Community organizations",
-      "Non-profit organizations",
-      "Seniors",
-      "Workplace employee groups"
     ]
   },
   "credentials": {

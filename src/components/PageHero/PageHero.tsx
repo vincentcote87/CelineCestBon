@@ -5,6 +5,8 @@ import { Eyebrow } from '../ui/Eyebrow.tsx'
 import styles from './PageHero.module.css'
 
 type Props = {
+  // Small uppercase label above the eyebrow, e.g. "Diététiste en santé publique".
+  overline?: string
   eyebrow: string
   title: ReactNode
   meta?: string
@@ -17,7 +19,7 @@ type Props = {
 }
 
 // Big rounded sage panel at the top of every page.
-export default function PageHero({ eyebrow, title, meta, text, actions, aside, children }: Props) {
+export default function PageHero({ overline, eyebrow, title, meta, text, actions, aside, children }: Props) {
   return (
     <section className={`${layout.container} ${styles.hero}`}>
       <div className={`${styles.panel} ${aside ? styles.withAside : ''}`}>
@@ -28,6 +30,7 @@ export default function PageHero({ eyebrow, title, meta, text, actions, aside, c
           </div>
         )}
         <div className={styles.copy}>
+          {overline && <p className={styles.overline}>{overline}</p>}
           <Eyebrow>{eyebrow}</Eyebrow>
           <h1 className={styles.title}>{title}</h1>
           {meta && <p className={styles.meta}>{meta}</p>}

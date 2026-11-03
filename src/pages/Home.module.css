@@ -1,18 +1,3 @@
-/* Audience chips under the hero */
-
-.audience {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--space-sm);
-  margin-top: var(--space-lg);
-}
-
-.audienceLabel {
-  margin-right: var(--space-xs);
-  font-weight: 700;
-}
-
 /* Profile + bio */
 
 .introGrid {

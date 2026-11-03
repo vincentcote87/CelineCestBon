@@ -56,6 +56,15 @@
   max-width: 42rem;
 }
 
+.overline {
+  margin-bottom: var(--space-sm);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-green);
+}
+
 .title {
   margin-bottom: var(--space-md);
 }
