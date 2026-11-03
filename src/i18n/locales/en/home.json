@@ -1,64 +1,64 @@
 {
-  "title": "Public health dietitian-nutritionist, Calgary",
+  "title": "Public health dietitian, Calgary",
   "hero": {
     "overline": "Public health dietitian",
     "eyebrow": "Hi, I’m Céline!",
-    "title": "Eat well, <accent>live well.</accent>",
-    "meta": "Public health dietitian-nutritionist · Calgary, Alberta",
-    "text": "My role in public health is to promote healthy lifestyles by making nutrition science accessible. A nutrition graduate for over 25 years, I lead workshops and talks in French in Calgary and Southern Alberta.",
+    "title": "Eat well,\n<accent>live well!</accent>",
+    "meta": "Céline Bossé, RD – Calgary, Alberta",
+    "text": "My role in public health is to promote healthy lifestyles by making nutrition science accessible.\nA Université de Montréal graduate for over 25 years, I lead workshops and talks in Alberta that raise awareness of good eating habits.",
     "badge": "Dt.P. / RD",
     "badge2": "25 years of experience",
     "photoAlt": "Céline Bossé, dietitian, smiling, wearing a scarf and an RD pin"
   },
   "mission": {
-    "eyebrow": "Ma mission",
-    "title": "« L’alimentation à toutes les étapes de la vie. »",
+    "eyebrow": "My mission",
+    "title": "“Healthy eating at every stage of life.”",
     "paragraphs": [
-      "En tant que diététiste en santé publique, mon rôle est de sensibiliser le public à une saine alimentation.",
-      "Je propose des programmes communautaires et éducatifs afin de promouvoir une saine alimentation.",
-      "Je transmets à mon public le plaisir de cuisiner, le goût de manger sainement, et donc d’avoir un impact positif sur leurs habitudes de vie tout en préservant les exigences culturelles et sociales de chacun."
+      "As a public health dietitian, my role is to raise public awareness of healthy eating.",
+      "I offer community and educational programs to promote healthy eating.",
+      "I share with my audience the joy of cooking and a taste for eating well, and so have a positive impact on their lifestyle habits while respecting each person’s cultural and social needs."
     ]
   },
   "vision": {
-    "eyebrow": "Ma vision",
-    "quote": "« Plantez les graines de vos futures actions… Entretenez-les, et plus tard vous en récolterez les fruits. Vous goûterez alors la plénitude de l’accomplissement. »",
-    "conceptsLabel": "Concepts et engagements communautaires :",
-    "concepts": "La langue française comme lien social et culturel.\nLa synergie intergénérationnelle comme vecteur de connaissance.\nLa pluralité professionnelle en santé publique, un facteur de réussite."
+    "eyebrow": "My vision",
+    "quote": "“Plant the seeds of your future actions… Tend them, and later you will reap the fruits. Then you will taste the fullness of accomplishment.”",
+    "conceptsLabel": "Community concepts and commitments:",
+    "concepts": "The French language as a social and cultural bond.\nIntergenerational synergy as a vehicle for knowledge.\nProfessional diversity in public health, a key to success."
   },
   "whoAmI": {
-    "eyebrow": "Qui suis-je ?",
-    "title": "« La langue française et l’art culinaire, depuis toujours. »",
-    "p1": "Francophone en milieu minoritaire, je porte dans mon cœur la langue française et l’art de cuisiner depuis toujours.",
-    "p2": "Mère de deux enfants et jeune grand-mère, mon plus grand bonheur est d’accueillir ma famille et mes amis autour d’un bon repas. Ces moments de convivialité reflètent ma passion pour la cuisine, mon goût du partage et mon immense curiosité pour la palette infinie d’ingrédients frais et non transformés que l’on peut marier ensemble pour le plaisir des papilles.",
-    "p3": "Cette passion pour l’art culinaire, je l’ai très vite adaptée et transmise pour le quotidien de tout un chacun dans un objectif de vulgarisation et de bien-être en proposant des conseils nutritionnels fiables et fondés sur des données probantes auprès des personnes et des communautés. Car aujourd’hui on le sait :",
-    "signature": "qui mange bien, vit bien !"
+    "eyebrow": "Who am I?",
+    "title": "“The French language and the culinary arts, always.”",
+    "p1": "As a francophone living in a minority community, I have always carried a love of the French language and the art of cooking in my heart.",
+    "p2": "As a mother of two and a young grandmother, my greatest joy is welcoming family and friends around a good meal. These moments of togetherness reflect my passion for cooking, my love of sharing and my immense curiosity about the endless variety of fresh, unprocessed ingredients that can be combined to delight the taste buds.",
+    "p3": "I quickly adapted this passion for the culinary arts to everyday life and passed it on, aiming to make nutrition accessible and support well-being by offering reliable, evidence-based nutrition advice to individuals and communities. Because today, we know:",
+    "signature": "eat well, live well!"
   },
   "services": {
     "eyebrow": "Services",
-    "title": "« Quatre façons de mettre la santé au menu ! »",
+    "title": "“Four ways to put health on the menu!”",
     "items": [
       {
-        "tag": "Enfants de 3 à 12 ans",
+        "tag": "Children aged 3 to 12",
         "title": "Ateliers cinq épices Alberta",
-        "text": "Tous les élèves manipulent, mesurent et coupent les aliments. En cuisinant et en goûtant, nos petits cuistots découvrent de nouveaux aliments et développent leur autonomie alimentaire.",
+        "text": "Every child handles, measures and cuts the food. By cooking and tasting, our little chefs discover new foods and build independence in the kitchen.",
         "link": "Learn more"
       },
       {
-        "tag": "Adultes",
-        "title": "Cuisines collectives, du partage au savoir",
-        "text": "Des ateliers en petits groupes pour retrouver un savoir-faire culinaire : choix des ingrédients, préparation, cuisson, mode et durée de conservation. Des recettes saines, économiques et prêtes en moins de 30 minutes.",
+        "tag": "Adults",
+        "title": "Community kitchens, from sharing to know-how",
+        "text": "Small-group workshops to rediscover cooking skills: choosing ingredients, preparing, cooking, and how and how long to store food. Healthy, budget-friendly recipes ready in under 30 minutes.",
         "link": "Learn more"
       },
       {
-        "tag": "Adultes et familles",
-        "title": "Promotion de la santé alimentaire",
-        "text": "Par des quiz et des jeux questionnaires, nous revoyons vos habitudes alimentaires et trouvons des solutions adaptées à votre mode de vie, à chaque passage de la vie.",
+        "tag": "Adults and families",
+        "title": "Healthy eating promotion",
+        "text": "Through quizzes and question games, we review your eating habits and find solutions that fit your lifestyle, at every stage of life.",
         "link": "Learn more"
       },
       {
-        "tag": "Adultes",
-        "title": "La santé alimentaire en milieu de travail",
-        "text": "Offre de sessions interactives d’une heure : dîner-causerie, visites éducatives à l’épicerie, conférences, préparation d’une boîte à lunch, etc.",
+        "tag": "Adults",
+        "title": "Healthy eating in the workplace",
+        "text": "One-hour interactive sessions: lunch talks, educational grocery store tours, talks, packing a lunch box and more.",
         "link": "Learn more"
       }
     ]

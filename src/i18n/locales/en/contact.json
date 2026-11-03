@@ -2,23 +2,23 @@
   "title": "Contact",
   "hero": {
     "eyebrow": "Contact",
-    "title": "Pour me <accent>joindre…</accent>",
+    "title": "How to <accent>reach me…</accent>",
     "text": [
-      "Céline Bossé, Dt.P., diététiste en santé publique",
-      "Un courriel ou un appel suffit pour débuter."
+      "Céline Bossé, RD, public health dietitian",
+      "An email or a call is all it takes to get started."
     ]
   },
   "email": { "label": "Email" },
   "phone": { "label": "Phone" },
   "prepare": {
-    "eyebrow": "Pour bien préparer votre demande",
-    "title": "Quoi inclure dans votre courriel ?",
-    "text": "Quelques détails pourraient m’aider à vous proposer le bon atelier.",
+    "eyebrow": "Preparing your request",
+    "title": "What to include in your email?",
+    "text": "A few details could help me suggest the right workshop.",
     "steps": [
-      { "title": "Votre organisme", "text": "École, service de garde, organisme communautaire, entreprise." },
-      { "title": "Votre groupe", "text": "Quel public et combien sont-ils ?" },
-      { "title": "Vos dates", "text": "Les dates ou la période souhaitées et le lieu privilégié." },
-      { "title": "Le thème", "text": "Atelier cinq épices Alberta, cuisine collective, promotion de la santé alimentaire, la santé alimentaire en milieu de travail." }
+      { "title": "Your organization", "text": "School, childcare service, community organization, business." },
+      { "title": "Your group", "text": "Who is the audience and how many people?" },
+      { "title": "Your dates", "text": "The preferred dates or period, and the preferred location." },
+      { "title": "The topic", "text": "Ateliers cinq épices Alberta, community kitchen, healthy eating promotion, healthy eating in the workplace." }
     ]
   }
 }

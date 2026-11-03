@@ -10,10 +10,8 @@ is still a guess, a draft or missing. All text lives in `src/i18n/locales/fr/` a
 
 | Where | Key | Notes |
 |---|---|---|
-| Home: hero greeting | `home.hero.eyebrow` | From the "Jardin" design mockup: "Bonjour, moi c’est Céline !" |
 | Home: photo stickers | `home.hero.badge`, `badge2` | "Dt.P. / RD" and "25 ans d’expérience". |
 | About: closing band | `about.cta.*` | Not photographed. I wrote "Envie de collaborer ? / Cultivons ensemble." The corrections keep the kicker only; the title and text are still mine. |
-| Home: hero buttons | `common.emailMe`, `common.seeServices` | Cut off in the photo. Assumed "Écrivez-moi" + "Voir les services". |
 | Image descriptions | `home.hero.photoAlt` | Screen-reader text for the headshot. |
 | Search description | `meta.description` | The summary Google shows under the link. |
 
@@ -23,9 +21,10 @@ is still a guess, a draft or missing. All text lives in `src/i18n/locales/fr/` a
 
 ## Drafted translations
 
-All English text is my draft, except the About hero, which was photographed in English.
-Brand and program names (Ateliers Cinq Épices, Réseau santé Alberta, ACFA régionale de
-Calgary, Éducation Nutrition) are left in French.
+All English text is my translation of the corrected French (see the "Version anglaise"
+section of `docs/corrections-notes.md`). Brand and program names (Les Ateliers cinq
+épices, Réseau santé Alberta, ACFA régionale de Calgary, ÉducationNutrition) are left
+in French.
 
 ## Still missing
 

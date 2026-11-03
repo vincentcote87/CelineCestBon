@@ -2,54 +2,54 @@
   "title": "Services: nutrition workshops and talks",
   "hero": {
     "eyebrow": "Services",
-    "title": "« Des activités pour <accent>tous les âges.</accent> »",
-    "text": "Depuis une quinzaine d’années, j’organise et j’anime des programmes communautaires et éducatifs en santé alimentaire. Voici les quatre volets que je propose aux écoles, aux services de garde, aux organismes (OSBL) et aux entreprises.",
+    "title": "“Activities for <accent>all ages.</accent>”",
+    "text": "For some fifteen years, I have been organizing and leading community and educational programs on healthy eating. Here are the four programs I offer to schools, childcare services, non-profit organizations and businesses.",
     "jumpNav": "The four services"
   },
   "labels": {
-    "forWho": "Pour qui",
+    "forWho": "Who it’s for",
     "format": "Format",
-    "approach": "Notre approche",
-    "mission": "Notre mission",
-    "history": "Notre histoire",
-    "themes": "Thèmes proposés pour vous accompagner :",
-    "services": "Les services"
+    "approach": "Our approach",
+    "mission": "Our mission",
+    "history": "Our story",
+    "themes": "Suggested topics to support you:",
+    "services": "The services"
   },
   "cinqEpices": {
     "short": "Ateliers cinq épices Alberta",
-    "tag": "Enfants de 2 à 12 ans",
-    "duration": "Durée : 45 ou 90 minutes",
+    "tag": "Children aged 2 to 12",
+    "duration": "Length: 45 or 90 minutes",
     "title": "Ateliers cinq épices Alberta",
-    "tagline": "« Apprendre en s’amusant ! »",
-    "button": "Réservez un atelier",
-    "approach": "Tous les élèves manipulent, mesurent et coupent les aliments. En cuisinant et en goûtant, nos petits cuistots intègrent les notions d’une saine alimentation, découvrent de nouveaux aliments et développent une autonomie alimentaire.",
-    "approachQuote": "« Les savoir-faire manuels qui englobent les cinq sens, stimulent tant le côté cognitif que sensoriel de l’enfant, le tout dans une ambiance festive et ludique, propice à la découverte. Les ateliers se décrivent comme une expérience d’apprentissage à la nutrition et à l’art culinaire axée sur le plaisir, l’éveil sensoriel, le tout visant à favoriser la santé. »",
-    "approachSource": "Source : Les Ateliers cinq épices",
-    "mission": "Promouvoir l’éducation nutritionnelle et culinaire et favoriser le développement social par le biais de l’alimentation auprès de la clientèle du préscolaire et du scolaire, de leur famille et des adultes en général.",
+    "tagline": "“Learning through play!”",
+    "button": "Book a workshop",
+    "approach": "Every child handles, measures and cuts the food. By cooking and tasting, our little chefs learn the basics of healthy eating, discover new foods and build independence in the kitchen.",
+    "approachQuote": "“Hands-on skills that engage all five senses stimulate both the child’s cognitive and sensory development, in a festive, playful atmosphere that encourages discovery. The workshops are a learning experience in nutrition and the culinary arts focused on fun and sensory awakening, all aimed at promoting health.”",
+    "approachSource": "Source: Les Ateliers cinq épices",
+    "mission": "To promote nutrition and cooking education and encourage social development through food, for preschool and school-age children, their families and adults in general.",
     "values": [
-      "Plaisir",
-      "Expériences",
-      "Découvertes",
-      "Jeux"
+      "Fun",
+      "Experiences",
+      "Discoveries",
+      "Games"
     ],
     "timeline": [
-      { "title": "2003, la naissance des Ateliers cinq épices", "text": "C’est à Montréal, au Québec, que les Ateliers cinq épices sont nés avec pour objectif de favoriser l’éducation nutritionnelle et culinaire auprès des enfants (2 à 12 ans) et leur famille." },
-      { "title": "2015 à 2020, un projet pilote en Alberta", "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme des Ateliers cinq épices en Alberta. Celle-ci devient la première province à proposer ces ateliers en dehors du Québec." },
-      { "title": "2020 à 2026, adaptation du programme à l’Alberta", "text": "Le projet est aligné sur les normes du ministère de l’Éducation de l’Alberta et sur les principes des Écoles en santé." },
-      { "title": "2026 à 2029, lancement du programme les Ateliers cinq épices - Alberta en tant que tel", "text": "Un programme pérenne qui s’adapte à la province albertaine pour tous les jeunes (2 à 12 ans). Les ateliers sont spécifiquement adaptés en fonction de l’âge des enfants, valorisant ainsi les différentes compétences à développer." }
+      { "title": "2003, Les Ateliers cinq épices are born", "text": "Les Ateliers cinq épices were founded in Montréal, Quebec, to promote nutrition and cooking education for children (aged 2 to 12) and their families." },
+      { "title": "2015 to 2020, a pilot project in Alberta", "text": "The ACFA régionale de Calgary partners with CelineCestBon to bring the Ateliers cinq épices program to Alberta. It becomes the first province to offer these workshops outside Quebec." },
+      { "title": "2020 to 2026, adapting the program to Alberta", "text": "The project is aligned with Alberta Education standards and the principles of Health Promoting Schools." },
+      { "title": "2026 to 2029, launch of the Ateliers cinq épices - Alberta program in its own right", "text": "A lasting program that adapts to Alberta for all young people (aged 2 to 12). The workshops are tailored to the children’s age, building the different skills they need to develop." }
     ],
-    "historyText": "Le programme met en lumière la collaboration de cinq acteurs principaux : les enfants, les parents, les écoles, la communauté et les bailleurs de fonds.",
+    "historyText": "The program highlights the collaboration of five key partners: children, parents, schools, the community and funders.",
     "forWho": [
-      "Centres de la petite enfance",
-      "Services de garde, prématernelles",
-      "Écoles francophones et d’immersion française",
-      "Camps d’été"
+      "Early childhood centres",
+      "Childcare services, preschools",
+      "Francophone and French immersion schools",
+      "Summer camps"
     ],
     "format": [
-      "Ateliers de cuisine en petit groupe, animés par un animateur certifié."
+      "Small-group cooking workshops, led by a certified facilitator."
     ],
     "stats": {
-      "title": "Dix ans plus tard, des chiffres qui parlent d’eux-mêmes",
+      "title": "Ten years later, the numbers speak for themselves",
       "items": [
         { "value": "1,740+", "label": "children aged 3 to 12" },
         { "value": "347", "label": "workshops" },
@@ -64,67 +64,67 @@
     }
   },
   "collectiveKitchens": {
-    "short": "Cuisines collectives, du partage au savoir",
-    "tag": "Des enfants aux aînés",
-    "duration": "Durée : entre 2 et 3 heures",
-    "title": "Cuisines collectives",
-    "tagline": "« Un partage du savoir culinaire au service de la communauté. »",
-    "button": "Organisons une séance",
-    "p1": "Ces ateliers en petits groupes sont destinés à retrouver un savoir-faire culinaire au bénéfice des membres de la communauté.",
-    "p2": "C’est le temps d’élaborer des recettes saines et économiques conçues pour respecter la diversité culturelle, les réalités culinaires et les éventuels besoins spéciaux en santé des participants et des bénéficiaires. Les ateliers proposent des modules adaptés à tous les âges, des jeunes enfants aux personnes âgées.",
-    "p3": "Organisés en petits groupes, ces ateliers favorisent l’échange des compétences, le partage et la distribution des plats préparés, dans un cadre convivial et pédagogique propice à de nouvelles habitudes alimentaires.",
+    "short": "Community kitchens, from sharing to know-how",
+    "tag": "From children to seniors",
+    "duration": "Length: 2 to 3 hours",
+    "title": "Community kitchens",
+    "tagline": "“Sharing cooking know-how for the good of the community.”",
+    "button": "Let’s plan a session",
+    "p1": "These small-group workshops help community members rediscover cooking skills.",
+    "p2": "It’s a time to create healthy, budget-friendly recipes designed to respect cultural diversity, culinary traditions and any special health needs of participants and recipients. The workshops offer modules for all ages, from young children to seniors.",
+    "p3": "Held in small groups, these workshops encourage sharing skills and sharing and handing out the dishes prepared, in a friendly, educational setting that fosters new eating habits.",
     "forWho": [
-      "Membres d’organismes communautaires (jeunes, adultes, aînés, voire intergénérationnel)"
+      "Members of community organizations (youth, adults, seniors, even intergenerational groups)"
     ],
     "format": [
-      "Découverte de la recette",
-      "Démonstration pratique",
-      "Astuces culinaires",
-      "Préparation (choix des ingrédients)",
-      "Dégustation et/ou distribution (mode et durée de conservation)"
+      "Discovering the recipe",
+      "Hands-on demonstration",
+      "Cooking tips",
+      "Preparation (choosing ingredients)",
+      "Tasting and/or handing out (how and how long to store food)"
     ]
   },
   "healthPromotion": {
-    "short": "Promotion de la santé alimentaire",
-    "tag": "Adultes et familles",
-    "duration": "Durée : 60 à 90 minutes",
-    "title": "Promotion de la santé alimentaire",
-    "tagline": "« S’amuser pour mieux se préparer. »",
-    "button": "Parlons-en",
-    "p1": "À chaque étape de la vie, l’alimentation joue un rôle essentiel pour votre bien-être et celui des êtres chers qui vous entourent. Je vous propose de revisiter vos habitudes alimentaires de manière ludique afin de trouver des solutions adaptées à votre mode de vie. Évaluer et adapter ses habitudes alimentaires au fil du temps est source d’énergie renouvelée.",
-    "p2": "La naissance d’un bébé, la scolarisation d’un enfant, un départ à la retraite, l’annonce d’une condition de santé ou un terrain allergène peuvent vous obliger à certains changements.",
+    "short": "Healthy eating promotion",
+    "tag": "Adults and families",
+    "duration": "Length: 60 to 90 minutes",
+    "title": "Healthy eating promotion",
+    "tagline": "“Having fun to be better prepared.”",
+    "button": "Let’s talk",
+    "p1": "At every stage of life, food plays a key role in your well-being and that of your loved ones. I invite you to revisit your eating habits in a playful way and find solutions that fit your lifestyle. Reviewing and adapting your eating habits over time is a source of renewed energy.",
+    "p2": "The birth of a baby, a child starting school, retirement, a new health diagnosis or an allergy-prone background can all call for changes.",
     "themes": [
-      "Visites éducatives à l’épicerie",
-      "Composition et planification de menus équilibrés",
-      "Choix des aliments et visite à l’épicerie",
-      "Compréhension de la valeur nutritive des aliments",
-      "Connaissances des règles de salubrité",
-      "Découverte des allergènes",
-      "Préparation de boîtes à lunch",
-      "Réduction du gaspillage alimentaire"
+      "Educational grocery store tours",
+      "Planning and putting together balanced menus",
+      "Choosing foods and grocery store tours",
+      "Understanding the nutritional value of foods",
+      "Knowing food safety rules",
+      "Learning about allergens",
+      "Packing lunch boxes",
+      "Reducing food waste"
     ]
   },
   "workplace": {
-    "short": "La santé en milieu de travail",
-    "tag": "Adultes",
-    "duration": "Durée : 60 minutes",
-    "title": "La santé alimentaire en milieu de travail",
-    "tagline": "« De saines habitudes alimentaires pour une saine efficacité. »",
-    "button": "Planifions une session",
-    "p1": "La moyenne du temps de travail au Canada est d’environ 35,8 heures par semaine (Statistique Canada). Mais pendant ce temps l’alimentation n’est pas forcément votre priorité. Que vous soyez dans une grande entreprise ou une petite école, il est important de vous créer de bonnes habitudes alimentaires.\nJe vous propose donc des moments de pause afin d’échanger avec vous sur vos besoins et les solutions pour les mettre en place dans votre journée.",
+    "short": "Health in the workplace",
+    "tag": "Adults",
+    "duration": "Length: 60 minutes",
+    "title": "Healthy eating in the workplace",
+    "tagline": "“Healthy eating habits for healthy productivity.”",
+    "button": "Let’s plan a session",
+    "p1": "The average work week in Canada is about 35.8 hours (Statistics Canada). But during that time, food isn’t necessarily your priority. Whether you work at a large company or a small school, it’s important to build good eating habits.\nSo I offer breaks where we can talk about your needs and ways to fit the solutions into your day.",
     "services": [
-      "Préparation d’une boîte à lunch équilibrée",
-      "Connaissance de ses besoins nutritifs",
-      "Sensibilisation sur la qualité des produits",
-      "Démystification des idées reçues en alimentation",
-      "Planification des repas en fonction de son horaire de travail",
-      "Organisation et besoin nutritif lors d’évènements",
-      "Sensibilisation à la gestion des déchets",
-      "Aménagement de lieu adapté pour le repas"
+      "Packing a balanced lunch box",
+      "Knowing your nutritional needs",
+      "Awareness of product quality",
+      "Debunking food myths",
+      "Planning meals around your work schedule",
+      "Organization and nutritional needs at events",
+      "Awareness of waste management",
+      "Setting up a suitable space for meals"
     ]
   },
   "cta": {
-    "kicker": "Travaillons ensemble !",
-    "title": "Un besoin, un projet…"
+    "kicker": "Let’s work together!",
+    "title": "A need, a project…"
   }
 }

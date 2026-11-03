@@ -2,45 +2,45 @@
   "title": "About Céline Bossé, RD",
   "hero": {
     "eyebrow": "About",
-    "title": "Céline Bossé, <accent>Dt.P.</accent>",
-    "meta": "Public health dietitian-nutritionist · Calgary, Alberta",
-    "text": "My main goal is to give people a taste for healthy eating, to pass on the joy of cooking, and in doing so to have a positive impact on their lifestyle habits."
+    "title": "Céline Bossé, <accent>RD</accent>",
+    "meta": "Public health dietitian",
+    "text": "“Healthy eating, a step towards well-being”"
   },
   "background": {
-    "eyebrow": "Parcours et expertises",
-    "title": "Une science en constante évolution",
-    "p1": "Diplômée en sciences de la nutrition de l’Université de Montréal depuis plus de 25 ans, j’estime, comme mes pairs, que la nutrition est une science en constante évolution. Je crois profondément à la collaboration interdisciplinaire et à la complémentarité des expertises professionnelles pour répondre aux besoins des communautés multiculturelles francophones d’aujourd’hui.",
-    "p2": "J’ai donc suivi des formations tout au long de ma carrière professionnelle afin de mieux répondre aux besoins de chacun. Dès 2007, j’ai validé un cursus en santé publique concernant la promotion de saines habitudes de vie.",
-    "quote": "« Depuis une quinzaine d’années, j’organise et je mets en œuvre des programmes communautaires et éducatifs qui répondent à vos besoins. »",
-    "p3": "Jusqu’en mars 2026, j’ai occupé le poste d’agente de santé pour la région sud de l’Alberta au sein du Réseau santé Alberta.",
-    "p4": "Ces huit années au service de la santé et du bien-être en français m’ont permis de mieux cerner les problématiques du public, notamment chez les jeunes.",
-    "quote2": "« La nutrition est un domaine qui me tient à cœur alors que les statistiques démontrent une augmentation de l’obésité infantile ces dernières années et ses conséquences sur la santé et le développement des générations futures. »",
-    "p5": "J’ai pu aussi rencontrer, collaborer et travailler avec les principaux acteurs et partenaires d’influence de la province.",
-    "p6": "Aujourd’hui, par le biais de l’éducation et la prévention, je mets mes compétences à votre service, afin de prévenir aussi l’insécurité et le gaspillage alimentaire.",
-    "careerTitle": "Au fil de ma carrière",
+    "eyebrow": "Background and expertise",
+    "title": "A constantly evolving science",
+    "p1": "A Université de Montréal nutrition sciences graduate for over 25 years, I believe, like my peers, that nutrition is a constantly evolving science. I firmly believe in interdisciplinary collaboration and in combining professional expertise to meet the needs of today’s multicultural francophone communities.",
+    "p2": "So I have taken training throughout my professional career to better meet everyone’s needs. In 2007, I completed a public health program on promoting healthy lifestyles.",
+    "quote": "“For some fifteen years, I have been organizing and delivering community and educational programs that meet your needs.”",
+    "p3": "Until March 2026, I was the health officer for the southern Alberta region at Réseau santé Alberta.",
+    "p4": "These eight years serving health and well-being in French helped me better understand the public’s concerns, especially among young people.",
+    "quote2": "“Nutrition is a field close to my heart, as statistics show a rise in childhood obesity in recent years and its consequences for the health and development of future generations.”",
+    "p5": "I was also able to meet, collaborate and work with the province’s key players and influential partners.",
+    "p6": "Today, through education and prevention, I put my skills at your service, to also help prevent food insecurity and food waste.",
+    "careerTitle": "Throughout my career",
     "career": [
-      "Conseillère en alimentation auprès des services de la petite enfance",
-      "Animatrice et coordinatrice d’ateliers de cuisine dans les écoles",
-      "Gestionnaire d’une cafétéria scolaire",
-      "Consultante et conférencière en nutrition auprès des aînés",
-      "Chroniqueuse « santé et nutrition » pour des médias francophones",
-      "Personne-ressource en santé publique pour les organismes à but non lucratif"
+      "Nutrition advisor for early childhood services",
+      "Cooking workshop facilitator and coordinator in schools",
+      "School cafeteria manager",
+      "Nutrition consultant and speaker for seniors",
+      "“Health and nutrition” columnist for francophone media",
+      "Public health resource person for non-profit organizations"
     ],
     "roles": [
-      { "org": "Les Ateliers cinq épices", "note": "", "role": "Formatrice et animatrice d’ateliers culinaires" },
-      { "org": "ÉducationNutrition", "note": "(destiné aux enseignants)", "role": "Consultante et conférencière" },
-      { "org": "Réseau santé Alberta", "note": "", "role": "Agente en santé publique" }
+      { "org": "Les Ateliers cinq épices", "note": "", "role": "Trainer and cooking workshop facilitator" },
+      { "org": "ÉducationNutrition", "note": "(for teachers)", "role": "Consultant and speaker" },
+      { "org": "Réseau santé Alberta", "note": "", "role": "Public health officer" }
     ]
   },
   "expertise": {
-    "eyebrow": "Expertises",
+    "eyebrow": "Expertise",
     "items": [
-      "Promotion de la santé par l’alimentation",
-      "Programmes communautaires et éducatifs",
-      "Ateliers culinaires et éducation nutritionnelle",
-      "Développement des compétences alimentaires",
-      "Sécurité alimentaire et nutritionnelle",
-      "Prévention du gaspillage alimentaire"
+      "Health promotion through food",
+      "Community and educational programs",
+      "Cooking workshops and nutrition education",
+      "Building food skills",
+      "Food and nutrition security",
+      "Food waste prevention"
     ]
   },
   "foodSecurity": {

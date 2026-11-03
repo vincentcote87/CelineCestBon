@@ -39,3 +39,18 @@ Ces cas ne sont pas listés un par un.
 ## Suivis
 
 - **Logo des Ateliers cinq épices :** à ajouter dans l’encadré de gauche du service 01 (page Services) une fois le fichier reçu et l’utilisation confirmée par Céline.
+
+## Version anglaise
+
+Tout le texte anglais a été traduit à partir de la version française corrigée, avec
+les mêmes retours à la ligne. Quelques choix à valider :
+
+- **Titre professionnel :** « Céline Bossé, RD » et « public health dietitian »
+  partout, sans « nutritionist », comme demandé. Les mentions officielles
+  (« Dt.P./RD » sur la carte du College et l’autocollant de la photo) sont conservées.
+- **Noms propres gardés en français :** Les Ateliers cinq épices (Alberta),
+  Réseau santé Alberta, ACFA régionale de Calgary, ÉducationNutrition,
+  Université de Montréal.
+- **Noms des services :** Community kitchens, Healthy eating promotion,
+  Healthy eating in the workplace.
+- **Citations :** les guillemets « » deviennent “ ” en anglais.

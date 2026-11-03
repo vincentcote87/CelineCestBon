@@ -1,7 +1,7 @@
 {
   "meta": {
     "siteName": "Céline C’est Bon",
-    "description": "Céline Bossé, RD, public health dietitian-nutritionist in Calgary and Southern Alberta. Workshops, talks and programs in French for all ages."
+    "description": "Céline Bossé, RD, public health dietitian in Calgary and Southern Alberta. Workshops, talks and programs in French for all ages."
   },
   "nav": {
     "home": "Home",
@@ -34,7 +34,7 @@
     }
   },
   "footer": {
-    "blurb": "Céline Bossé, Dt.P./RD, public health dietitian-nutritionist.",
+    "blurb": "Céline Bossé, Dt.P./RD, public health dietitian.",
     "tagline": "Eat well, live well!",
     "contact": "Contact",
     "member": "Member",
