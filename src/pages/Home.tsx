@@ -20,7 +20,7 @@ const serviceTiles: { art: ComponentType<SVGProps<SVGSVGElement>>; tone: string;
   { art: SpiceDots, tone: 'tomato', anchor: serviceAnchors.cinqEpices },
   { art: Pot, tone: 'sun', anchor: serviceAnchors.collectiveKitchens },
   { art: Sprout, tone: 'leaf', anchor: serviceAnchors.healthPromotion },
-  { art: Apple, tone: 'forest', anchor: serviceAnchors.schoolWork },
+  { art: Apple, tone: 'forest', anchor: serviceAnchors.workplace },
 ]
 
 export default function Home() {
@@ -101,7 +101,6 @@ export default function Home() {
               <Eyebrow>{t('home.services.eyebrow')}</Eyebrow>
               <h2>{t('home.services.title')}</h2>
             </div>
-            <p className={layout.lead}>{t('home.services.text')}</p>
           </div>
 
           <ul className={styles.tiles}>

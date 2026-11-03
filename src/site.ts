@@ -17,5 +17,5 @@ export const serviceAnchors = {
   cinqEpices: 'cinq-epices',
   collectiveKitchens: 'cuisines-collectives',
   healthPromotion: 'promotion-sante',
-  schoolWork: 'ecole-travail',
+  workplace: 'milieu-travail',
 } as const

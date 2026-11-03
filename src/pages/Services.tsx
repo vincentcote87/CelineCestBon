@@ -15,7 +15,7 @@ import styles from './Services.module.css'
 
 const anchors = serviceAnchors
 type ServiceKey = keyof typeof anchors
-const order: ServiceKey[] = ['cinqEpices', 'collectiveKitchens', 'healthPromotion', 'schoolWork']
+const order: ServiceKey[] = ['cinqEpices', 'collectiveKitchens', 'healthPromotion', 'workplace']
 
 type ServiceProps = {
   id: ServiceKey
@@ -143,23 +143,23 @@ export default function Services() {
         <Callout>{t('services.healthPromotion.callout')}</Callout>
       </Service>
 
-      {/* 04 La santé à l'école et au travail */}
-      <Service id="schoolWork" number={4}>
-        <p>{t('services.schoolWork.p1')}</p>
-        <p>{t('services.schoolWork.p2')}</p>
+      {/* 04 La santé alimentaire en milieu de travail */}
+      <Service id="workplace" number={4}>
+        <p>{t('services.workplace.p1')}</p>
+        <p>{t('services.workplace.p2')}</p>
         <div className={styles.stack}>
           <h3 className={styles.subTitle}>{labels.formats}</h3>
-          <ChipList items={t('services.schoolWork.formats', { returnObjects: true })} />
+          <ChipList items={t('services.workplace.formats', { returnObjects: true })} />
         </div>
         <InfoGrid>
           <InfoCard label={labels.forWho}>
-            <p>{t('services.schoolWork.forWho')}</p>
+            <p>{t('services.workplace.forWho')}</p>
           </InfoCard>
           <InfoCard label={labels.program}>
-            <p>{t('services.schoolWork.program')}</p>
+            <p>{t('services.workplace.program')}</p>
           </InfoCard>
         </InfoGrid>
-        <p>{t('services.schoolWork.closing')}</p>
+        <p>{t('services.workplace.closing')}</p>
       </Service>
 
       <CtaBand

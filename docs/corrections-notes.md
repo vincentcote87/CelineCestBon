@@ -17,7 +17,10 @@ Ces cas ne sont pas listés un par un.
 | Page | Section | Texte d’origine | Texte corrigé |
 | --- | --- | --- | --- |
 | Accueil | Qui suis-je? | ingrédients frais et non-transformés | ingrédients frais et non transformés |
+| Accueil | Services, encadré 2 | … prêtes en moins de 30 minutes | … prêtes en moins de 30 minutes. (point final ajouté) |
 
 ## Questions pour Céline
+
+- **Âge des enfants, Ateliers cinq épices :** la page d’accueil indique « Enfants de 3 à 12 ans », alors que la page Services et l’historique indiquent « 2 à 12 ans ». Quelle tranche d’âge est la bonne ? (Le texte a été laissé tel quel pour l’instant.)
 
 ## Suivis
