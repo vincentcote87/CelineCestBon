@@ -18,8 +18,12 @@
   height: auto;
 }
 
+.cropped {
+  width: min(100%, 22rem);
+}
+
 .cropped .photo {
-  aspect-ratio: 564 / 620;
+  aspect-ratio: 564 / 560;
   object-fit: cover;
   object-position: top;
 }

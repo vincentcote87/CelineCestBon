@@ -20,22 +20,6 @@ export default function Contact() {
         eyebrow={t('contact.hero.eyebrow')}
         title={<Trans i18nKey="contact.hero.title" components={{ accent: <Accent /> }} />}
         text={t('contact.hero.text', { returnObjects: true })}
-        actions={
-          <div className={styles.methods}>
-            <a href={mailto} className={`${styles.method} ${styles.blush}`}>
-              <span className={styles.methodLabel}>{t('contact.email.label')}</span>
-              <span className={styles.methodValue}>{site.email}</span>
-              <span className={styles.methodAction}>
-                {t('common.emailMe')} <span aria-hidden="true">→</span>
-              </span>
-            </a>
-            {/* Information only: no tel: link for now, see docs/corrections-notes.md. */}
-            <div className={`${styles.method} ${styles.sage}`}>
-              <span className={styles.methodLabel}>{t('contact.phone.label')}</span>
-              <span className={styles.methodValue}>{site.phone}</span>
-            </div>
-          </div>
-        }
         aside={
           <Portrait
             alt={t('home.hero.photoAlt')}
@@ -43,7 +27,22 @@ export default function Contact() {
             cropped
           />
         }
-      />
+      >
+        <div className={styles.methods}>
+          <a href={mailto} className={`${styles.method} ${styles.blush}`}>
+            <span className={styles.methodLabel}>{t('contact.email.label')}</span>
+            <span className={styles.methodValue}>{site.email}</span>
+            <span className={styles.methodAction}>
+              {t('common.emailMe')} <span aria-hidden="true">→</span>
+            </span>
+          </a>
+          {/* Information only: no tel: link for now, see docs/corrections-notes.md. */}
+          <div className={`${styles.method} ${styles.sage}`}>
+            <span className={styles.methodLabel}>{t('contact.phone.label')}</span>
+            <span className={styles.methodValue}>{site.phone}</span>
+          </div>
+        </div>
+      </PageHero>
 
       <section className={layout.section}>
         <div className={layout.container}>

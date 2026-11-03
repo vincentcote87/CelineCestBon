@@ -1,10 +1,10 @@
-/* Email / phone tiles */
+/* Email / phone tiles, just below the hero panel */
 
 .methods {
-  flex: 1 1 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 .method {
@@ -40,10 +40,10 @@ a.method:hover {
 
 .methodValue {
   font-family: var(--font-heading);
-  font-size: clamp(1.25rem, 2.2vw, 1.6rem);
+  font-size: clamp(1.2rem, 2.4vw, 1.75rem);
   font-weight: 800;
-  letter-spacing: -0.03em;
-  overflow-wrap: anywhere;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
 }
 
 .methodAction {
@@ -115,6 +115,7 @@ a.method:hover {
 }
 
 @media (max-width: 860px) {
+  .methods,
   .steps {
     grid-template-columns: 1fr;
   }
