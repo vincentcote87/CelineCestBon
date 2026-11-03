@@ -15,8 +15,27 @@
   background: var(--pastel-yellow);
 }
 
+.cards {
+  display: grid;
+  gap: var(--space-md);
+}
+
 .cardTitle {
   font-size: clamp(1.8rem, 3vw, 2.2rem);
+}
+
+.cardQuote {
+  margin: 0;
+  font-family: var(--font-heading);
+  font-size: clamp(1.25rem, 2vw, 1.45rem);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+}
+
+.conceptsLabel {
+  font-style: italic;
+  font-weight: 700;
 }
 
 .bio {

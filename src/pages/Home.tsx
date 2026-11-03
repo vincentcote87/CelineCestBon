@@ -27,6 +27,7 @@ export default function Home() {
   const { t } = useTranslation()
   const { url } = useLanguage()
 
+  const mission = t('home.mission.paragraphs', { returnObjects: true })
   const services = t('home.services.items', { returnObjects: true })
 
   return (
@@ -57,15 +58,27 @@ export default function Home() {
         }
       />
 
-      {/* Profile and bio */}
+      {/* Mission and vision cards, and bio */}
       <section className={layout.section}>
         <div className={`${layout.container} ${styles.introGrid}`}>
-          <article className={styles.profileCard}>
-            <Eyebrow>{t('home.profile.eyebrow')}</Eyebrow>
-            <h2 className={styles.cardTitle}>{t('home.profile.title')}</h2>
-            <p>{t('home.profile.p1')}</p>
-            <p>{t('home.profile.p2')}</p>
-          </article>
+          <div className={styles.cards}>
+            <article className={styles.profileCard}>
+              <Eyebrow>{t('home.mission.eyebrow')}</Eyebrow>
+              <h2 className={styles.cardTitle}>{t('home.mission.title')}</h2>
+              {mission.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </article>
+
+            <article className={styles.profileCard}>
+              <Eyebrow>{t('home.vision.eyebrow')}</Eyebrow>
+              <blockquote className={styles.cardQuote}>
+                <p>{t('home.vision.quote')}</p>
+              </blockquote>
+              <p className={styles.conceptsLabel}>{t('home.vision.conceptsLabel')}</p>
+              <p>{t('home.vision.concepts')}</p>
+            </article>
+          </div>
 
           <div className={styles.bio}>
             <Eyebrow>{t('home.whoAmI.eyebrow')}</Eyebrow>

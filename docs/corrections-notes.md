@@ -16,6 +16,7 @@ Ces cas ne sont pas listés un par un.
 
 | Page | Section | Texte d’origine | Texte corrigé |
 | --- | --- | --- | --- |
+| Accueil | Qui suis-je? | ingrédients frais et non-transformés | ingrédients frais et non transformés |
 
 ## Questions pour Céline
 

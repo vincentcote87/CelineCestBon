@@ -10,19 +10,28 @@
     "badge2": "25 years of experience",
     "photoAlt": "Céline Bossé, dietitian, smiling, wearing a scarf and an RD pin"
   },
-  "profile": {
-    "eyebrow": "Profile",
-    "title": "Supporting everyone, at every stage of life",
-    "p1": "I offer programs and workshops that help people eat better at every stage of life, while respecting each person’s cultural and social needs.",
-    "p2": "My work is designed for community organizations, schools and early childhood centres. My approach meets the needs of people of all ages while respecting everyone’s cultural background."
+  "mission": {
+    "eyebrow": "Ma mission",
+    "title": "« L’alimentation à toutes les étapes de la vie. »",
+    "paragraphs": [
+      "En tant que diététiste en santé publique, mon rôle est de sensibiliser le public à une saine alimentation.",
+      "Je propose des programmes communautaires et éducatifs afin de promouvoir une saine alimentation.",
+      "Je transmets à mon public le plaisir de cuisiner, le goût de manger sainement, et donc d’avoir un impact positif sur leurs habitudes de vie tout en préservant les exigences culturelles et sociales de chacun."
+    ]
+  },
+  "vision": {
+    "eyebrow": "Ma vision",
+    "quote": "« Plantez les graines de vos futures actions… Entretenez-les, et plus tard vous en récolterez les fruits. Vous goûterez alors la plénitude de l’accomplissement. »",
+    "conceptsLabel": "Concepts et engagements communautaires :",
+    "concepts": "La langue française comme lien social et culturel.\nLa synergie intergénérationnelle comme vecteur de connaissance.\nLa pluralité professionnelle en santé publique, un facteur de réussite."
   },
   "whoAmI": {
-    "eyebrow": "Who am I?",
-    "title": "The French language and the art of cooking, always",
-    "p1": "As a francophone living in a minority community, I have always carried a love of the French language and the art of cooking in my heart.",
-    "p2": "As a mother of two and a young grandmother, my greatest joy is welcoming family and friends around a good meal. These moments of togetherness reflect my passion for cooking, my love of sharing, and my curiosity about the endless variety of fresh, unprocessed ingredients that can be combined to delight the taste buds.",
-    "p3": "I quickly brought this passion into everyday life, offering reliable, evidence-based nutrition advice to individuals and communities. Because today, we know:",
-    "signature": "eat well, live well!"
+    "eyebrow": "Qui suis-je ?",
+    "title": "« La langue française et l’art culinaire, depuis toujours. »",
+    "p1": "Francophone en milieu minoritaire, je porte dans mon cœur la langue française et l’art de cuisiner depuis toujours.",
+    "p2": "Mère de deux enfants et jeune grand-mère, mon plus grand bonheur est d’accueillir ma famille et mes amis autour d’un bon repas. Ces moments de convivialité reflètent ma passion pour la cuisine, mon goût du partage et mon immense curiosité pour la palette infinie d’ingrédients frais et non transformés que l’on peut marier ensemble pour le plaisir des papilles.",
+    "p3": "Cette passion pour l’art culinaire, je l’ai très vite adaptée et transmise pour le quotidien de tout un chacun dans un objectif de vulgarisation et de bien-être en proposant des conseils nutritionnels fiables et fondés sur des données probantes auprès des personnes et des communautés. Car aujourd’hui on le sait :",
+    "signature": "qui mange bien, vit bien !"
   },
   "services": {
     "eyebrow": "Services",

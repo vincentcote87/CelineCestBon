@@ -10,18 +10,27 @@
     "badge2": "25 ans d’expérience",
     "photoAlt": "Céline Bossé, diététiste, souriante, portant un foulard et une épinglette RD"
   },
-  "profile": {
-    "eyebrow": "Profil",
-    "title": "Accompagner chacun, tout au long de sa vie",
-    "p1": "Je propose des programmes et des ateliers afin d’accompagner le public, tout au long de sa vie, vers une meilleure alimentation, en préservant les exigences culturelles et sociales de chacun.",
-    "p2": "Mes activités sont destinées aux organismes communautaires, aux établissements scolaires et de la petite enfance. Mon approche répond aux besoins d’un public de tout âge, tout en respectant les besoins culturels de chacun."
+  "mission": {
+    "eyebrow": "Ma mission",
+    "title": "« L’alimentation à toutes les étapes de la vie. »",
+    "paragraphs": [
+      "En tant que diététiste en santé publique, mon rôle est de sensibiliser le public à une saine alimentation.",
+      "Je propose des programmes communautaires et éducatifs afin de promouvoir une saine alimentation.",
+      "Je transmets à mon public le plaisir de cuisiner, le goût de manger sainement, et donc d’avoir un impact positif sur leurs habitudes de vie tout en préservant les exigences culturelles et sociales de chacun."
+    ]
+  },
+  "vision": {
+    "eyebrow": "Ma vision",
+    "quote": "« Plantez les graines de vos futures actions… Entretenez-les, et plus tard vous en récolterez les fruits. Vous goûterez alors la plénitude de l’accomplissement. »",
+    "conceptsLabel": "Concepts et engagements communautaires :",
+    "concepts": "La langue française comme lien social et culturel.\nLa synergie intergénérationnelle comme vecteur de connaissance.\nLa pluralité professionnelle en santé publique, un facteur de réussite."
   },
   "whoAmI": {
     "eyebrow": "Qui suis-je ?",
-    "title": "La langue française et l’art de cuisiner, depuis toujours",
+    "title": "« La langue française et l’art culinaire, depuis toujours. »",
     "p1": "Francophone en milieu minoritaire, je porte dans mon cœur la langue française et l’art de cuisiner depuis toujours.",
-    "p2": "Mère de deux enfants et jeune grand-mère, mon plus grand bonheur est d’accueillir ma famille et mes amis autour d’un bon repas. Ces moments de convivialité reflètent ma passion pour la cuisine, mon goût du partage et ma curiosité pour la palette infinie d’ingrédients frais et non transformés que l’on peut marier pour le plaisir des papilles.",
-    "p3": "Cette passion, je l’ai vite transmise au quotidien de tout un chacun, en proposant des conseils nutritionnels fiables et fondés sur des données probantes, auprès des personnes et des communautés. Car aujourd’hui on le sait :",
+    "p2": "Mère de deux enfants et jeune grand-mère, mon plus grand bonheur est d’accueillir ma famille et mes amis autour d’un bon repas. Ces moments de convivialité reflètent ma passion pour la cuisine, mon goût du partage et mon immense curiosité pour la palette infinie d’ingrédients frais et non transformés que l’on peut marier ensemble pour le plaisir des papilles.",
+    "p3": "Cette passion pour l’art culinaire, je l’ai très vite adaptée et transmise pour le quotidien de tout un chacun dans un objectif de vulgarisation et de bien-être en proposant des conseils nutritionnels fiables et fondés sur des données probantes auprès des personnes et des communautés. Car aujourd’hui on le sait :",
     "signature": "qui mange bien, vit bien !"
   },
   "services": {
