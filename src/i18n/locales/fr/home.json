@@ -63,28 +63,7 @@
       }
     ]
   },
-  "credentials": {
-    "eyebrow": "Formation et appartenances",
-    "cda": {
-      "title": "College of Dietitians of Alberta",
-      "text": "Diététiste réglementée, Dt.P./RD"
-    },
-    "dietitiansCanada": {
-      "title": "Les diététistes du Canada",
-      "text": "Membre"
-    },
-    "udem": {
-      "title": "Université de Montréal",
-      "text": "Diplômée en sciences de la nutrition depuis plus de 25 ans"
-    },
-    "publicHealth": {
-      "title": "Santé publique",
-      "text": "Cursus validé en 2007 sur la promotion de saines habitudes de vie"
-    }
-  },
   "cta": {
-    "kicker": "Un projet pour votre groupe ?",
-    "title": "Parlons de votre projet.",
-    "text": "Atelier, conférence ou Lunch & Learn : écrivez-moi et je vous réponds en français ou en anglais."
+    "title": "Parlons de votre projet !"
   }
 }

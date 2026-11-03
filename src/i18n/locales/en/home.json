@@ -63,28 +63,7 @@
       }
     ]
   },
-  "credentials": {
-    "eyebrow": "Education and memberships",
-    "cda": {
-      "title": "College of Dietitians of Alberta",
-      "text": "Registered Dietitian, Dt.P./RD"
-    },
-    "dietitiansCanada": {
-      "title": "Dietitians of Canada",
-      "text": "Member"
-    },
-    "udem": {
-      "title": "Université de Montréal",
-      "text": "Nutrition sciences graduate for over 25 years"
-    },
-    "publicHealth": {
-      "title": "Public health",
-      "text": "Completed training in 2007 on promoting healthy lifestyles"
-    }
-  },
   "cta": {
-    "kicker": "A project for your group?",
-    "title": "Let’s talk about your project.",
-    "text": "Workshop, talk or Lunch & Learn: email me and I’ll reply in French or English."
+    "title": "Let’s talk about your project!"
   }
 }

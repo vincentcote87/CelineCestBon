@@ -19,6 +19,21 @@
     "seeServices": "Voir les services",
     "backToTop": "Haut de page"
   },
+  "credentials": {
+    "eyebrow": "Formation et appartenances",
+    "udem": {
+      "title": "Université de Montréal",
+      "text": "Diplômée en sciences de la nutrition depuis plus de 25 ans"
+    },
+    "dietitiansCanada": {
+      "title": "Les diététistes du Canada",
+      "text": "Membre"
+    },
+    "cda": {
+      "title": "College of Dietitians of Alberta",
+      "text": "Diététiste réglementée, Dt.P./RD"
+    }
+  },
   "footer": {
     "blurb": "Céline Bossé, Dt.P./RD, diététiste-nutritionniste en santé publique.",
     "tagline": "Qui mange bien, vit bien !",

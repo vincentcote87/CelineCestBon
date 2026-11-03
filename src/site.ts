@@ -5,6 +5,7 @@ export const site = {
   phone: '403-880-8032',
   phoneHref: 'tel:+14038808032',
   links: {
+    udem: 'https://www.umontreal.ca/',
     cda: 'https://www.collegeofdietitians.ab.ca/',
     dietitiansCanada: 'https://www.dietitians.ca/',
   },

@@ -19,6 +19,21 @@
     "seeServices": "See services",
     "backToTop": "Back to top"
   },
+  "credentials": {
+    "eyebrow": "Education and memberships",
+    "udem": {
+      "title": "Université de Montréal",
+      "text": "Nutrition sciences graduate for over 25 years"
+    },
+    "dietitiansCanada": {
+      "title": "Dietitians of Canada",
+      "text": "Member"
+    },
+    "cda": {
+      "title": "College of Dietitians of Alberta",
+      "text": "Registered Dietitian, Dt.P./RD"
+    }
+  },
   "footer": {
     "blurb": "Céline Bossé, Dt.P./RD, public health dietitian-nutritionist.",
     "tagline": "Eat well, live well!",

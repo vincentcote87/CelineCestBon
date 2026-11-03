@@ -1,8 +1,7 @@
 import type { ComponentType, SVGProps } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { Link } from 'react-router'
-import logoCda from '../assets/images/logo-cda.png'
-import logoDietitiansCanada from '../assets/images/logo-dietitians-canada.png'
+import Credentials from '../components/Credentials/Credentials.tsx'
 import CtaBand from '../components/CtaBand/CtaBand.tsx'
 import { Apple, Pot, SpiceDots, Sprout } from '../components/Illustrations/Illustrations.tsx'
 import PageHero from '../components/PageHero/PageHero.tsx'
@@ -11,7 +10,7 @@ import Portrait from '../components/Portrait/Portrait.tsx'
 import Button from '../components/ui/Button.tsx'
 import { Accent, Eyebrow, Script } from '../components/ui/Eyebrow.tsx'
 import { useLanguage } from '../i18n/useLanguage.ts'
-import { mailto, serviceAnchors, site } from '../site.ts'
+import { mailto, serviceAnchors } from '../site.ts'
 import layout from '../styles/layout.module.css'
 import styles from './Home.module.css'
 
@@ -126,60 +125,14 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Credentials */}
-      <section className={layout.section}>
-        <div className={layout.container}>
-          <Eyebrow>{t('home.credentials.eyebrow')}</Eyebrow>
-          <ul className={styles.credentialGrid}>
-            <li className={styles.credential}>
-              <a href={site.links.cda} target="_blank" rel="noreferrer" className={styles.logoBox}>
-                <img src={logoCda} alt={t('home.credentials.cda.title')} width={406} height={118} />
-              </a>
-              <h3>{t('home.credentials.cda.title')}</h3>
-              <p>{t('home.credentials.cda.text')}</p>
-            </li>
-            <li className={styles.credential}>
-              <a
-                href={site.links.dietitiansCanada}
-                target="_blank"
-                rel="noreferrer"
-                className={styles.logoBox}
-              >
-                <img
-                  src={logoDietitiansCanada}
-                  alt={t('home.credentials.dietitiansCanada.title')}
-                  width={540}
-                  height={128}
-                />
-              </a>
-              <h3>{t('home.credentials.dietitiansCanada.title')}</h3>
-              <p>{t('home.credentials.dietitiansCanada.text')}</p>
-            </li>
-            <li className={styles.credential}>
-              <h3>{t('home.credentials.udem.title')}</h3>
-              <p>{t('home.credentials.udem.text')}</p>
-            </li>
-            <li className={styles.credential}>
-              <h3>{t('home.credentials.publicHealth.title')}</h3>
-              <p>{t('home.credentials.publicHealth.text')}</p>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <Credentials />
 
       <CtaBand
-        kicker={t('home.cta.kicker')}
         title={t('home.cta.title')}
-        text={t('home.cta.text')}
         actions={
-          <>
-            <Button href={mailto} dot>
-              {t('common.emailMe')}
-            </Button>
-            <Button href={site.phoneHref} variant="light">
-              {site.phone}
-            </Button>
-          </>
+          <Button href={mailto} dot>
+            {t('common.emailMe')}
+          </Button>
         }
       />
     </>

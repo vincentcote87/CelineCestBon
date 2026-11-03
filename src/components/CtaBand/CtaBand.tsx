@@ -4,9 +4,9 @@ import { Script } from '../ui/Eyebrow.tsx'
 import styles from './CtaBand.module.css'
 
 type Props = {
-  kicker: string
+  kicker?: string
   title: string
-  text: string
+  text?: string
   actions: ReactNode
 }
 
@@ -16,9 +16,9 @@ export default function CtaBand({ kicker, title, text, actions }: Props) {
     <section className={`${layout.container} ${styles.wrap}`}>
       <div className={styles.panel}>
         <div className={styles.copy}>
-          <Script>{kicker}</Script>
+          {kicker && <Script>{kicker}</Script>}
           <h2 className={styles.title}>{title}</h2>
-          <p className={styles.text}>{text}</p>
+          {text && <p className={styles.text}>{text}</p>}
         </div>
         <div className={styles.actions}>{actions}</div>
       </div>

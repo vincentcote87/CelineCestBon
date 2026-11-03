@@ -22,5 +22,6 @@ Ces cas ne sont pas listés un par un.
 ## Questions pour Céline
 
 - **Âge des enfants, Ateliers cinq épices :** la page d’accueil indique « Enfants de 3 à 12 ans », alors que la page Services et l’historique indiquent « 2 à 12 ans ». Quelle tranche d’âge est la bonne ? (Le texte a été laissé tel quel pour l’instant.)
+- **Logo de l’Université de Montréal :** le logo a été ajouté à la carte « Formation et appartenances ». Pouvez-vous confirmer qu’il convient de l’afficher (et, si possible, fournir la version officielle du logo) ?
 
 ## Suivis

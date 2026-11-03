@@ -144,60 +144,11 @@
   font-weight: 700;
 }
 
-/* Credentials */
-
-.credentialGrid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.25rem;
-  margin-top: var(--space-sm);
-  list-style: none;
-}
-
-.credential {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-xs);
-  padding: var(--space-md);
-  border-radius: var(--radius);
-  background: var(--color-surface);
-  box-shadow: var(--shadow-sm);
-}
-
-.credential h3 {
-  font-size: 1.2rem;
-}
-
-.credential p {
-  color: var(--color-muted);
-  font-size: 0.95rem;
-}
-
-.logoBox {
-  display: grid;
-  place-items: center;
-  height: 4.5rem;
-  margin-bottom: var(--space-xs);
-}
-
-.logoBox img {
-  width: auto;
-  height: 3rem;
-  max-width: 100%;
-  object-fit: contain;
-}
-
 /* Responsive */
 
 @media (max-width: 1060px) {
   .tiles {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 960px) {
-  .credentialGrid {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -208,8 +159,7 @@
 }
 
 @media (max-width: 560px) {
-  .tiles,
-  .credentialGrid {
+  .tiles {
     grid-template-columns: 1fr;
   }
 
