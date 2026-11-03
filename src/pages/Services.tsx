@@ -40,6 +40,7 @@ function Service({ id, number, sand, children }: ServiceProps) {
             {String(number).padStart(2, '0')}
           </p>
           <Tag>{t(`services.${id}.tag`)}</Tag>
+          <p className={styles.duration}>{t(`services.${id}.duration`)}</p>
           <h2 id={`${anchors[id]}-title`} className={styles.title}>
             {t(`services.${id}.title`)}
           </h2>
@@ -82,37 +83,41 @@ export default function Services() {
         </nav>
       </PageHero>
 
-      {/* 01 Ateliers Cinq Épices */}
+      {/* 01 Ateliers cinq épices Alberta */}
       <Service id="cinqEpices" number={1}>
-        <div>
+        <div className={styles.stack}>
           <h3 className={styles.subTitle}>{labels.approach}</h3>
           <p>{t('services.cinqEpices.approach')}</p>
+          <figure className={styles.quote}>
+            <blockquote>
+              <p>{t('services.cinqEpices.approachQuote')}</p>
+            </blockquote>
+            <figcaption>{t('services.cinqEpices.approachSource')}</figcaption>
+          </figure>
         </div>
         <div className={styles.mission}>
           <h4 className={styles.missionLabel}>{labels.mission}</h4>
           <p className={styles.missionText}>{t('services.cinqEpices.mission')}</p>
         </div>
-        <InfoGrid>
-          <InfoCard label={labels.forWho}>
-            <p>{t('services.cinqEpices.forWho')}</p>
-          </InfoCard>
-          <InfoCard label={labels.format}>
-            <p>{t('services.cinqEpices.format')}</p>
-          </InfoCard>
-        </InfoGrid>
         <div className={styles.stack}>
           <h3 className={styles.subTitle}>{labels.history}</h3>
-          <p>{t('services.cinqEpices.historyIntro')}</p>
           <Pills items={t('services.cinqEpices.values', { returnObjects: true })} />
-          <p>{t('services.cinqEpices.historyText')}</p>
         </div>
         <Timeline items={t('services.cinqEpices.timeline', { returnObjects: true })} />
+        <p>{t('services.cinqEpices.historyText')}</p>
+        <InfoGrid>
+          <InfoCard label={labels.forWho}>
+            <BulletList items={t('services.cinqEpices.forWho', { returnObjects: true })} />
+          </InfoCard>
+          <InfoCard label={labels.format}>
+            <BulletList items={t('services.cinqEpices.format', { returnObjects: true })} />
+          </InfoCard>
+        </InfoGrid>
       </Service>
 
       <div className={layout.section}>
         <StatsBand
           title={t('services.cinqEpices.stats.title')}
-          text={t('services.cinqEpices.stats.text')}
           stats={t('services.cinqEpices.stats.items', { returnObjects: true })}
           footnote={<Trans i18nKey="services.cinqEpices.stats.footnote" components={{ strong: <strong /> }} />}
         />

@@ -2,8 +2,8 @@
   "title": "Services : ateliers et conférences en nutrition",
   "hero": {
     "eyebrow": "Services",
-    "title": "Des ateliers pour <accent>tous les âges.</accent>",
-    "text": "Depuis une quinzaine d’années, je conçois, j’organise et j’anime des programmes communautaires et éducatifs. Voici les quatre volets que je propose aux écoles, aux services de garde, aux organismes et aux milieux de travail.",
+    "title": "« Des activités pour <accent>tous les âges.</accent> »",
+    "text": "Depuis une quinzaine d’années, j’organise et j’anime des programmes communautaires et éducatifs en santé alimentaire. Voici les quatre volets que je propose aux écoles, aux services de garde, aux organismes (OSBL) et aux entreprises.",
     "jumpNav": "Les quatre services"
   },
   "labels": {
@@ -18,27 +18,40 @@
     "formats": "Les formules"
   },
   "cinqEpices": {
-    "short": "Ateliers Cinq Épices",
-    "tag": "Enfants de 3 à 12 ans",
-    "title": "Ateliers Cinq Épices Alberta",
-    "tagline": "Nous nous distinguons par le plaisir de l’expérience.",
-    "button": "Réserver un atelier",
+    "short": "Ateliers cinq épices Alberta",
+    "tag": "Enfants de 2 à 12 ans",
+    "duration": "Durée : 45 ou 90 minutes",
+    "title": "Ateliers cinq épices Alberta",
+    "tagline": "« Apprendre en s’amusant ! »",
+    "button": "Réservez un atelier",
     "approach": "Tous les élèves manipulent, mesurent et coupent les aliments. En cuisinant et en goûtant, nos petits cuistots intègrent les notions d’une saine alimentation, découvrent de nouveaux aliments et développent une autonomie alimentaire.",
+    "approachQuote": "« Les savoir-faire manuels qui englobent les cinq sens, stimulent tant le côté cognitif que sensoriel de l’enfant, le tout dans une ambiance festive et ludique, propice à la découverte. Les ateliers se décrivent comme une expérience d’apprentissage à la nutrition et à l’art culinaire axée sur le plaisir, l’éveil sensoriel, le tout visant à favoriser la santé. »",
+    "approachSource": "Source : Les Ateliers cinq épices",
     "mission": "Promouvoir l’éducation nutritionnelle et culinaire et favoriser le développement social par le biais de l’alimentation auprès de la clientèle du préscolaire et du scolaire, de leur famille et des adultes en général.",
-    "forWho": "Centres de la petite enfance, services de garde, prématernelles, écoles francophones et d’immersion française, camps d’été.",
-    "format": "Ateliers de cuisine pratiques, en classe ou en groupe, animés par une diététiste.",
-    "historyIntro": "Les Ateliers cinq épices ont été fondés en 2003 à Montréal. Leurs fondements :",
-    "values": ["Plaisir", "Expériences", "Découvertes"],
-    "historyText": "Le programme met en lumière la collaboration de cinq acteurs principaux : les enfants, les parents, les écoles, la communauté et les bailleurs de fonds.",
+    "values": [
+      "Plaisir",
+      "Expériences",
+      "Découvertes",
+      "Jeux"
+    ],
     "timeline": [
-      { "title": "2003, Montréal", "text": "Naissance des Ateliers cinq épices au Québec." },
-      { "title": "Adapter le programme à l’Alberta", "text": "Le projet est aligné sur les normes du ministère de l’Éducation de l’Alberta et sur les principes des Écoles en santé. De petits ajustements sont apportés." },
-      { "title": "2015, Calgary", "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme dans l’Ouest canadien, sous ma supervision. L’Alberta devient la première province à proposer ces ateliers en dehors du Québec." },
-      { "title": "Des tout-petits aux écoles", "text": "Les centres de la petite enfance, les services de garde et les prématernelles marquent le lancement. Puis les écoles suivent." }
+      { "title": "2003, la naissance des Ateliers cinq épices", "text": "C’est à Montréal, au Québec, que les Ateliers cinq épices sont nés avec pour objectif de favoriser l’éducation nutritionnelle et culinaire auprès des enfants (2 à 12 ans) et leur famille." },
+      { "title": "2015 à 2020, un projet pilote en Alberta", "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme des Ateliers cinq épices en Alberta. Celle-ci devient la première province à proposer ces ateliers en dehors du Québec." },
+      { "title": "2020 à 2026, adaptation du programme à l’Alberta", "text": "Le projet est aligné sur les normes du ministère de l’Éducation de l’Alberta et sur les principes des Écoles en santé." },
+      { "title": "2026 à 2029, lancement du programme les Ateliers cinq épices - Alberta en tant que tel", "text": "Un programme pérenne qui s’adapte à la province albertaine pour tous les jeunes (2 à 12 ans). Les ateliers sont spécifiquement adaptés en fonction de l’âge des enfants, valorisant ainsi les différentes compétences à développer." }
+    ],
+    "historyText": "Le programme met en lumière la collaboration de cinq acteurs principaux : les enfants, les parents, les écoles, la communauté et les bailleurs de fonds.",
+    "forWho": [
+      "Centres de la petite enfance",
+      "Services de garde, prématernelles",
+      "Écoles francophones et d’immersion française",
+      "Camps d’été"
+    ],
+    "format": [
+      "Ateliers de cuisine en petit groupe, animés par un animateur certifié."
     ],
     "stats": {
-      "title": "Dix années plus tard",
-      "text": "Les résultats parlent d’eux-mêmes, et ils sont remarquables.",
+      "title": "Dix ans plus tard, des chiffres qui parlent d’eux-mêmes",
       "items": [
         { "value": "1 740+", "label": "jeunes de 3 à 12 ans" },
         { "value": "347", "label": "ateliers" },
@@ -53,8 +66,9 @@
     }
   },
   "collectiveKitchens": {
-    "short": "Cuisines collectives",
+    "short": "Cuisines collectives, du partage au savoir",
     "tag": "Des enfants aux aînés",
+    "duration": "Durée : entre 2 et 3 heures",
     "title": "Cuisines collectives du partage et du savoir",
     "tagline": "Rétablir une compétence essentielle au bien-être individuel et collectif.",
     "button": "Organiser une série",
@@ -65,8 +79,9 @@
     "closing": "Organisés en petits groupes, ces ateliers favorisent l’échange de compétences et le partage des plats préparés, dans un cadre convivial et pédagogique propice à de nouvelles habitudes alimentaires durables."
   },
   "healthPromotion": {
-    "short": "Promotion de la santé",
+    "short": "Promotion de la santé alimentaire",
     "tag": "Adultes et familles",
+    "duration": "Durée : 60 à 90 minutes",
     "title": "Promotion de la santé",
     "tagline": "Qui n’a pas besoin de conseils en alimentation ?",
     "button": "En parler",
@@ -82,8 +97,9 @@
     "callout": "Pour profiter de votre plein potentiel, il est essentiel d’évaluer régulièrement vos habitudes alimentaires au fil des différents passages de la vie. Elles sont la source des bases d’un avenir meilleur et d’une énergie renouvelée."
   },
   "workplace": {
-    "short": "Santé à l’école et au travail",
+    "short": "La santé en milieu de travail",
     "tag": "Écoles et employeurs",
+    "duration": "Durée : 60 minutes",
     "title": "La santé à l’école et au travail",
     "tagline": "Démystifier et simplifier l’art de la table, au travail, au restaurant ou à la cafétéria de l’école.",
     "button": "Planifier une session",
