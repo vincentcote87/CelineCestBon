@@ -12,12 +12,15 @@ les coquilles évidentes ont été corrigées ; elles sont listées ici pour val
 **Règle générale :** comme sur le reste du site, une espace insécable est placée
 avant `! ? : ;` et à l’intérieur des guillemets `« »`
 (ex. « Bonjour, moi c’est Céline! » devient « Bonjour, moi c’est Céline ! »).
+Les apostrophes droites (') sont aussi remplacées par des apostrophes typographiques (’).
 Ces cas ne sont pas listés un par un.
 
 | Page | Section | Texte d’origine | Texte corrigé |
 | --- | --- | --- | --- |
 | Accueil | Qui suis-je? | ingrédients frais et non-transformés | ingrédients frais et non transformés |
 | Accueil | Services, encadré 2 | … prêtes en moins de 30 minutes | … prêtes en moins de 30 minutes. (point final ajouté) |
+| À propos | Parcours et expertises | j’estime, comme mes pères, que la nutrition… | j’estime, comme mes pairs, que la nutrition… (« pairs » = collègues ; à confirmer) |
+| À propos | Parcours et expertises | Jusqu’en mars 2026, J’ai occupé le poste… | Jusqu’en mars 2026, j’ai occupé le poste… |
 
 ## Questions pour Céline
 

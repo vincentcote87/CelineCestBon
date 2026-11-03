@@ -3,31 +3,33 @@
   "hero": {
     "eyebrow": "À propos",
     "title": "Céline Bossé, <accent>Dt.P.</accent>",
-    "meta": "Diététiste-nutritionniste en santé publique · Calgary, Alberta",
-    "text": "Mon objectif premier est de donner aux gens le goût de bien manger, de transmettre le plaisir de cuisiner et, ainsi, d’avoir un impact positif sur leurs habitudes de vie.",
-    "vision": "Ma vision"
+    "meta": "Diététiste en santé publique",
+    "text": "« L’alimentation, un pas vers le bien-être »"
   },
   "background": {
     "eyebrow": "Parcours et expertises",
     "title": "Une science en constante évolution",
-    "p1": "Diplômée en sciences de la nutrition de l’Université de Montréal depuis plus de 25 ans, j’estime que la nutrition est une science en constante évolution. Je crois profondément à la collaboration interdisciplinaire et à la complémentarité des expertises professionnelles pour répondre aux besoins des communautés multiculturelles francophones d’aujourd’hui.",
-    "p2": "J’ai donc suivi des formations tout au long de ma carrière afin de mieux répondre aux besoins de chacun. Dès 2007, j’ai validé un cursus en santé publique portant sur la promotion de saines habitudes de vie. Dans une optique de prévention, je suis spécialiste de la nutrition, avec pour rôle principal de promouvoir la santé par l’alimentation.",
-    "quote": "Depuis une quinzaine d’années, je conçois, j’organise et je mets en œuvre des programmes communautaires et éducatifs qui répondent à vos besoins.",
-    "p3": "Jusqu’en mars 2026, j’ai occupé le poste d’agente de santé pour la région sud de l’Alberta au sein du Réseau santé Alberta. Ces huit années au service de la santé et du bien-être en français m’ont permis de mieux cerner les problématiques du public, notamment chez les jeunes. J’ai pu aussi rencontrer, collaborer et travailler avec les principaux acteurs et partenaires d’influence de la province.",
-    "p4": "La nutrition est un domaine qui me tient à cœur alors que les statistiques démontrent une augmentation des maladies non transmissibles au Canada et ailleurs dans le monde. Aujourd’hui, par le biais de l’éducation et de la prévention, je mets mes compétences à votre service, afin de prévenir aussi l’insécurité et le gaspillage alimentaire.",
+    "p1": "Diplômée en sciences de la nutrition de l’Université de Montréal depuis plus de 25 ans, j’estime, comme mes pairs, que la nutrition est une science en constante évolution. Je crois profondément à la collaboration interdisciplinaire et à la complémentarité des expertises professionnelles pour répondre aux besoins des communautés multiculturelles francophones d’aujourd’hui.",
+    "p2": "J’ai donc suivi des formations tout au long de ma carrière professionnelle afin de mieux répondre aux besoins de chacun. Dès 2007, j’ai validé un cursus en santé publique concernant la promotion de saines habitudes de vie.",
+    "quote": "« Depuis une quinzaine d’années, j’organise et je mets en œuvre des programmes communautaires et éducatifs qui répondent à vos besoins. »",
+    "p3": "Jusqu’en mars 2026, j’ai occupé le poste d’agente de santé pour la région sud de l’Alberta au sein du Réseau santé Alberta.",
+    "p4": "Ces huit années au service de la santé et du bien-être en français m’ont permis de mieux cerner les problématiques du public, notamment chez les jeunes.",
+    "quote2": "« La nutrition est un domaine qui me tient à cœur alors que les statistiques démontrent une augmentation de l’obésité infantile ces dernières années et ses conséquences sur la santé et le développement des générations futures. »",
+    "p5": "J’ai pu aussi rencontrer, collaborer et travailler avec les principaux acteurs et partenaires d’influence de la province.",
+    "p6": "Aujourd’hui, par le biais de l’éducation et la prévention, je mets mes compétences à votre service, afin de prévenir aussi l’insécurité et le gaspillage alimentaire.",
     "careerTitle": "Au fil de ma carrière",
     "career": [
-      "Gestionnaire d’une cafétéria scolaire auprès des enfants",
-      "Chroniqueuse santé et nutrition pour les médias francophones",
       "Conseillère en alimentation auprès des services de la petite enfance",
+      "Animatrice et coordinatrice d’ateliers de cuisine dans les écoles",
+      "Gestionnaire d’une cafétéria scolaire",
       "Consultante et conférencière en nutrition auprès des aînés",
-      "Animatrice et coordonnatrice d’ateliers de cuisine dans les écoles",
-      "Personne-ressource en santé pour les organismes à but non lucratif"
+      "Chroniqueuse « santé et nutrition » pour des médias francophones",
+      "Personne-ressource en santé publique pour les organismes à but non lucratif"
     ],
     "roles": [
-      { "org": "Les Ateliers cinq épices", "role": "Animatrice d’ateliers culinaires" },
-      { "org": "Éducation Nutrition", "role": "Conférencière, pour outiller les enseignants du primaire" },
-      { "org": "Réseau santé Alberta", "role": "Agente de santé, région sud, 8 ans" }
+      { "org": "Les Ateliers cinq épices", "note": "", "role": "Formatrice et animatrice d’ateliers culinaires" },
+      { "org": "ÉducationNutrition", "note": "(destiné aux enseignants)", "role": "Consultante et conférencière" },
+      { "org": "Réseau santé Alberta", "note": "", "role": "Agente en santé publique" }
     ]
   },
   "vision": {

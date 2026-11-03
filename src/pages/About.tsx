@@ -35,8 +35,8 @@ export default function About() {
             <Button href={mailto} dot>
               {t('common.emailMe')}
             </Button>
-            <Button href="#vision" variant="secondary">
-              {t('about.hero.vision')}
+            <Button to={url('services')} variant="outline">
+              {t('common.seeServices')}
             </Button>
           </>
         }
@@ -56,6 +56,11 @@ export default function About() {
             </blockquote>
             <p>{t('about.background.p3')}</p>
             <p>{t('about.background.p4')}</p>
+            <blockquote className={styles.pullQuote}>
+              <p>{t('about.background.quote2')}</p>
+            </blockquote>
+            <p>{t('about.background.p5')}</p>
+            <p>{t('about.background.p6')}</p>
           </div>
 
           <aside className={styles.careerCard}>
@@ -64,7 +69,10 @@ export default function About() {
             <dl className={styles.roles}>
               {roles.map((item) => (
                 <div key={item.org}>
-                  <dt>{item.org}</dt>
+                  <dt>
+                    {item.org}
+                    {item.note && <span className={styles.roleNote}> {item.note}</span>}
+                  </dt>
                   <dd>{item.role}</dd>
                 </div>
               ))}
