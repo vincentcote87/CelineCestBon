@@ -44,7 +44,7 @@ function Service({ id, number, sand, children }: ServiceProps) {
             {t(`services.${id}.title`)}
           </h2>
           <p className={styles.tagline}>{t(`services.${id}.tagline`)}</p>
-          <Button href={mailto} dot>
+          <Button href={mailto}>
             {t(`services.${id}.button`)}
           </Button>
         </div>
@@ -150,7 +150,7 @@ export default function Services() {
         <p>{t('services.workplace.p1')}</p>
         <div className={styles.stack}>
           <h3 className={styles.subTitle}>{labels.services}</h3>
-          <ChipList items={t('services.workplace.services', { returnObjects: true })} />
+          <ChipList items={t('services.workplace.services', { returnObjects: true })} even />
         </div>
       </Service>
 
@@ -158,7 +158,7 @@ export default function Services() {
         kicker={t('services.cta.kicker')}
         title={t('services.cta.title')}
         actions={
-          <Button href={mailto} dot>
+          <Button href={mailto}>
             {t('common.emailMe')}
           </Button>
         }

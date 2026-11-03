@@ -17,6 +17,12 @@
   list-style: none;
 }
 
+.even {
+  display: grid;
+  width: max-content;
+  max-width: 100%;
+}
+
 /* Each chip takes the next pastel in turn. */
 .chip {
   padding: 0.7rem 1.25rem;

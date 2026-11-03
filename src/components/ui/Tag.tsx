@@ -7,9 +7,10 @@ export function Tag({ children }: { children: ReactNode }) {
 }
 
 // Wrapping list of pills, each with a green dot.
-export function ChipList({ items }: { items: string[] }) {
+// `even`: one pill per line, all as wide as the longest one.
+export function ChipList({ items, even }: { items: string[]; even?: boolean }) {
   return (
-    <ul className={styles.chips}>
+    <ul className={`${styles.chips} ${even ? styles.even : ''}`}>
       {items.map((item) => (
         <li key={item} className={styles.chip}>
           {item}
