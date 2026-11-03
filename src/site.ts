@@ -3,8 +3,10 @@ export const site = {
   name: 'CelineCestBon',
   email: 'celineb.dt.p@gmail.com',
   phone: '403-880-8032',
+  // Not linked anywhere for now (phone shown as plain text), see docs/corrections-notes.md.
   phoneHref: 'tel:+14038808032',
   links: {
+    udem: 'https://www.umontreal.ca/',
     cda: 'https://www.collegeofdietitians.ab.ca/',
     dietitiansCanada: 'https://www.dietitians.ca/',
   },
@@ -17,5 +19,5 @@ export const serviceAnchors = {
   cinqEpices: 'cinq-epices',
   collectiveKitchens: 'cuisines-collectives',
   healthPromotion: 'promotion-sante',
-  schoolWork: 'ecole-travail',
+  workplace: 'milieu-travail',
 } as const

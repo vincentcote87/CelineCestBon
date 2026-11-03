@@ -16,7 +16,7 @@
   color: #fff;
 }
 
-/* Tomato circle peeking in from the corner. */
+/* Yellow circle peeking in from the corner (yellow so the red button stands out). */
 .panel::after {
   content: '';
   position: absolute;
@@ -25,8 +25,7 @@
   width: 14rem;
   height: 14rem;
   border-radius: 50%;
-  background: var(--color-accent);
-  opacity: 0.9;
+  background: var(--color-yellow);
 }
 
 .copy,

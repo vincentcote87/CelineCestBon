@@ -8,7 +8,7 @@ export type Stat = { value: string; label: string }
 type Props = {
   kicker?: string
   title: string
-  text: string
+  text?: string
   stats: Stat[]
   footnote?: ReactNode
 }
@@ -24,7 +24,7 @@ export default function StatsBand({ kicker, title, text, stats, footnote }: Prop
         <div className={styles.header}>
           {kicker && <Eyebrow>{kicker}</Eyebrow>}
           <h2 className={styles.title}>{title}</h2>
-          <p className={styles.text}>{text}</p>
+          {text && <p className={styles.text}>{text}</p>}
         </div>
         <dl className={styles.grid}>
           {stats.map((stat) => (

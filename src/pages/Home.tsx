@@ -1,19 +1,16 @@
 import type { ComponentType, SVGProps } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { Link } from 'react-router'
-import logoCda from '../assets/images/logo-cda.png'
-import logoDietitiansCanada from '../assets/images/logo-dietitians-canada.png'
+import Credentials from '../components/Credentials/Credentials.tsx'
 import CtaBand from '../components/CtaBand/CtaBand.tsx'
 import { Apple, Pot, SpiceDots, Sprout } from '../components/Illustrations/Illustrations.tsx'
 import PageHero from '../components/PageHero/PageHero.tsx'
 import PageMeta from '../components/PageMeta.tsx'
 import Portrait from '../components/Portrait/Portrait.tsx'
-import StatsBand from '../components/StatsBand/StatsBand.tsx'
 import Button from '../components/ui/Button.tsx'
 import { Accent, Eyebrow, Script } from '../components/ui/Eyebrow.tsx'
-import { ChipList } from '../components/ui/Tag.tsx'
 import { useLanguage } from '../i18n/useLanguage.ts'
-import { mailto, serviceAnchors, site } from '../site.ts'
+import { mailto, serviceAnchors } from '../site.ts'
 import layout from '../styles/layout.module.css'
 import styles from './Home.module.css'
 
@@ -22,29 +19,29 @@ const serviceTiles: { art: ComponentType<SVGProps<SVGSVGElement>>; tone: string;
   { art: SpiceDots, tone: 'tomato', anchor: serviceAnchors.cinqEpices },
   { art: Pot, tone: 'sun', anchor: serviceAnchors.collectiveKitchens },
   { art: Sprout, tone: 'leaf', anchor: serviceAnchors.healthPromotion },
-  { art: Apple, tone: 'forest', anchor: serviceAnchors.schoolWork },
+  { art: Apple, tone: 'forest', anchor: serviceAnchors.workplace },
 ]
 
 export default function Home() {
   const { t } = useTranslation()
   const { url } = useLanguage()
 
-  const stats = t('home.stats.items', { returnObjects: true })
+  const mission = t('home.mission.paragraphs', { returnObjects: true })
   const services = t('home.services.items', { returnObjects: true })
-  const audience = t('home.audience.items', { returnObjects: true })
 
   return (
     <>
       <PageMeta title={t('home.title')} />
 
       <PageHero
+        overline={t('home.hero.overline')}
         eyebrow={t('home.hero.eyebrow')}
         title={<Trans i18nKey="home.hero.title" components={{ accent: <Accent /> }} />}
         meta={t('home.hero.meta')}
         text={t('home.hero.text')}
         actions={
           <>
-            <Button href={mailto} dot>
+            <Button href={mailto}>
               {t('common.emailMe')}
             </Button>
             <Button to={url('services')} variant="outline">
@@ -58,22 +55,29 @@ export default function Home() {
             stickers={[t('home.hero.badge'), t('home.hero.badge2')]}
           />
         }
-      >
-        <div className={styles.audience}>
-          <p className={styles.audienceLabel}>{t('home.audience.title')}</p>
-          <ChipList items={audience} />
-        </div>
-      </PageHero>
+      />
 
-      {/* Profile and bio */}
+      {/* Mission and vision cards, and bio */}
       <section className={layout.section}>
         <div className={`${layout.container} ${styles.introGrid}`}>
-          <article className={styles.profileCard}>
-            <Eyebrow>{t('home.profile.eyebrow')}</Eyebrow>
-            <h2 className={styles.cardTitle}>{t('home.profile.title')}</h2>
-            <p>{t('home.profile.p1')}</p>
-            <p>{t('home.profile.p2')}</p>
-          </article>
+          <div className={styles.cards}>
+            <article className={styles.profileCard}>
+              <Eyebrow>{t('home.mission.eyebrow')}</Eyebrow>
+              <h2 className={styles.cardTitle}>{t('home.mission.title')}</h2>
+              {mission.map((paragraph) => (
+                <p key={paragraph}>{paragraph}</p>
+              ))}
+            </article>
+
+            <article className={styles.profileCard}>
+              <Eyebrow>{t('home.vision.eyebrow')}</Eyebrow>
+              <blockquote className={styles.cardQuote}>
+                <p>{t('home.vision.quote')}</p>
+              </blockquote>
+              <p className={styles.conceptsLabel}>{t('home.vision.conceptsLabel')}</p>
+              <p>{t('home.vision.concepts')}</p>
+            </article>
+          </div>
 
           <div className={styles.bio}>
             <Eyebrow>{t('home.whoAmI.eyebrow')}</Eyebrow>
@@ -96,7 +100,6 @@ export default function Home() {
               <Eyebrow>{t('home.services.eyebrow')}</Eyebrow>
               <h2>{t('home.services.title')}</h2>
             </div>
-            <p className={layout.lead}>{t('home.services.text')}</p>
           </div>
 
           <ul className={styles.tiles}>
@@ -122,69 +125,14 @@ export default function Home() {
         </div>
       </section>
 
-      <div className={layout.section}>
-        <StatsBand
-          kicker={t('home.stats.kicker')}
-          title={t('home.stats.title')}
-          text={t('home.stats.text')}
-          stats={stats}
-        />
-      </div>
-
-      {/* Credentials */}
-      <section className={layout.section}>
-        <div className={layout.container}>
-          <Eyebrow>{t('home.credentials.eyebrow')}</Eyebrow>
-          <ul className={styles.credentialGrid}>
-            <li className={styles.credential}>
-              <a href={site.links.cda} target="_blank" rel="noreferrer" className={styles.logoBox}>
-                <img src={logoCda} alt={t('home.credentials.cda.title')} width={406} height={118} />
-              </a>
-              <h3>{t('home.credentials.cda.title')}</h3>
-              <p>{t('home.credentials.cda.text')}</p>
-            </li>
-            <li className={styles.credential}>
-              <a
-                href={site.links.dietitiansCanada}
-                target="_blank"
-                rel="noreferrer"
-                className={styles.logoBox}
-              >
-                <img
-                  src={logoDietitiansCanada}
-                  alt={t('home.credentials.dietitiansCanada.title')}
-                  width={540}
-                  height={128}
-                />
-              </a>
-              <h3>{t('home.credentials.dietitiansCanada.title')}</h3>
-              <p>{t('home.credentials.dietitiansCanada.text')}</p>
-            </li>
-            <li className={styles.credential}>
-              <h3>{t('home.credentials.udem.title')}</h3>
-              <p>{t('home.credentials.udem.text')}</p>
-            </li>
-            <li className={styles.credential}>
-              <h3>{t('home.credentials.publicHealth.title')}</h3>
-              <p>{t('home.credentials.publicHealth.text')}</p>
-            </li>
-          </ul>
-        </div>
-      </section>
+      <Credentials />
 
       <CtaBand
-        kicker={t('home.cta.kicker')}
         title={t('home.cta.title')}
-        text={t('home.cta.text')}
         actions={
-          <>
-            <Button href={mailto} dot>
-              {t('common.emailMe')}
-            </Button>
-            <Button href={site.phoneHref} variant="light">
-              {site.phone}
-            </Button>
-          </>
+          <Button href={mailto}>
+            {t('common.emailMe')}
+          </Button>
         }
       />
     </>

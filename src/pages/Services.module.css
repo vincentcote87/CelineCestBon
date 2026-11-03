@@ -1,8 +1,11 @@
 /* Jump links under the hero */
 
+/* Two equal columns, each as wide as the longest link. */
 .jumpNav {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: max-content;
+  max-width: 100%;
   gap: 0.75rem;
   margin: var(--space-lg) 0 0;
   padding: 0;
@@ -10,7 +13,7 @@
 }
 
 .jumpLink {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.6rem;
   min-height: 3rem;
@@ -78,6 +81,10 @@
   font-size: clamp(2rem, 3.6vw, 2.6rem);
 }
 
+.duration {
+  font-weight: 700;
+}
+
 .tagline {
   max-width: 24rem;
   margin-bottom: var(--space-xs);
@@ -122,7 +129,29 @@
   letter-spacing: -0.01em;
 }
 
+/* Quoted paragraph with its source. */
+.quote {
+  margin: var(--space-xs) 0 0;
+  padding-left: var(--space-md);
+  border-left: 4px solid var(--color-green);
+}
+
+.quote blockquote {
+  margin: 0;
+  font-style: italic;
+}
+
+.quote figcaption {
+  margin-top: var(--space-xs);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
 @media (max-width: 860px) {
+  .jumpNav {
+    grid-template-columns: 1fr;
+  }
+
   .service {
     grid-template-columns: 1fr;
     gap: var(--space-lg);

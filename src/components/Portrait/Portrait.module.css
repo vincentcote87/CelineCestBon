@@ -18,6 +18,16 @@
   height: auto;
 }
 
+.cropped {
+  width: min(100%, 22rem);
+}
+
+.cropped .photo {
+  aspect-ratio: 564 / 560;
+  object-fit: cover;
+  object-position: top;
+}
+
 .tomato {
   position: absolute;
   top: 4%;
@@ -68,11 +78,20 @@
     margin-top: var(--space-md);
   }
 
+  /* The photo shrinks but the stickers don't, so on small screens move them
+     off the face and onto the shoulders. */
+  .sticker {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.85rem;
+  }
+
   .stickerLight {
-    left: -4%;
+    top: 54%;
+    left: -6%;
   }
 
   .stickerDark {
+    bottom: 6%;
     right: -2%;
   }
 }

@@ -19,13 +19,6 @@
   transform: translateY(-2px);
 }
 
-.dot {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background: currentColor;
-}
-
 /* Tomato red: the main action. */
 .primary {
   background: var(--color-accent);

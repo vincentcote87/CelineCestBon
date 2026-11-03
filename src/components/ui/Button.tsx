@@ -10,26 +10,19 @@ type Props = {
   // Internal route (React Router) or external/mailto/tel link.
   to?: string
   href?: string
-  dot?: boolean
 }
 
 // A link styled as a pill button.
-export default function Button({ children, variant = 'primary', to, href, dot }: Props) {
+export default function Button({ children, variant = 'primary', to, href }: Props) {
   const className = `${styles.button} ${styles[variant]}`
-  const content = (
-    <>
-      {dot && <span className={styles.dot} aria-hidden="true" />}
-      {children}
-    </>
-  )
 
   return to ? (
     <Link to={to} className={className}>
-      {content}
+      {children}
     </Link>
   ) : (
     <a href={href} className={className}>
-      {content}
+      {children}
     </a>
   )
 }

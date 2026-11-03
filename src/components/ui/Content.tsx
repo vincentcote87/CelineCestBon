@@ -51,8 +51,3 @@ export function Pills({ items }: { items: string[] }) {
     </ul>
   )
 }
-
-// Highlighted paragraph with a red left border.
-export function Callout({ children }: { children: ReactNode }) {
-  return <p className={styles.callout}>{children}</p>
-}

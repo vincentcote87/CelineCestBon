@@ -5,17 +5,16 @@ import PageHero from '../components/PageHero/PageHero.tsx'
 import PageMeta from '../components/PageMeta.tsx'
 import StatsBand from '../components/StatsBand/StatsBand.tsx'
 import Button from '../components/ui/Button.tsx'
-import { BulletList, Callout, InfoCard, InfoGrid, Pills, Timeline } from '../components/ui/Content.tsx'
+import { BulletList, InfoCard, InfoGrid, Pills, Timeline } from '../components/ui/Content.tsx'
 import { Accent } from '../components/ui/Eyebrow.tsx'
 import { ChipList, Tag } from '../components/ui/Tag.tsx'
-import { useLanguage } from '../i18n/useLanguage.ts'
 import { mailto, serviceAnchors } from '../site.ts'
 import layout from '../styles/layout.module.css'
 import styles from './Services.module.css'
 
 const anchors = serviceAnchors
 type ServiceKey = keyof typeof anchors
-const order: ServiceKey[] = ['cinqEpices', 'collectiveKitchens', 'healthPromotion', 'schoolWork']
+const order: ServiceKey[] = ['cinqEpices', 'collectiveKitchens', 'healthPromotion', 'workplace']
 
 type ServiceProps = {
   id: ServiceKey
@@ -40,11 +39,12 @@ function Service({ id, number, sand, children }: ServiceProps) {
             {String(number).padStart(2, '0')}
           </p>
           <Tag>{t(`services.${id}.tag`)}</Tag>
+          <p className={styles.duration}>{t(`services.${id}.duration`)}</p>
           <h2 id={`${anchors[id]}-title`} className={styles.title}>
             {t(`services.${id}.title`)}
           </h2>
           <p className={styles.tagline}>{t(`services.${id}.tagline`)}</p>
-          <Button href={mailto} dot>
+          <Button href={mailto}>
             {t(`services.${id}.button`)}
           </Button>
         </div>
@@ -56,7 +56,6 @@ function Service({ id, number, sand, children }: ServiceProps) {
 
 export default function Services() {
   const { t } = useTranslation()
-  const { url } = useLanguage()
   const labels = t('services.labels', { returnObjects: true })
 
   return (
@@ -82,37 +81,41 @@ export default function Services() {
         </nav>
       </PageHero>
 
-      {/* 01 Ateliers Cinq Épices */}
+      {/* 01 Ateliers cinq épices Alberta */}
       <Service id="cinqEpices" number={1}>
-        <div>
+        <div className={styles.stack}>
           <h3 className={styles.subTitle}>{labels.approach}</h3>
           <p>{t('services.cinqEpices.approach')}</p>
+          <figure className={styles.quote}>
+            <blockquote>
+              <p>{t('services.cinqEpices.approachQuote')}</p>
+            </blockquote>
+            <figcaption>{t('services.cinqEpices.approachSource')}</figcaption>
+          </figure>
         </div>
         <div className={styles.mission}>
           <h4 className={styles.missionLabel}>{labels.mission}</h4>
           <p className={styles.missionText}>{t('services.cinqEpices.mission')}</p>
         </div>
-        <InfoGrid>
-          <InfoCard label={labels.forWho}>
-            <p>{t('services.cinqEpices.forWho')}</p>
-          </InfoCard>
-          <InfoCard label={labels.format}>
-            <p>{t('services.cinqEpices.format')}</p>
-          </InfoCard>
-        </InfoGrid>
         <div className={styles.stack}>
           <h3 className={styles.subTitle}>{labels.history}</h3>
-          <p>{t('services.cinqEpices.historyIntro')}</p>
           <Pills items={t('services.cinqEpices.values', { returnObjects: true })} />
-          <p>{t('services.cinqEpices.historyText')}</p>
         </div>
         <Timeline items={t('services.cinqEpices.timeline', { returnObjects: true })} />
+        <p>{t('services.cinqEpices.historyText')}</p>
+        <InfoGrid>
+          <InfoCard label={labels.forWho}>
+            <BulletList items={t('services.cinqEpices.forWho', { returnObjects: true })} />
+          </InfoCard>
+          <InfoCard label={labels.format}>
+            <BulletList items={t('services.cinqEpices.format', { returnObjects: true })} />
+          </InfoCard>
+        </InfoGrid>
       </Service>
 
       <div className={layout.section}>
         <StatsBand
           title={t('services.cinqEpices.stats.title')}
-          text={t('services.cinqEpices.stats.text')}
           stats={t('services.cinqEpices.stats.items', { returnObjects: true })}
           footnote={<Trans i18nKey="services.cinqEpices.stats.footnote" components={{ strong: <strong /> }} />}
         />
@@ -122,59 +125,42 @@ export default function Services() {
       <Service id="collectiveKitchens" number={2}>
         <p>{t('services.collectiveKitchens.p1')}</p>
         <p>{t('services.collectiveKitchens.p2')}</p>
+        <p>{t('services.collectiveKitchens.p3')}</p>
         <InfoGrid>
           <InfoCard label={labels.forWho}>
-            <p>{t('services.collectiveKitchens.forWho')}</p>
+            <BulletList items={t('services.collectiveKitchens.forWho', { returnObjects: true })} />
           </InfoCard>
-          <InfoCard label={labels.eachSession}>
-            <BulletList items={t('services.collectiveKitchens.eachSession', { returnObjects: true })} />
+          <InfoCard label={labels.format}>
+            <BulletList items={t('services.collectiveKitchens.format', { returnObjects: true })} />
           </InfoCard>
         </InfoGrid>
-        <p>{t('services.collectiveKitchens.closing')}</p>
       </Service>
 
-      {/* 03 Promotion de la santé */}
+      {/* 03 Promotion de la santé alimentaire */}
       <Service id="healthPromotion" number={3} sand>
-        <p>{t('services.healthPromotion.intro')}</p>
-        <div className={styles.stack}>
-          <h3 className={styles.subTitle}>{labels.themes}</h3>
+        <p>{t('services.healthPromotion.p1')}</p>
+        <p>{t('services.healthPromotion.p2')}</p>
+        <InfoCard label={labels.themes}>
           <BulletList items={t('services.healthPromotion.themes', { returnObjects: true })} />
-        </div>
-        <Callout>{t('services.healthPromotion.callout')}</Callout>
+        </InfoCard>
       </Service>
 
-      {/* 04 La santé à l'école et au travail */}
-      <Service id="schoolWork" number={4}>
-        <p>{t('services.schoolWork.p1')}</p>
-        <p>{t('services.schoolWork.p2')}</p>
+      {/* 04 La santé alimentaire en milieu de travail */}
+      <Service id="workplace" number={4}>
+        <p>{t('services.workplace.p1')}</p>
         <div className={styles.stack}>
-          <h3 className={styles.subTitle}>{labels.formats}</h3>
-          <ChipList items={t('services.schoolWork.formats', { returnObjects: true })} />
+          <h3 className={styles.subTitle}>{labels.services}</h3>
+          <ChipList items={t('services.workplace.services', { returnObjects: true })} even />
         </div>
-        <InfoGrid>
-          <InfoCard label={labels.forWho}>
-            <p>{t('services.schoolWork.forWho')}</p>
-          </InfoCard>
-          <InfoCard label={labels.program}>
-            <p>{t('services.schoolWork.program')}</p>
-          </InfoCard>
-        </InfoGrid>
-        <p>{t('services.schoolWork.closing')}</p>
       </Service>
 
       <CtaBand
         kicker={t('services.cta.kicker')}
         title={t('services.cta.title')}
-        text={t('services.cta.text')}
         actions={
-          <>
-            <Button href={mailto} dot>
-              {t('common.emailMe')}
-            </Button>
-            <Button to={url('contact')} variant="light">
-              {t('services.cta.allContacts')}
-            </Button>
-          </>
+          <Button href={mailto}>
+            {t('common.emailMe')}
+          </Button>
         }
       />
     </>
