@@ -2,32 +2,23 @@
   "title": "Contact",
   "hero": {
     "eyebrow": "Contact",
-    "title": "Get in <accent>touch.</accent>",
-    "text": "Céline Bossé, RD, public health dietitian for the Calgary region. An email or a phone call is all it takes to get started."
+    "title": "Pour me <accent>joindre…</accent>",
+    "text": [
+      "Céline Bossé, Dt.P., diététiste en santé publique",
+      "Un courriel ou un appel suffit pour débuter."
+    ]
   },
   "email": { "label": "Email" },
   "phone": { "label": "Phone" },
   "prepare": {
-    "eyebrow": "Preparing your request",
-    "title": "What to include in your email",
-    "text": "A few details help me suggest the right workshop for your group.",
+    "eyebrow": "Pour bien préparer votre demande",
+    "title": "Quoi inclure dans votre courriel ?",
+    "text": "Quelques détails pourraient m’aider à vous proposer le bon atelier.",
     "steps": [
-      { "title": "Your organization", "text": "School, daycare, community organization, seniors’ group or employer." },
-      { "title": "Your group", "text": "The number of participants and their ages." },
-      { "title": "Your dates", "text": "Preferred dates or time frame, and the location." },
-      { "title": "The topic", "text": "Cinq Épices workshop, community kitchen, health promotion, Lunch & Learn or another subject." }
+      { "title": "Votre organisme", "text": "École, service de garde, organisme communautaire, entreprise." },
+      { "title": "Votre groupe", "text": "Quel public et combien sont-ils ?" },
+      { "title": "Vos dates", "text": "Les dates ou la période souhaitées et le lieu privilégié." },
+      { "title": "Le thème", "text": "Atelier cinq épices Alberta, cuisine collective, promotion de la santé alimentaire, la santé alimentaire en milieu de travail." }
     ]
-  },
-  "area": {
-    "eyebrow": "Service area",
-    "title": "Calgary and Southern Alberta",
-    "text": "In person at your location, or through a virtual grocery store tour.",
-    "mapCity": "Calgary",
-    "mapRegion": "Southern Alberta"
-  },
-  "cta": {
-    "kicker": "Eat well, live well!",
-    "title": "I look forward to hearing from you.",
-    "text": "Not sure which format yet? Browse the services to find the idea that suits you."
   }
 }

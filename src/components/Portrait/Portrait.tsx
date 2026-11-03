@@ -6,14 +6,16 @@ type Props = {
   alt: string
   // Up to two "sticker" labels around the photo, e.g. ["Dt.P. / RD", "25 ans d'expérience"].
   stickers?: string[]
+  // Trim the bottom of the photo (shorter bust), e.g. on the Contact page.
+  cropped?: boolean
 }
 
 // Céline's cut-out headshot on a yellow arch, with sticker labels.
-export default function Portrait({ alt, stickers = [] }: Props) {
+export default function Portrait({ alt, stickers = [], cropped }: Props) {
   const [first, second] = stickers
 
   return (
-    <div className={styles.portrait}>
+    <div className={`${styles.portrait} ${cropped ? styles.cropped : ''}`}>
       <div className={styles.arch} aria-hidden="true" />
       <Tomato className={styles.tomato} />
       <Leaf className={styles.leaf} />

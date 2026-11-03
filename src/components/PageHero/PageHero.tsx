@@ -10,7 +10,8 @@ type Props = {
   eyebrow: string
   title: ReactNode
   meta?: string
-  text: string
+  // One paragraph, or several (e.g. the Contact page).
+  text: string | string[]
   actions?: ReactNode
   // Optional visual on the right (e.g. the portrait), sitting on the panel's bottom edge.
   aside?: ReactNode
@@ -34,7 +35,11 @@ export default function PageHero({ overline, eyebrow, title, meta, text, actions
           <Eyebrow>{eyebrow}</Eyebrow>
           <h1 className={styles.title}>{title}</h1>
           {meta && <p className={styles.meta}>{meta}</p>}
-          <p className={styles.text}>{text}</p>
+          <div className={styles.text}>
+            {(Array.isArray(text) ? text : [text]).map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
           {actions && <div className={layout.actions}>{actions}</div>}
         </div>
         {aside}

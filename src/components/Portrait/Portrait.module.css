@@ -18,6 +18,12 @@
   height: auto;
 }
 
+.cropped .photo {
+  aspect-ratio: 564 / 620;
+  object-fit: cover;
+  object-position: top;
+}
+
 .tomato {
   position: absolute;
   top: 4%;
