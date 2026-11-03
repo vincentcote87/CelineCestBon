@@ -7,15 +7,13 @@
     "jumpNav": "The four services"
   },
   "labels": {
-    "forWho": "Who it’s for",
+    "forWho": "Pour qui",
     "format": "Format",
-    "eachSession": "Each session",
-    "program": "What’s covered",
-    "approach": "Our approach",
-    "mission": "Our mission",
-    "history": "Our story",
-    "themes": "Topics",
-    "formats": "Formats"
+    "approach": "Notre approche",
+    "mission": "Notre mission",
+    "history": "Notre histoire",
+    "themes": "Thèmes proposés pour vous accompagner :",
+    "services": "Les services"
   },
   "cinqEpices": {
     "short": "Ateliers cinq épices Alberta",
@@ -67,64 +65,66 @@
   },
   "collectiveKitchens": {
     "short": "Cuisines collectives, du partage au savoir",
-    "tag": "From children to seniors",
+    "tag": "Des enfants aux aînés",
     "duration": "Durée : entre 2 et 3 heures",
-    "title": "Community kitchens for sharing and learning",
-    "tagline": "Rebuilding a skill that is essential to individual and collective well-being.",
-    "button": "Organize a series",
-    "p1": "As cooking skills are fading, I offer a series of workshops that teach the principles of healthy eating: choosing ingredients, preparation methods, storage and how long food keeps.",
-    "p2": "Designed to respect the cultural diversity and food traditions of participants, the workshops offer modules adapted to all ages, from young children to seniors, and take each group’s nutritional needs into account.",
-    "forWho": "Community organizations, family groups, seniors’ groups, any group that wants to cook together.",
-    "eachSession": ["Hands-on demonstrations", "Cooking tips", "Healthy, affordable recipes in under 30 minutes"],
-    "closing": "Held in small groups, these workshops encourage sharing skills and the dishes prepared, in a friendly, educational setting that supports lasting new eating habits."
+    "title": "Cuisines collectives",
+    "tagline": "« Un partage du savoir culinaire au service de la communauté. »",
+    "button": "Organisons une séance",
+    "p1": "Ces ateliers en petits groupes sont destinés à retrouver un savoir-faire culinaire au bénéfice des membres de la communauté.",
+    "p2": "C’est le temps d’élaborer des recettes saines et économiques conçues pour respecter la diversité culturelle, les réalités culinaires et les éventuels besoins spéciaux en santé des participants et des bénéficiaires. Les ateliers proposent des modules adaptés à tous les âges, des jeunes enfants aux personnes âgées.",
+    "p3": "Organisés en petits groupes, ces ateliers favorisent l’échange des compétences, le partage et la distribution des plats préparés, dans un cadre convivial et pédagogique propice à de nouvelles habitudes alimentaires.",
+    "forWho": [
+      "Membres d’organismes communautaires (jeunes, adultes, aînés, voire intergénérationnel)"
+    ],
+    "format": [
+      "Découverte de la recette",
+      "Démonstration pratique",
+      "Astuces culinaires",
+      "Préparation (choix des ingrédients)",
+      "Dégustation et/ou distribution (mode et durée de conservation)"
+    ]
   },
   "healthPromotion": {
     "short": "Promotion de la santé alimentaire",
-    "tag": "Adults and families",
+    "tag": "Adultes et familles",
     "duration": "Durée : 60 à 90 minutes",
-    "title": "Health promotion",
-    "tagline": "Who couldn’t use some nutrition advice?",
-    "button": "Let’s talk",
-    "intro": "Through quizzes and games, I invite you to review your eating habits and suggest solutions that fit your lifestyle. There are many personal reasons to revisit your habits: the birth of a baby, retirement, or a health diagnosis that calls for change.",
+    "title": "Promotion de la santé alimentaire",
+    "tagline": "« S’amuser pour mieux se préparer. »",
+    "button": "Parlons-en",
+    "p1": "À chaque étape de la vie, l’alimentation joue un rôle essentiel pour votre bien-être et celui des êtres chers qui vous entourent. Je vous propose de revisiter vos habitudes alimentaires de manière ludique afin de trouver des solutions adaptées à votre mode de vie. Évaluer et adapter ses habitudes alimentaires au fil du temps est source d’énergie renouvelée.",
+    "p2": "La naissance d’un bébé, la scolarisation d’un enfant, un départ à la retraite, l’annonce d’une condition de santé ou un terrain allergène peuvent vous obliger à certains changements.",
     "themes": [
-      "Making good choices at the grocery store",
-      "Planning balanced menus",
-      "Understanding and evaluating the nutritional value of food",
-      "Food safety rules and possible allergens when packing lunches",
-      "Reducing waste by knowing how long stored food keeps (pantry, cupboards and fridge)",
-      "Balanced meals and recipes that respect your tastes and preferences"
-    ],
-    "callout": "To reach your full potential, it’s essential to regularly review your eating habits through life’s different stages. They lay the foundation for a better future and renewed energy."
+      "Visites éducatives à l’épicerie",
+      "Composition et planification de menus équilibrés",
+      "Choix des aliments et visite à l’épicerie",
+      "Compréhension de la valeur nutritive des aliments",
+      "Connaissances des règles de salubrité",
+      "Découverte des allergènes",
+      "Préparation de boîtes à lunch",
+      "Réduction du gaspillage alimentaire"
+    ]
   },
   "workplace": {
     "short": "La santé en milieu de travail",
-    "tag": "Schools and employers",
+    "tag": "Adultes",
     "duration": "Durée : 60 minutes",
-    "title": "Health at school and at work",
-    "tagline": "Demystifying and simplifying good eating, at work, at restaurants or in the school cafeteria.",
-    "button": "Plan a session",
-    "p1": "Lack of time, meals on the run and lack of planning are all barriers to making health a priority. Cooking every day is no small task. I help you take charge of your health so you can enjoy a healthy diet.",
-    "p2": "Grocery stores and restaurants never run out of ideas for products and prepared meals that are as tempting as they are expensive. I encourage you to watch out for so-called health products promoted by packaging and advertising, and to read the ingredient list: food allergies and intolerances cause a lot of discomfort, and can even be very dangerous for some people.",
-    "formats": [
-      "One-hour interactive sessions",
-      "Workplace Lunch & Learns",
-      "School visits",
-      "Prevention workshops",
-      "Educational grocery store tours, in person or virtual",
-      "Talks",
-      "Monthly columns",
-      "Radio interviews",
-      "Training video clips",
-      "Mini quiz games"
-    ],
-    "forWho": "Community groups, employee teams, schools and their staff.",
-    "program": "Depending on the topic, the impact of food on physical and mental health, and how to prevent disease.",
-    "closing": "With mini quiz games, we debunk nutrition claims to separate fact from fiction. I always finish with a tasting of homemade dishes, introducing affordable new foods to the more adventurous, along with ideas for a balanced, fun and nourishing lunch box."
+    "title": "La santé alimentaire en milieu de travail",
+    "tagline": "« De saines habitudes alimentaires pour une saine efficacité. »",
+    "button": "Planifions une session",
+    "p1": "La moyenne du temps de travail au Canada est d’environ 35,8 heures par semaine (Statistique Canada). Mais pendant ce temps l’alimentation n’est pas forcément votre priorité. Que vous soyez dans une grande entreprise ou une petite école, il est important de vous créer de bonnes habitudes alimentaires.\nJe vous propose donc des moments de pause afin d’échanger avec vous sur vos besoins et les solutions pour les mettre en place dans votre journée.",
+    "services": [
+      "Préparation d’une boîte à lunch équilibrée",
+      "Connaissance de ses besoins nutritifs",
+      "Sensibilisation sur la qualité des produits",
+      "Démystification des idées reçues en alimentation",
+      "Planification des repas en fonction de son horaire de travail",
+      "Organisation et besoin nutritif lors d’évènements",
+      "Sensibilisation à la gestion des déchets",
+      "Aménagement de lieu adapté pour le repas"
+    ]
   },
   "cta": {
-    "kicker": "Shall we cook together?",
-    "title": "Tell me what you have in mind.",
-    "text": "Your organization, your group, your dates and the topic you’re interested in: I’ll reply in French or English.",
-    "allContacts": "All contact details"
+    "kicker": "Travaillons ensemble !",
+    "title": "Un besoin, un projet…"
   }
 }

@@ -103,11 +103,3 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
 }
-
-.callout {
-  padding: var(--space-md) var(--space-lg);
-  border-radius: var(--radius);
-  background: var(--pastel-pink);
-  font-size: 1.05rem;
-  font-weight: 500;
-}

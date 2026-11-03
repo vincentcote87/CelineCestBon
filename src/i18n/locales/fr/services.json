@@ -9,13 +9,11 @@
   "labels": {
     "forWho": "Pour qui",
     "format": "Format",
-    "eachSession": "Chaque séance",
-    "program": "Au programme",
     "approach": "Notre approche",
     "mission": "Notre mission",
     "history": "Notre histoire",
-    "themes": "Thèmes proposés",
-    "formats": "Les formules"
+    "themes": "Thèmes proposés pour vous accompagner :",
+    "services": "Les services"
   },
   "cinqEpices": {
     "short": "Ateliers cinq épices Alberta",
@@ -69,62 +67,64 @@
     "short": "Cuisines collectives, du partage au savoir",
     "tag": "Des enfants aux aînés",
     "duration": "Durée : entre 2 et 3 heures",
-    "title": "Cuisines collectives du partage et du savoir",
-    "tagline": "Rétablir une compétence essentielle au bien-être individuel et collectif.",
-    "button": "Organiser une série",
-    "p1": "Dans un contexte où le savoir-faire culinaire tend à s’éroder, je propose une série d’ateliers pour enseigner les principes d’une alimentation saine : le choix des ingrédients, les méthodes de préparation, l’entreposage et les durées de conservation des aliments.",
-    "p2": "Conçus pour respecter la diversité culturelle et les réalités culinaires des participants, les ateliers proposent des modules adaptés à tous les âges, des jeunes enfants aux personnes âgées, et tiennent compte des besoins nutritionnels de chaque groupe.",
-    "forWho": "Organismes communautaires, groupes de familles, groupes d’aînés, tout groupe qui souhaite cuisiner ensemble.",
-    "eachSession": ["Démonstrations pratiques", "Astuces culinaires", "Recettes saines et économiques, en moins de 30 minutes"],
-    "closing": "Organisés en petits groupes, ces ateliers favorisent l’échange de compétences et le partage des plats préparés, dans un cadre convivial et pédagogique propice à de nouvelles habitudes alimentaires durables."
+    "title": "Cuisines collectives",
+    "tagline": "« Un partage du savoir culinaire au service de la communauté. »",
+    "button": "Organisons une séance",
+    "p1": "Ces ateliers en petits groupes sont destinés à retrouver un savoir-faire culinaire au bénéfice des membres de la communauté.",
+    "p2": "C’est le temps d’élaborer des recettes saines et économiques conçues pour respecter la diversité culturelle, les réalités culinaires et les éventuels besoins spéciaux en santé des participants et des bénéficiaires. Les ateliers proposent des modules adaptés à tous les âges, des jeunes enfants aux personnes âgées.",
+    "p3": "Organisés en petits groupes, ces ateliers favorisent l’échange des compétences, le partage et la distribution des plats préparés, dans un cadre convivial et pédagogique propice à de nouvelles habitudes alimentaires.",
+    "forWho": [
+      "Membres d’organismes communautaires (jeunes, adultes, aînés, voire intergénérationnel)"
+    ],
+    "format": [
+      "Découverte de la recette",
+      "Démonstration pratique",
+      "Astuces culinaires",
+      "Préparation (choix des ingrédients)",
+      "Dégustation et/ou distribution (mode et durée de conservation)"
+    ]
   },
   "healthPromotion": {
     "short": "Promotion de la santé alimentaire",
     "tag": "Adultes et familles",
     "duration": "Durée : 60 à 90 minutes",
-    "title": "Promotion de la santé",
-    "tagline": "Qui n’a pas besoin de conseils en alimentation ?",
-    "button": "En parler",
-    "intro": "Par l’intermédiaire de quiz et de jeux questionnaires, je vous propose de revoir vos habitudes alimentaires et je vous suggère des solutions adaptées à votre mode de vie. Les occasions de revisiter ses habitudes sont multiples et personnelles : la naissance d’un bébé, la retraite, ou l’annonce d’une condition de santé qui oblige à des changements.",
+    "title": "Promotion de la santé alimentaire",
+    "tagline": "« S’amuser pour mieux se préparer. »",
+    "button": "Parlons-en",
+    "p1": "À chaque étape de la vie, l’alimentation joue un rôle essentiel pour votre bien-être et celui des êtres chers qui vous entourent. Je vous propose de revisiter vos habitudes alimentaires de manière ludique afin de trouver des solutions adaptées à votre mode de vie. Évaluer et adapter ses habitudes alimentaires au fil du temps est source d’énergie renouvelée.",
+    "p2": "La naissance d’un bébé, la scolarisation d’un enfant, un départ à la retraite, l’annonce d’une condition de santé ou un terrain allergène peuvent vous obliger à certains changements.",
     "themes": [
-      "Faire de bons choix à l’épicerie",
-      "Planifier des menus équilibrés",
-      "Comprendre et évaluer la valeur nutritive des aliments",
-      "Règles de salubrité et allergènes possibles dans la préparation de la boîte à lunch",
-      "Réduire le gaspillage grâce à la durée de conservation des aliments entreposés (garde-manger, armoires et frigo)",
-      "Des repas équilibrés et leurs recettes, en respectant vos goûts et vos préférences"
-    ],
-    "callout": "Pour profiter de votre plein potentiel, il est essentiel d’évaluer régulièrement vos habitudes alimentaires au fil des différents passages de la vie. Elles sont la source des bases d’un avenir meilleur et d’une énergie renouvelée."
+      "Visites éducatives à l’épicerie",
+      "Composition et planification de menus équilibrés",
+      "Choix des aliments et visite à l’épicerie",
+      "Compréhension de la valeur nutritive des aliments",
+      "Connaissances des règles de salubrité",
+      "Découverte des allergènes",
+      "Préparation de boîtes à lunch",
+      "Réduction du gaspillage alimentaire"
+    ]
   },
   "workplace": {
     "short": "La santé en milieu de travail",
-    "tag": "Écoles et employeurs",
+    "tag": "Adultes",
     "duration": "Durée : 60 minutes",
-    "title": "La santé à l’école et au travail",
-    "tagline": "Démystifier et simplifier l’art de la table, au travail, au restaurant ou à la cafétéria de l’école.",
-    "button": "Planifier une session",
-    "p1": "Le manque de temps, les repas à la course et le manque de planification sont autant de barrières à surmonter pour prioriser la santé. Cuisiner tous les jours n’est pas une simple tâche. Je vous aide à prendre en charge votre santé pour profiter d’une alimentation adéquate.",
-    "p2": "Les marchés d’alimentation et les restaurants ne manquent pas d’imagination pour offrir des produits et des mets préparés aussi appétissants que coûteux. Je vous invite à être à l’affût des pseudo-produits santé que les emballages et les publicités font miroiter, et à consulter la liste des ingrédients : les allergies et les intolérances alimentaires sont sources de bien des inconforts, voire de grand danger pour certaines personnes.",
-    "formats": [
-      "Sessions interactives d’une heure",
-      "Lunch & Learn en entreprise",
-      "Visites dans les écoles",
-      "Ateliers de prévention",
-      "Visites éducatives à l’épicerie, en personne ou virtuelles",
-      "Conférences",
-      "Chroniques mensuelles",
-      "Entrevues radiophoniques",
-      "Clips vidéo de formation",
-      "Mini jeux questionnaires"
-    ],
-    "forWho": "Groupes associatifs, équipes d’employés, écoles et leur personnel.",
-    "program": "Selon le thème choisi, l’impact de l’alimentation sur le corps, physique et mental, et comment prévenir les maladies.",
-    "closing": "Avec les mini jeux questionnaires, nous démystifions les allégations nutritionnelles pour départager le vrai du faux. Et je termine toujours par une dégustation de produits préparés à la maison, pour faire découvrir des nouveautés économiques aux plus courageux, sans oublier des idées pour une boîte à lunch équilibrée, amusante et nourrissante."
+    "title": "La santé alimentaire en milieu de travail",
+    "tagline": "« De saines habitudes alimentaires pour une saine efficacité. »",
+    "button": "Planifions une session",
+    "p1": "La moyenne du temps de travail au Canada est d’environ 35,8 heures par semaine (Statistique Canada). Mais pendant ce temps l’alimentation n’est pas forcément votre priorité. Que vous soyez dans une grande entreprise ou une petite école, il est important de vous créer de bonnes habitudes alimentaires.\nJe vous propose donc des moments de pause afin d’échanger avec vous sur vos besoins et les solutions pour les mettre en place dans votre journée.",
+    "services": [
+      "Préparation d’une boîte à lunch équilibrée",
+      "Connaissance de ses besoins nutritifs",
+      "Sensibilisation sur la qualité des produits",
+      "Démystification des idées reçues en alimentation",
+      "Planification des repas en fonction de son horaire de travail",
+      "Organisation et besoin nutritif lors d’évènements",
+      "Sensibilisation à la gestion des déchets",
+      "Aménagement de lieu adapté pour le repas"
+    ]
   },
   "cta": {
-    "kicker": "On cuisine ensemble ?",
-    "title": "Dites-moi ce que vous imaginez.",
-    "text": "Votre organisme, votre groupe, vos dates et le thème qui vous intéresse : je vous réponds en français ou en anglais.",
-    "allContacts": "Tous les contacts"
+    "kicker": "Travaillons ensemble !",
+    "title": "Un besoin, un projet…"
   }
 }

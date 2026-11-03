@@ -5,10 +5,9 @@ import PageHero from '../components/PageHero/PageHero.tsx'
 import PageMeta from '../components/PageMeta.tsx'
 import StatsBand from '../components/StatsBand/StatsBand.tsx'
 import Button from '../components/ui/Button.tsx'
-import { BulletList, Callout, InfoCard, InfoGrid, Pills, Timeline } from '../components/ui/Content.tsx'
+import { BulletList, InfoCard, InfoGrid, Pills, Timeline } from '../components/ui/Content.tsx'
 import { Accent } from '../components/ui/Eyebrow.tsx'
 import { ChipList, Tag } from '../components/ui/Tag.tsx'
-import { useLanguage } from '../i18n/useLanguage.ts'
 import { mailto, serviceAnchors } from '../site.ts'
 import layout from '../styles/layout.module.css'
 import styles from './Services.module.css'
@@ -57,7 +56,6 @@ function Service({ id, number, sand, children }: ServiceProps) {
 
 export default function Services() {
   const { t } = useTranslation()
-  const { url } = useLanguage()
   const labels = t('services.labels', { returnObjects: true })
 
   return (
@@ -127,59 +125,42 @@ export default function Services() {
       <Service id="collectiveKitchens" number={2}>
         <p>{t('services.collectiveKitchens.p1')}</p>
         <p>{t('services.collectiveKitchens.p2')}</p>
+        <p>{t('services.collectiveKitchens.p3')}</p>
         <InfoGrid>
           <InfoCard label={labels.forWho}>
-            <p>{t('services.collectiveKitchens.forWho')}</p>
+            <BulletList items={t('services.collectiveKitchens.forWho', { returnObjects: true })} />
           </InfoCard>
-          <InfoCard label={labels.eachSession}>
-            <BulletList items={t('services.collectiveKitchens.eachSession', { returnObjects: true })} />
+          <InfoCard label={labels.format}>
+            <BulletList items={t('services.collectiveKitchens.format', { returnObjects: true })} />
           </InfoCard>
         </InfoGrid>
-        <p>{t('services.collectiveKitchens.closing')}</p>
       </Service>
 
-      {/* 03 Promotion de la santé */}
+      {/* 03 Promotion de la santé alimentaire */}
       <Service id="healthPromotion" number={3} sand>
-        <p>{t('services.healthPromotion.intro')}</p>
-        <div className={styles.stack}>
-          <h3 className={styles.subTitle}>{labels.themes}</h3>
+        <p>{t('services.healthPromotion.p1')}</p>
+        <p>{t('services.healthPromotion.p2')}</p>
+        <InfoCard label={labels.themes}>
           <BulletList items={t('services.healthPromotion.themes', { returnObjects: true })} />
-        </div>
-        <Callout>{t('services.healthPromotion.callout')}</Callout>
+        </InfoCard>
       </Service>
 
       {/* 04 La santé alimentaire en milieu de travail */}
       <Service id="workplace" number={4}>
         <p>{t('services.workplace.p1')}</p>
-        <p>{t('services.workplace.p2')}</p>
         <div className={styles.stack}>
-          <h3 className={styles.subTitle}>{labels.formats}</h3>
-          <ChipList items={t('services.workplace.formats', { returnObjects: true })} />
+          <h3 className={styles.subTitle}>{labels.services}</h3>
+          <ChipList items={t('services.workplace.services', { returnObjects: true })} />
         </div>
-        <InfoGrid>
-          <InfoCard label={labels.forWho}>
-            <p>{t('services.workplace.forWho')}</p>
-          </InfoCard>
-          <InfoCard label={labels.program}>
-            <p>{t('services.workplace.program')}</p>
-          </InfoCard>
-        </InfoGrid>
-        <p>{t('services.workplace.closing')}</p>
       </Service>
 
       <CtaBand
         kicker={t('services.cta.kicker')}
         title={t('services.cta.title')}
-        text={t('services.cta.text')}
         actions={
-          <>
-            <Button href={mailto} dot>
-              {t('common.emailMe')}
-            </Button>
-            <Button to={url('contact')} variant="light">
-              {t('services.cta.allContacts')}
-            </Button>
-          </>
+          <Button href={mailto} dot>
+            {t('common.emailMe')}
+          </Button>
         }
       />
     </>
