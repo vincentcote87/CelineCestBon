@@ -68,11 +68,20 @@
     margin-top: var(--space-md);
   }
 
+  /* The photo shrinks but the stickers don't, so on small screens move them
+     off the face and onto the shoulders. */
+  .sticker {
+    padding: 0.6rem 0.9rem;
+    font-size: 0.85rem;
+  }
+
   .stickerLight {
-    left: -4%;
+    top: 54%;
+    left: -6%;
   }
 
   .stickerDark {
+    bottom: 6%;
     right: -2%;
   }
 }
