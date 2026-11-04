@@ -38,6 +38,12 @@
     "title": "“Four ways to put health on the menu!”",
     "items": [
       {
+        "tag": "Adults and families",
+        "title": "Healthy eating promotion",
+        "text": "Through quizzes and question games, we review your eating habits and find solutions that fit your lifestyle, at every stage of life.",
+        "link": "Learn more"
+      },
+      {
         "tag": "Children aged 3 to 12",
         "title": "Ateliers cinq épices Alberta",
         "text": "Every child handles, measures and cuts the food. By cooking and tasting, our little chefs discover new foods and build independence in the kitchen.",
@@ -47,12 +53,6 @@
         "tag": "Adults",
         "title": "Community kitchens, from sharing to know-how",
         "text": "Small-group workshops to rediscover cooking skills: choosing ingredients, preparing, cooking, and how and how long to store food. Healthy, budget-friendly recipes ready in under 30 minutes.",
-        "link": "Learn more"
-      },
-      {
-        "tag": "Adults and families",
-        "title": "Healthy eating promotion",
-        "text": "Through quizzes and question games, we review your eating habits and find solutions that fit your lifestyle, at every stage of life.",
         "link": "Learn more"
       },
       {

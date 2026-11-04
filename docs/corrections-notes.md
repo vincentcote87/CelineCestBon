@@ -15,6 +15,8 @@ avant `! ? : ;` et à l’intérieur des guillemets `« »`
 Les apostrophes droites (') sont aussi remplacées par des apostrophes typographiques (’).
 Ces cas ne sont pas listés un par un.
 
+Les numéros de service (01 à 04) suivent l’ordre du document d’origine.
+
 | Page | Section | Texte d’origine | Texte corrigé |
 | --- | --- | --- | --- |
 | Accueil | Qui suis-je? | ingrédients frais et non-transformés | ingrédients frais et non transformés |
@@ -33,13 +35,13 @@ Ces cas ne sont pas listés un par un.
 - **Âge des enfants, Ateliers cinq épices :** la page d’accueil indique « Enfants de 3 à 12 ans », alors que la page Services et l’historique indiquent « 2 à 12 ans ». Quelle tranche d’âge est la bonne ? (Le texte a été laissé tel quel pour l’instant.)
 - **Logo de l’Université de Montréal :** le logo a été ajouté à la carte « Formation et appartenances ». Pouvez-vous confirmer qu’il convient de l’afficher (et, si possible, fournir la version officielle du logo) ?
 - **Chiffres « Dix ans plus tard » :** le document demande de vérifier le contenu de ce bandeau. Les chiffres actuels ont été conservés (1 740+ jeunes de 3 à 12 ans, 347 ateliers, 25 écoles, 82 enseignants, 5 services de garde, 4 prématernelles, 3 camps d’été, 7 animateurs ; 18 éducateurs et 63 parents bénévoles ; Calgary, Red Deer, Brooks et Fort McMurray). Sont-ils toujours exacts ?
-- **Thèmes du service 03 :** la liste contient à la fois « Visites éducatives à l’épicerie » et « Choix des aliments et visite à l’épicerie ». Faut-il garder les deux ?
+- **Thèmes du service « Promotion de la santé alimentaire » (maintenant 01) :** la liste contient à la fois « Visites éducatives à l’épicerie » et « Choix des aliments et visite à l’épicerie ». Faut-il garder les deux ?
 - **Lien du numéro de téléphone :** le document demandait que le numéro ne soit pas cliquable (pour éviter l’ouverture de FaceTime). Nous avons finalement gardé le lien « tel: » sur la page Contact et dans le pied de page. Sur un téléphone mobile, un toucher ouvre directement le composeur avec le numéro (+1 403-880-8032), ce qui est très pratique pour les visiteurs. Sur ordinateur, le système propose l’application configurée pour les appels (FaceTime sur Mac, par exemple), d’où l’effet observé ; il suffit de fermer la fenêtre. Si vous préférez tout de même un numéro non cliquable, la modification est rapide.
 - **Lien « Textez-moi » :** un lien « Textez-moi → » a été ajouté sous le numéro sur la page Contact ; sur un téléphone, il ouvre l’application de messagerie avec le numéro déjà inscrit. Pouvez-vous confirmer que le 403-880-8032 est un cellulaire qui peut recevoir des textos, et que vous souhaitez être jointe de cette façon ?
 
 ## Suivis
 
-- **Logo des Ateliers cinq épices :** à ajouter dans l’encadré de gauche du service 01 (page Services) une fois le fichier reçu et l’utilisation confirmée par Céline.
+- **Logo des Ateliers cinq épices :** à ajouter dans l’encadré de gauche du service « Ateliers cinq épices Alberta » (page Services, maintenant 02) une fois le fichier reçu et l’utilisation confirmée par Céline.
 
 ## Version anglaise
 

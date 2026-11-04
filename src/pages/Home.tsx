@@ -16,9 +16,9 @@ import styles from './Home.module.css'
 
 // Illustration, tile colour and Services-page anchor for each service tile, in order.
 const serviceTiles: { art: ComponentType<SVGProps<SVGSVGElement>>; tone: string; anchor: string }[] = [
+  { art: Sprout, tone: 'leaf', anchor: serviceAnchors.healthPromotion },
   { art: SpiceDots, tone: 'tomato', anchor: serviceAnchors.cinqEpices },
   { art: Pot, tone: 'sun', anchor: serviceAnchors.collectiveKitchens },
-  { art: Sprout, tone: 'leaf', anchor: serviceAnchors.healthPromotion },
   { art: Apple, tone: 'forest', anchor: serviceAnchors.workplace },
 ]
 

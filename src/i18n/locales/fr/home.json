@@ -38,6 +38,12 @@
     "title": "« Quatre façons de mettre la santé au menu ! »",
     "items": [
       {
+        "tag": "Adultes et familles",
+        "title": "Promotion de la santé alimentaire",
+        "text": "Par des quiz et des jeux questionnaires, nous revoyons vos habitudes alimentaires et trouvons des solutions adaptées à votre mode de vie, à chaque passage de la vie.",
+        "link": "En savoir plus"
+      },
+      {
         "tag": "Enfants de 3 à 12 ans",
         "title": "Ateliers cinq épices Alberta",
         "text": "Tous les élèves manipulent, mesurent et coupent les aliments. En cuisinant et en goûtant, nos petits cuistots découvrent de nouveaux aliments et développent leur autonomie alimentaire.",
@@ -47,12 +53,6 @@
         "tag": "Adultes",
         "title": "Cuisines collectives, du partage au savoir",
         "text": "Des ateliers en petits groupes pour retrouver un savoir-faire culinaire : choix des ingrédients, préparation, cuisson, mode et durée de conservation. Des recettes saines, économiques et prêtes en moins de 30 minutes.",
-        "link": "En savoir plus"
-      },
-      {
-        "tag": "Adultes et familles",
-        "title": "Promotion de la santé alimentaire",
-        "text": "Par des quiz et des jeux questionnaires, nous revoyons vos habitudes alimentaires et trouvons des solutions adaptées à votre mode de vie, à chaque passage de la vie.",
         "link": "En savoir plus"
       },
       {
