@@ -38,13 +38,13 @@
     "title": "“Four ways to put health on the menu!”",
     "items": [
       {
-        "tag": "Adults and families",
+        "tag": "Early childhood & families",
         "title": "Healthy eating promotion",
-        "text": "Through quizzes and question games, we review your eating habits and find solutions that fit your lifestyle, at every stage of life.",
+        "text": "A presentation with quizzes and question games, where we review your eating habits and find solutions that fit your lifestyle, at every stage of life.",
         "link": "Learn more"
       },
       {
-        "tag": "Children aged 3 to 12",
+        "tag": "Children aged 2 to 5 or youth aged 6 to 12",
         "title": "Ateliers cinq épices Alberta",
         "text": "Every child handles, measures and cuts the food. By cooking and tasting, our little chefs discover new foods and build independence in the kitchen.",
         "link": "Learn more"
@@ -58,7 +58,7 @@
       {
         "tag": "Adults",
         "title": "Healthy eating in the workplace",
-        "text": "One-hour interactive sessions: lunch talks, educational grocery store tours, talks, packing a lunch box and more.",
+        "text": "One-hour interactive sessions: lunch talks, educational grocery store tours, talks, packing a balanced lunch box and more.",
         "link": "Learn more"
       }
     ]

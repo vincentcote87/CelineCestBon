@@ -23,7 +23,6 @@ Les numéros de service (01 à 04) suivent l’ordre du document d’origine.
 | Accueil | Services, encadré 2 | … prêtes en moins de 30 minutes | … prêtes en moins de 30 minutes. (point final ajouté) |
 | À propos | Parcours et expertises | j’estime, comme mes pères, que la nutrition… | j’estime, comme mes pairs, que la nutrition… (« pairs » = collègues ; à confirmer) |
 | À propos | Parcours et expertises | Jusqu’en mars 2026, J’ai occupé le poste… | Jusqu’en mars 2026, j’ai occupé le poste… |
-| Services | 01 Ateliers cinq épices Alberta | Enfant de 2 à 12 ans | Enfants de 2 à 12 ans |
 | Services | 01, encadré « Pour qui » | Services de garde, prématernelles, / Écoles francophones et d’immersion française, | Virgules en fin de puce retirées |
 | Services | 02, encadré « Pour qui » | (jeunes, adultes, aînés, voir intergénérationnel) | (jeunes, adultes, aînés, voire intergénérationnel) |
 | Services | 02, encadré « Format » | Dégustation et\ou distribution | Dégustation et/ou distribution |
@@ -32,7 +31,6 @@ Les numéros de service (01 à 04) suivent l’ordre du document d’origine.
 
 ## Questions pour Céline
 
-- **Âge des enfants, Ateliers cinq épices :** la page d’accueil indique « Enfants de 3 à 12 ans », alors que la page Services et l’historique indiquent « 2 à 12 ans ». Quelle tranche d’âge est la bonne ? (Le texte a été laissé tel quel pour l’instant.)
 - **Logo de l’Université de Montréal :** le logo a été ajouté à la carte « Formation et appartenances ». Pouvez-vous confirmer qu’il convient de l’afficher (et, si possible, fournir la version officielle du logo) ?
 - **Chiffres « Dix ans plus tard » :** le document demande de vérifier le contenu de ce bandeau. Les chiffres actuels ont été conservés (1 740+ jeunes de 3 à 12 ans, 347 ateliers, 25 écoles, 82 enseignants, 5 services de garde, 4 prématernelles, 3 camps d’été, 7 animateurs ; 18 éducateurs et 63 parents bénévoles ; Calgary, Red Deer, Brooks et Fort McMurray). Sont-ils toujours exacts ?
 - **Thèmes du service « Promotion de la santé alimentaire » (maintenant 01) :** la liste contient à la fois « Visites éducatives à l’épicerie » et « Choix des aliments et visite à l’épicerie ». Faut-il garder les deux ?

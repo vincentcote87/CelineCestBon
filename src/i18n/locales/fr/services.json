@@ -17,7 +17,7 @@
   },
   "healthPromotion": {
     "short": "Promotion de la santé alimentaire",
-    "tag": "Adultes et familles",
+    "tag": "Petite enfance & familles",
     "duration": "Durée : 60 à 90 minutes",
     "title": "Promotion de la santé alimentaire",
     "tagline": "« S’amuser pour mieux se préparer. »",
@@ -37,7 +37,7 @@
   },
   "cinqEpices": {
     "short": "Ateliers cinq épices Alberta",
-    "tag": "Enfants de 2 à 12 ans",
+    "tag": "Enfants de 2 à 5 ans ou Jeunes de 6 à 12 ans",
     "duration": "Durée : 45 ou 90 minutes",
     "title": "Ateliers cinq épices Alberta",
     "tagline": "« Apprendre en s’amusant ! »",
