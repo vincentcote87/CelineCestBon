@@ -109,8 +109,9 @@ export default function Layout() {
                 </a>
               </li>
               <li>
-                {/* Plain text for now (no tel: link), see docs/corrections-notes.md. */}
-                <span className={styles.footerStrong}>{site.phone}</span>
+                <a href={site.phoneHref} className={styles.footerStrong}>
+                  {site.phone}
+                </a>
               </li>
               <li>{t('footer.area')}</li>
             </ul>

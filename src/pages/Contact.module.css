@@ -13,12 +13,6 @@
   align-content: start;
   padding: clamp(1.25rem, 3vw, 1.75rem);
   border-radius: var(--radius);
-  text-decoration: none;
-  transition: transform 0.2s;
-}
-
-a.method:hover {
-  transform: translateY(-4px) rotate(-0.5deg);
 }
 
 .blush {
@@ -46,9 +40,11 @@ a.method:hover {
   white-space: nowrap;
 }
 
-.methodAction {
+.methodActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   margin-top: var(--space-xs);
-  font-weight: 700;
 }
 
 /* What to include */

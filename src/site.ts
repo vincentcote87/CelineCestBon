@@ -3,8 +3,10 @@ export const site = {
   name: 'CelineCestBon',
   email: 'celineb.dt.p@gmail.com',
   phone: '403-880-8032',
-  // Not linked anywhere for now (phone shown as plain text), see docs/corrections-notes.md.
+  // Includes the country code (+1) so the number dials from anywhere.
   phoneHref: 'tel:+14038808032',
+  // Opens the messaging app instead of the dialer.
+  smsHref: 'sms:+14038808032',
   links: {
     udem: 'https://www.umontreal.ca/',
     cda: 'https://www.collegeofdietitians.ab.ca/',
