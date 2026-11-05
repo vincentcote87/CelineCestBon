@@ -1,5 +1,6 @@
-import type { ReactNode } from 'react'
+import { Fragment, type ReactNode } from 'react'
 import styles from './Content.module.css'
+import { Eyebrow } from './Eyebrow.tsx'
 
 // Small bordered card with an uppercase label, e.g. "Pour qui" / "Format".
 export function InfoCard({ label, children }: { label: string; children: ReactNode }) {
@@ -28,14 +29,22 @@ export function BulletList({ items }: { items: ReactNode[] }) {
 }
 
 // Vertical timeline with red dots and a dashed green line.
-export function Timeline({ items }: { items: { title: string; text: string }[] }) {
+// An item's optional `before` adds a handwritten red label above its card.
+export function Timeline({ items }: { items: { title: string; text: string; before?: string }[] }) {
   return (
     <ol className={styles.timeline}>
       {items.map((item) => (
-        <li key={item.title} className={styles.timelineItem}>
-          <h4 className={styles.timelineTitle}>{item.title}</h4>
-          <p>{item.text}</p>
-        </li>
+        <Fragment key={item.title}>
+          {item.before && (
+            <li className={styles.timelineLabel}>
+              <Eyebrow>{item.before}</Eyebrow>
+            </li>
+          )}
+          <li className={styles.timelineItem}>
+            <h4 className={styles.timelineTitle}>{item.title}</h4>
+            <p>{item.text}</p>
+          </li>
+        </Fragment>
       ))}
     </ol>
   )

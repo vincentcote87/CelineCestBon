@@ -59,15 +59,16 @@
       },
       {
         "title": "2015 à 2020, un projet pilote en Alberta",
-        "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme des Ateliers cinq épices en Alberta. Celle-ci devient la première province à proposer ces ateliers en dehors du Québec."
+        "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme Les Ateliers cinq épices en Alberta. Celle-ci devient la première province à proposer ces ateliers en dehors du Québec."
       },
       {
         "title": "2020 à 2026, adaptation du programme à l’Alberta",
         "text": "Le projet est aligné sur les normes du ministère de l’Éducation de l’Alberta et sur les principes des Écoles en santé."
       },
       {
-        "title": "2026 à 2029, lancement du programme les Ateliers cinq épices - Alberta en tant que tel",
-        "text": "Un programme pérenne qui s’adapte à la province albertaine pour tous les jeunes (2 à 12 ans). Les ateliers sont spécifiquement adaptés en fonction de l’âge des enfants, valorisant ainsi les différentes compétences à développer."
+        "before": "… à venir!",
+        "title": "À partir de 2027, lancement officiel du programme : Les Ateliers cinq épices en Alberta",
+        "text": "Un programme pérenne qui s’adapte à la province albertaine pour tous les jeunes (2 à 5 ans & de 6 à 12 ans). Les ateliers sont spécifiquement adaptés en fonction de l’âge des enfants, valorisant ainsi les différentes compétences à développer."
       }
     ],
     "historyText": "Le programme met en lumière la collaboration de cinq acteurs principaux : les enfants, les parents, les écoles, la communauté et les bailleurs de fonds.",
@@ -121,7 +122,7 @@
   },
   "collectiveKitchens": {
     "short": "Cuisines collectives, du partage au savoir",
-    "tag": "Des enfants aux aînés",
+    "tag": "Jeunes, ados & aînés",
     "duration": "Durée : entre 2 et 3 heures",
     "title": "Cuisines collectives",
     "tagline": "« Un partage du savoir culinaire au service de la communauté. »",
