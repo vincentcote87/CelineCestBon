@@ -15,6 +15,8 @@
   },
   "common": {
     "emailMe": "Écrivez-moi",
+    "callMe": "Appelez-moi",
+    "textMe": "Textez-moi",
     "seeServices": "Voir les services",
     "backToTop": "Haut de page"
   },

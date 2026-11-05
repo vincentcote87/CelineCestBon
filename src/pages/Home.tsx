@@ -16,9 +16,9 @@ import styles from './Home.module.css'
 
 // Illustration, tile colour and Services-page anchor for each service tile, in order.
 const serviceTiles: { art: ComponentType<SVGProps<SVGSVGElement>>; tone: string; anchor: string }[] = [
+  { art: Sprout, tone: 'leaf', anchor: serviceAnchors.healthPromotion },
   { art: SpiceDots, tone: 'tomato', anchor: serviceAnchors.cinqEpices },
   { art: Pot, tone: 'sun', anchor: serviceAnchors.collectiveKitchens },
-  { art: Sprout, tone: 'leaf', anchor: serviceAnchors.healthPromotion },
   { art: Apple, tone: 'forest', anchor: serviceAnchors.workplace },
 ]
 
@@ -57,13 +57,13 @@ export default function Home() {
         }
       />
 
-      {/* Mission and vision cards, and bio */}
+      {/* Mission and vision cards side by side, bio below */}
       <section className={layout.section}>
         <div className={`${layout.container} ${styles.introGrid}`}>
           <div className={styles.cards}>
             <article className={styles.profileCard}>
               <Eyebrow>{t('home.mission.eyebrow')}</Eyebrow>
-              <h2 className={styles.cardTitle}>{t('home.mission.title')}</h2>
+              <h2 className={styles.cardQuote}>{t('home.mission.title')}</h2>
               {mission.map((paragraph) => (
                 <p key={paragraph}>{paragraph}</p>
               ))}
@@ -80,13 +80,17 @@ export default function Home() {
           </div>
 
           <div className={styles.bio}>
-            <Eyebrow>{t('home.whoAmI.eyebrow')}</Eyebrow>
-            <h2>{t('home.whoAmI.title')}</h2>
-            <p>{t('home.whoAmI.p1')}</p>
-            <p>{t('home.whoAmI.p2')}</p>
-            <p>{t('home.whoAmI.p3')}</p>
-            <div className={styles.signature}>
-              <Script>{t('home.whoAmI.signature')}</Script>
+            <div>
+              <Eyebrow>{t('home.whoAmI.eyebrow')}</Eyebrow>
+              <h2>{t('home.whoAmI.title')}</h2>
+            </div>
+            <div className={styles.bioText}>
+              <p>{t('home.whoAmI.p1')}</p>
+              <p>{t('home.whoAmI.p2')}</p>
+              <p>{t('home.whoAmI.p3')}</p>
+              <div className={styles.signature}>
+                <Script>{t('home.whoAmI.signature')}</Script>
+              </div>
             </div>
           </div>
         </div>

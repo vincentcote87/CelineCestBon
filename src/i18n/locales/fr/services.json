@@ -15,9 +15,29 @@
     "themes": "Thèmes proposés pour vous accompagner :",
     "services": "Les services"
   },
+  "healthPromotion": {
+    "short": "Promotion de la santé alimentaire",
+    "tag": "Petite enfance & familles",
+    "duration": "Durée : 60 à 90 minutes",
+    "title": "Promotion de la santé alimentaire",
+    "tagline": "« S’amuser pour mieux se préparer. »",
+    "button": "Parlons-en",
+    "p1": "À chaque étape de la vie, l’alimentation joue un rôle essentiel pour votre bien-être et celui des êtres chers qui vous entourent. Je vous propose de revisiter vos habitudes alimentaires de manière ludique afin de trouver des solutions adaptées à votre mode de vie. Évaluer et adapter ses habitudes alimentaires au fil du temps est source d’énergie renouvelée.",
+    "p2": "La naissance d’un bébé, la scolarisation d’un enfant, un départ à la retraite, l’annonce d’une condition de santé ou un terrain allergène peuvent vous obliger à certains changements.",
+    "themes": [
+      "Visites éducatives à l’épicerie",
+      "Composition et planification de menus équilibrés",
+      "Choix des aliments et visite à l’épicerie",
+      "Compréhension de la valeur nutritive des aliments",
+      "Connaissances des règles de salubrité",
+      "Découverte des allergènes",
+      "Préparation de boîtes à lunch",
+      "Réduction du gaspillage alimentaire"
+    ]
+  },
   "cinqEpices": {
     "short": "Ateliers cinq épices Alberta",
-    "tag": "Enfants de 2 à 12 ans",
+    "tag": "Enfants de 2 à 5 ans ou Jeunes de 6 à 12 ans",
     "duration": "Durée : 45 ou 90 minutes",
     "title": "Ateliers cinq épices Alberta",
     "tagline": "« Apprendre en s’amusant ! »",
@@ -33,10 +53,23 @@
       "Jeux"
     ],
     "timeline": [
-      { "title": "2003, la naissance des Ateliers cinq épices", "text": "C’est à Montréal, au Québec, que les Ateliers cinq épices sont nés avec pour objectif de favoriser l’éducation nutritionnelle et culinaire auprès des enfants (2 à 12 ans) et leur famille." },
-      { "title": "2015 à 2020, un projet pilote en Alberta", "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme des Ateliers cinq épices en Alberta. Celle-ci devient la première province à proposer ces ateliers en dehors du Québec." },
-      { "title": "2020 à 2026, adaptation du programme à l’Alberta", "text": "Le projet est aligné sur les normes du ministère de l’Éducation de l’Alberta et sur les principes des Écoles en santé." },
-      { "title": "2026 à 2029, lancement du programme les Ateliers cinq épices - Alberta en tant que tel", "text": "Un programme pérenne qui s’adapte à la province albertaine pour tous les jeunes (2 à 12 ans). Les ateliers sont spécifiquement adaptés en fonction de l’âge des enfants, valorisant ainsi les différentes compétences à développer." }
+      {
+        "title": "2003, la naissance des Ateliers cinq épices",
+        "text": "C’est à Montréal, au Québec, que les Ateliers cinq épices sont nés avec pour objectif de favoriser l’éducation nutritionnelle et culinaire auprès des enfants (2 à 12 ans) et leur famille."
+      },
+      {
+        "title": "2015 à 2020, un projet pilote en Alberta",
+        "text": "L’ACFA régionale de Calgary s’associe à CelineCestBon pour importer le programme Les Ateliers cinq épices en Alberta. Celle-ci devient la première province à proposer ces ateliers en dehors du Québec."
+      },
+      {
+        "title": "2020 à 2026, adaptation du programme à l’Alberta",
+        "text": "Le projet est aligné sur les normes du ministère de l’Éducation de l’Alberta et sur les principes des Écoles en santé."
+      },
+      {
+        "before": "… à venir!",
+        "title": "À partir de 2027, lancement officiel du programme : Les Ateliers cinq épices en Alberta",
+        "text": "Un programme pérenne qui s’adapte à la province albertaine pour tous les jeunes (2 à 5 ans & de 6 à 12 ans). Les ateliers sont spécifiquement adaptés en fonction de l’âge des enfants, valorisant ainsi les différentes compétences à développer."
+      }
     ],
     "historyText": "Le programme met en lumière la collaboration de cinq acteurs principaux : les enfants, les parents, les écoles, la communauté et les bailleurs de fonds.",
     "forWho": [
@@ -51,21 +84,45 @@
     "stats": {
       "title": "Dix ans plus tard, des chiffres qui parlent d’eux-mêmes",
       "items": [
-        { "value": "1 740+", "label": "jeunes de 3 à 12 ans" },
-        { "value": "347", "label": "ateliers" },
-        { "value": "25", "label": "écoles francophones et d’immersion française" },
-        { "value": "82", "label": "enseignants" },
-        { "value": "5", "label": "services de garde" },
-        { "value": "4", "label": "prématernelles" },
-        { "value": "3", "label": "camps d’été" },
-        { "value": "7", "label": "animateurs formés et certifiés en Alberta" }
+        {
+          "value": "1 740+",
+          "label": "jeunes de 3 à 12 ans"
+        },
+        {
+          "value": "347",
+          "label": "ateliers"
+        },
+        {
+          "value": "25",
+          "label": "écoles francophones et d’immersion française"
+        },
+        {
+          "value": "82",
+          "label": "enseignants"
+        },
+        {
+          "value": "5",
+          "label": "services de garde"
+        },
+        {
+          "value": "4",
+          "label": "prématernelles"
+        },
+        {
+          "value": "3",
+          "label": "camps d’été"
+        },
+        {
+          "value": "7",
+          "label": "animateurs formés et certifiés en Alberta"
+        }
       ],
       "footnote": "Sans oublier <strong>18 éducateurs</strong> et <strong>63 parents bénévoles</strong>. Principales régions visitées : <strong>Calgary, Red Deer, Brooks et Fort McMurray</strong>."
     }
   },
   "collectiveKitchens": {
     "short": "Cuisines collectives, du partage au savoir",
-    "tag": "Des enfants aux aînés",
+    "tag": "Jeunes, ados & aînés",
     "duration": "Durée : entre 2 et 3 heures",
     "title": "Cuisines collectives",
     "tagline": "« Un partage du savoir culinaire au service de la communauté. »",
@@ -82,26 +139,6 @@
       "Astuces culinaires",
       "Préparation (choix des ingrédients)",
       "Dégustation et/ou distribution (mode et durée de conservation)"
-    ]
-  },
-  "healthPromotion": {
-    "short": "Promotion de la santé alimentaire",
-    "tag": "Adultes et familles",
-    "duration": "Durée : 60 à 90 minutes",
-    "title": "Promotion de la santé alimentaire",
-    "tagline": "« S’amuser pour mieux se préparer. »",
-    "button": "Parlons-en",
-    "p1": "À chaque étape de la vie, l’alimentation joue un rôle essentiel pour votre bien-être et celui des êtres chers qui vous entourent. Je vous propose de revisiter vos habitudes alimentaires de manière ludique afin de trouver des solutions adaptées à votre mode de vie. Évaluer et adapter ses habitudes alimentaires au fil du temps est source d’énergie renouvelée.",
-    "p2": "La naissance d’un bébé, la scolarisation d’un enfant, un départ à la retraite, l’annonce d’une condition de santé ou un terrain allergène peuvent vous obliger à certains changements.",
-    "themes": [
-      "Visites éducatives à l’épicerie",
-      "Composition et planification de menus équilibrés",
-      "Choix des aliments et visite à l’épicerie",
-      "Compréhension de la valeur nutritive des aliments",
-      "Connaissances des règles de salubrité",
-      "Découverte des allergènes",
-      "Préparation de boîtes à lunch",
-      "Réduction du gaspillage alimentaire"
     ]
   },
   "workplace": {

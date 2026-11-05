@@ -3,6 +3,7 @@ import Credentials from '../components/Credentials/Credentials.tsx'
 import PageHero from '../components/PageHero/PageHero.tsx'
 import PageMeta from '../components/PageMeta.tsx'
 import Portrait from '../components/Portrait/Portrait.tsx'
+import Button from '../components/ui/Button.tsx'
 import { Accent, Eyebrow } from '../components/ui/Eyebrow.tsx'
 import { mailto, site } from '../site.ts'
 import layout from '../styles/layout.module.css'
@@ -21,25 +22,31 @@ export default function Contact() {
         title={<Trans i18nKey="contact.hero.title" components={{ accent: <Accent /> }} />}
         text={t('contact.hero.text', { returnObjects: true })}
         aside={
-          <Portrait
-            alt={t('home.hero.photoAlt')}
-            stickers={[t('home.hero.badge'), t('home.hero.badge2')]}
-            cropped
-          />
+          <Portrait alt={t('home.hero.photoAlt')} cropped />
         }
       >
+        {/* Info cards; the buttons inside are the links. */}
         <div className={styles.methods}>
-          <a href={mailto} className={`${styles.method} ${styles.blush}`}>
+          <div className={`${styles.method} ${styles.blush}`}>
             <span className={styles.methodLabel}>{t('contact.email.label')}</span>
             <span className={styles.methodValue}>{site.email}</span>
-            <span className={styles.methodAction}>
-              {t('common.emailMe')} <span aria-hidden="true">→</span>
-            </span>
-          </a>
-          {/* Information only: no tel: link for now, see docs/corrections-notes.md. */}
+            <div className={styles.methodActions}>
+              <Button href={mailto} variant="light">
+                {t('common.emailMe')}
+              </Button>
+            </div>
+          </div>
           <div className={`${styles.method} ${styles.sage}`}>
             <span className={styles.methodLabel}>{t('contact.phone.label')}</span>
             <span className={styles.methodValue}>{site.phone}</span>
+            <div className={styles.methodActions}>
+              <Button href={site.phoneHref} variant="light">
+                {t('common.callMe')}
+              </Button>
+              <Button href={site.smsHref} variant="light">
+                {t('common.textMe')}
+              </Button>
+            </div>
           </div>
         </div>
       </PageHero>

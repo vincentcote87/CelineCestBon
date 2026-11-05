@@ -57,6 +57,10 @@
   list-style: none;
 }
 
+.timelineLabel {
+  padding-top: var(--space-2xs);
+}
+
 .timelineItem {
   position: relative;
   padding: var(--space-md) var(--space-md) var(--space-md) 3.25rem;

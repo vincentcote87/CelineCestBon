@@ -14,7 +14,7 @@ import styles from './Services.module.css'
 
 const anchors = serviceAnchors
 type ServiceKey = keyof typeof anchors
-const order: ServiceKey[] = ['cinqEpices', 'collectiveKitchens', 'healthPromotion', 'workplace']
+const order: ServiceKey[] = ['healthPromotion', 'cinqEpices', 'collectiveKitchens', 'workplace']
 
 type ServiceProps = {
   id: ServiceKey
@@ -81,8 +81,17 @@ export default function Services() {
         </nav>
       </PageHero>
 
-      {/* 01 Ateliers cinq épices Alberta */}
-      <Service id="cinqEpices" number={1}>
+      {/* 01 Promotion de la santé alimentaire */}
+      <Service id="healthPromotion" number={1}>
+        <p>{t('services.healthPromotion.p1')}</p>
+        <p>{t('services.healthPromotion.p2')}</p>
+        <InfoCard label={labels.themes}>
+          <BulletList items={t('services.healthPromotion.themes', { returnObjects: true })} />
+        </InfoCard>
+      </Service>
+
+      {/* 02 Ateliers cinq épices Alberta */}
+      <Service id="cinqEpices" number={2}>
         <div className={styles.stack}>
           <h3 className={styles.subTitle}>{labels.approach}</h3>
           <p>{t('services.cinqEpices.approach')}</p>
@@ -121,8 +130,8 @@ export default function Services() {
         />
       </div>
 
-      {/* 02 Cuisines collectives */}
-      <Service id="collectiveKitchens" number={2}>
+      {/* 03 Cuisines collectives */}
+      <Service id="collectiveKitchens" number={3} sand>
         <p>{t('services.collectiveKitchens.p1')}</p>
         <p>{t('services.collectiveKitchens.p2')}</p>
         <p>{t('services.collectiveKitchens.p3')}</p>
@@ -134,15 +143,6 @@ export default function Services() {
             <BulletList items={t('services.collectiveKitchens.format', { returnObjects: true })} />
           </InfoCard>
         </InfoGrid>
-      </Service>
-
-      {/* 03 Promotion de la santé alimentaire */}
-      <Service id="healthPromotion" number={3} sand>
-        <p>{t('services.healthPromotion.p1')}</p>
-        <p>{t('services.healthPromotion.p2')}</p>
-        <InfoCard label={labels.themes}>
-          <BulletList items={t('services.healthPromotion.themes', { returnObjects: true })} />
-        </InfoCard>
       </Service>
 
       {/* 04 La santé alimentaire en milieu de travail */}

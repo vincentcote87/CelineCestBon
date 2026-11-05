@@ -15,9 +15,29 @@
     "themes": "Suggested topics to support you:",
     "services": "The services"
   },
+  "healthPromotion": {
+    "short": "Healthy eating promotion",
+    "tag": "Early childhood & families",
+    "duration": "Length: 60 to 90 minutes",
+    "title": "Healthy eating promotion",
+    "tagline": "“Having fun to be better prepared.”",
+    "button": "Let’s talk",
+    "p1": "At every stage of life, food plays a key role in your well-being and that of your loved ones. I invite you to revisit your eating habits in a playful way and find solutions that fit your lifestyle. Reviewing and adapting your eating habits over time is a source of renewed energy.",
+    "p2": "The birth of a baby, a child starting school, retirement, a new health diagnosis or an allergy-prone background can all call for changes.",
+    "themes": [
+      "Educational grocery store tours",
+      "Planning and putting together balanced menus",
+      "Choosing foods and grocery store tours",
+      "Understanding the nutritional value of foods",
+      "Knowing food safety rules",
+      "Learning about allergens",
+      "Packing lunch boxes",
+      "Reducing food waste"
+    ]
+  },
   "cinqEpices": {
     "short": "Ateliers cinq épices Alberta",
-    "tag": "Children aged 2 to 12",
+    "tag": "Children aged 2 to 5 or youth aged 6 to 12",
     "duration": "Length: 45 or 90 minutes",
     "title": "Ateliers cinq épices Alberta",
     "tagline": "“Learning through play!”",
@@ -33,10 +53,23 @@
       "Games"
     ],
     "timeline": [
-      { "title": "2003, Les Ateliers cinq épices are born", "text": "Les Ateliers cinq épices were founded in Montréal, Quebec, to promote nutrition and cooking education for children (aged 2 to 12) and their families." },
-      { "title": "2015 to 2020, a pilot project in Alberta", "text": "The ACFA régionale de Calgary partners with CelineCestBon to bring the Ateliers cinq épices program to Alberta. It becomes the first province to offer these workshops outside Quebec." },
-      { "title": "2020 to 2026, adapting the program to Alberta", "text": "The project is aligned with Alberta Education standards and the principles of Health Promoting Schools." },
-      { "title": "2026 to 2029, launch of the Ateliers cinq épices - Alberta program in its own right", "text": "A lasting program that adapts to Alberta for all young people (aged 2 to 12). The workshops are tailored to the children’s age, building the different skills they need to develop." }
+      {
+        "title": "2003, Les Ateliers cinq épices are born",
+        "text": "Les Ateliers cinq épices were founded in Montréal, Quebec, to promote nutrition and cooking education for children (aged 2 to 12) and their families."
+      },
+      {
+        "title": "2015 to 2020, a pilot project in Alberta",
+        "text": "The ACFA régionale de Calgary partners with CelineCestBon to bring Les Ateliers cinq épices program to Alberta. It becomes the first province to offer these workshops outside Quebec."
+      },
+      {
+        "title": "2020 to 2026, adapting the program to Alberta",
+        "text": "The project is aligned with Alberta Education standards and the principles of Health Promoting Schools."
+      },
+      {
+        "before": "… coming up!",
+        "title": "Starting in 2027, official launch of the program: Les Ateliers cinq épices in Alberta",
+        "text": "A lasting program that adapts to Alberta for all young people (aged 2 to 5 & 6 to 12). The workshops are tailored to the children’s age, building the different skills they need to develop."
+      }
     ],
     "historyText": "The program highlights the collaboration of five key partners: children, parents, schools, the community and funders.",
     "forWho": [
@@ -51,21 +84,45 @@
     "stats": {
       "title": "Ten years later, the numbers speak for themselves",
       "items": [
-        { "value": "1,740+", "label": "children aged 3 to 12" },
-        { "value": "347", "label": "workshops" },
-        { "value": "25", "label": "francophone and French immersion schools" },
-        { "value": "82", "label": "teachers" },
-        { "value": "5", "label": "daycares" },
-        { "value": "4", "label": "preschools" },
-        { "value": "3", "label": "summer camps" },
-        { "value": "7", "label": "facilitators trained and certified in Alberta" }
+        {
+          "value": "1,740+",
+          "label": "children aged 3 to 12"
+        },
+        {
+          "value": "347",
+          "label": "workshops"
+        },
+        {
+          "value": "25",
+          "label": "francophone and French immersion schools"
+        },
+        {
+          "value": "82",
+          "label": "teachers"
+        },
+        {
+          "value": "5",
+          "label": "daycares"
+        },
+        {
+          "value": "4",
+          "label": "preschools"
+        },
+        {
+          "value": "3",
+          "label": "summer camps"
+        },
+        {
+          "value": "7",
+          "label": "facilitators trained and certified in Alberta"
+        }
       ],
       "footnote": "Not to mention <strong>18 educators</strong> and <strong>63 parent volunteers</strong>. Main regions visited: <strong>Calgary, Red Deer, Brooks and Fort McMurray</strong>."
     }
   },
   "collectiveKitchens": {
     "short": "Community kitchens, from sharing to know-how",
-    "tag": "From children to seniors",
+    "tag": "Youth, teens & seniors",
     "duration": "Length: 2 to 3 hours",
     "title": "Community kitchens",
     "tagline": "“Sharing cooking know-how for the good of the community.”",
@@ -82,26 +139,6 @@
       "Cooking tips",
       "Preparation (choosing ingredients)",
       "Tasting and/or handing out (how and how long to store food)"
-    ]
-  },
-  "healthPromotion": {
-    "short": "Healthy eating promotion",
-    "tag": "Adults and families",
-    "duration": "Length: 60 to 90 minutes",
-    "title": "Healthy eating promotion",
-    "tagline": "“Having fun to be better prepared.”",
-    "button": "Let’s talk",
-    "p1": "At every stage of life, food plays a key role in your well-being and that of your loved ones. I invite you to revisit your eating habits in a playful way and find solutions that fit your lifestyle. Reviewing and adapting your eating habits over time is a source of renewed energy.",
-    "p2": "The birth of a baby, a child starting school, retirement, a new health diagnosis or an allergy-prone background can all call for changes.",
-    "themes": [
-      "Educational grocery store tours",
-      "Planning and putting together balanced menus",
-      "Choosing foods and grocery store tours",
-      "Understanding the nutritional value of foods",
-      "Knowing food safety rules",
-      "Learning about allergens",
-      "Packing lunch boxes",
-      "Reducing food waste"
     ]
   },
   "workplace": {

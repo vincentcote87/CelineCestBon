@@ -38,7 +38,13 @@
     "title": "« Quatre façons de mettre la santé au menu ! »",
     "items": [
       {
-        "tag": "Enfants de 3 à 12 ans",
+        "tag": "Petite enfance & familles",
+        "title": "Promotion de la santé alimentaire",
+        "text": "Présentation incluant des quiz et des jeux questionnaires, nous revoyons vos habitudes alimentaires et trouvons des solutions adaptées à votre mode de vie, à chaque passage de la vie.",
+        "link": "En savoir plus"
+      },
+      {
+        "tag": "Enfants de 2 à 5 ans ou Jeunes de 6 à 12 ans",
         "title": "Ateliers cinq épices Alberta",
         "text": "Tous les élèves manipulent, mesurent et coupent les aliments. En cuisinant et en goûtant, nos petits cuistots découvrent de nouveaux aliments et développent leur autonomie alimentaire.",
         "link": "En savoir plus"
@@ -50,15 +56,9 @@
         "link": "En savoir plus"
       },
       {
-        "tag": "Adultes et familles",
-        "title": "Promotion de la santé alimentaire",
-        "text": "Par des quiz et des jeux questionnaires, nous revoyons vos habitudes alimentaires et trouvons des solutions adaptées à votre mode de vie, à chaque passage de la vie.",
-        "link": "En savoir plus"
-      },
-      {
         "tag": "Adultes",
         "title": "La santé alimentaire en milieu de travail",
-        "text": "Offre de sessions interactives d’une heure : dîner-causerie, visites éducatives à l’épicerie, conférences, préparation d’une boîte à lunch, etc.",
+        "text": "Offre de sessions interactives d’une heure : dîner-causerie, visites éducatives à l’épicerie, conférences, préparation de la boîte à lunch équilibrée, etc.",
         "link": "En savoir plus"
       }
     ]
