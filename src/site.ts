@@ -1,7 +1,7 @@
 // Contact details and links used across the site.
 export const site = {
   name: 'CelineCestBon',
-  email: 'celineb.dt.p@gmail.com',
+  email: 'c.bosse@celinecestbon.com',
   phone: '403-880-8032',
   // Includes the country code (+1) so the number dials from anywhere.
   phoneHref: 'tel:+14038808032',
