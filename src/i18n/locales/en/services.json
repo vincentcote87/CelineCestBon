@@ -3,7 +3,7 @@
   "hero": {
     "eyebrow": "Services",
     "title": "“Activities for <accent>all ages.</accent>”",
-    "text": "For some fifteen years, I have been organizing and leading community and educational programs on healthy eating. Here are the four programs I offer to schools, childcare services, non-profit organizations and businesses.",
+    "text": "For fifteen years, I have been organizing and leading community and educational programs on healthy eating. Here are the four programs I offer to schools, childcare services, non-profit organizations and businesses.",
     "jumpNav": "The four services"
   },
   "labels": {
@@ -22,12 +22,11 @@
     "title": "Healthy eating promotion",
     "tagline": "“Having fun to be better prepared.”",
     "button": "Let’s talk",
-    "p1": "At every stage of life, food plays a key role in your well-being and that of your loved ones. I invite you to revisit your eating habits in a playful way and find solutions that fit your lifestyle. Reviewing and adapting your eating habits over time is a source of renewed energy.",
+    "p1": "At every stage of life, food plays a key role in your well-being and that of your loved ones. I invite you to revisit your eating habits in a playful way and find solutions that fits your lifestyle. Reviewing and adapting your eating habits over time is a source of renewed energy.",
     "p2": "The birth of a baby, a child starting school, retirement, a new health diagnosis or an allergy-prone background can all call for changes.",
     "themes": [
       "Educational grocery store tours",
       "Planning and putting together balanced menus",
-      "Choosing foods and grocery store tours",
       "Understanding the nutritional value of foods",
       "Knowing food safety rules",
       "Learning about allergens",
@@ -63,12 +62,12 @@
       },
       {
         "title": "2020 to 2026, adapting the program to Alberta",
-        "text": "The project is aligned with Alberta Education standards and the principles of Health Promoting Schools."
+        "text": "The project is aligned with Alberta Education standards and the principles of Healthy."
       },
       {
         "before": "… coming up!",
         "title": "Starting in 2027, official launch of the program: Les Ateliers cinq épices in Alberta",
-        "text": "A lasting program that adapts to Alberta for all young people (aged 2 to 5 & 6 to 12). The workshops are tailored to the children’s age, building the different skills they need to develop."
+        "text": "A lasting program that adapts to Alberta for all young people (aged 2 to 12). The workshops are tailored to the children’s age, building different skills needed for development."
       }
     ],
     "historyText": "The program highlights the collaboration of five key partners: children, parents, schools, the community and funders.",
@@ -138,7 +137,7 @@
       "Hands-on demonstration",
       "Cooking tips",
       "Preparation (choosing ingredients)",
-      "Tasting and/or handing out (how and how long to store food)"
+      "Tasting and/or handing out (where and how long to store food)"
     ]
   },
   "workplace": {
