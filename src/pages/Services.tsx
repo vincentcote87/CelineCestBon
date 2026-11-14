@@ -3,6 +3,7 @@ import { Trans, useTranslation } from 'react-i18next'
 import CtaBand from '../components/CtaBand/CtaBand.tsx'
 import PageHero from '../components/PageHero/PageHero.tsx'
 import PageMeta from '../components/PageMeta.tsx'
+import Portrait from '../components/Portrait/Portrait.tsx'
 import StatsBand from '../components/StatsBand/StatsBand.tsx'
 import Button from '../components/ui/Button.tsx'
 import { BulletList, InfoCard, InfoGrid, Pills, Timeline } from '../components/ui/Content.tsx'
@@ -66,6 +67,7 @@ export default function Services() {
         eyebrow={t('services.hero.eyebrow')}
         title={<Trans i18nKey="services.hero.title" components={{ accent: <Accent /> }} />}
         text={t('services.hero.text')}
+        aside={<Portrait alt={t('home.hero.photoAlt')} cropped />}
       >
         <nav aria-label={t('services.hero.jumpNav')}>
           <ol className={styles.jumpNav}>
